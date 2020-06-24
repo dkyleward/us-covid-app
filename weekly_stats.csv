@@ -1,601 +1,804 @@
-state,week,positiveIncrease,totalTestResultsIncrease,deathIncrease,Party,population,lockdown_days,state_full,region,positive_rate,death_rate,lockdown_class
-AK,1,83,2691,3,Republican,738516,30,Alaska,West,30.8,4.0622,Short
-AK,2,94,3200,3,Republican,738516,30,Alaska,West,29.4,4.0622,Short
-AK,3,72,1435,3,Republican,738516,30,Alaska,West,50.2,4.0622,Short
-AK,4,44,2771,0,Republican,738516,30,Alaska,West,15.9,0,Short
-AK,5,22,5970,0,Republican,738516,30,Alaska,West,3.7,0,Short
-AK,6,20,5603,0,Republican,738516,30,Alaska,West,3.6,0,Short
-AK,7,12,7269,1,Republican,738516,30,Alaska,West,1.7,1.3541,Short
-AK,8,16,6419,0,Republican,738516,30,Alaska,West,2.5,0,Short
-AK,9,12,8584,0,Republican,738516,30,Alaska,West,1.4,0,Short
-AK,10,76,11239,0,Republican,738516,30,Alaska,West,6.8,0,Short
-AK,11,86,10687,1,Republican,738516,30,Alaska,West,8,1.3541,Short
-AK,12,103,9325,1,Republican,738516,30,Alaska,West,11,1.3541,Short
-AL,1,766,4958,13,Republican,4864680,26,Alabama,South,154.5,2.6723,Short
-AL,2,1138,7637,43,Republican,4864680,26,Alabama,South,149,8.8392,Short
-AL,3,1757,18201,54,Republican,4864680,26,Alabama,South,96.5,11.1004,Short
-AL,4,1355,15409,67,Republican,4864680,26,Alabama,South,87.9,13.7727,Short
-AL,5,1456,27301,65,Republican,4864680,26,Alabama,South,53.3,13.3616,Short
-AL,6,1598,30939,71,Republican,4864680,26,Alabama,South,51.7,14.595,Short
-AL,7,2025,26452,116,Republican,4864680,26,Alabama,South,76.6,23.8454,Short
-AL,8,2066,24348,75,Republican,4864680,26,Alabama,South,84.9,15.4173,Short
-AL,9,3020,36193,71,Republican,4864680,26,Alabama,South,83.4,14.595,Short
-AL,10,3246,30043,76,Republican,4864680,26,Alabama,South,108,15.6228,Short
-AL,11,2780,43937,78,Republican,4864680,26,Alabama,South,63.3,16.0339,Short
-AL,12,5490,37685,56,Republican,4864680,26,Alabama,South,145.7,11.5115,Short
-AR,1,305,5317,8,Republican,2990671,0,Arkansas,South,57.4,2.675,None
-AR,2,423,7156,8,Republican,2990671,0,Arkansas,South,59.1,2.675,None
-AR,3,534,7493,14,Republican,2990671,0,Arkansas,South,71.3,4.6812,None
-AR,4,747,6310,13,Republican,2990671,0,Arkansas,South,118.4,4.3469,None
-AR,5,884,13230,9,Republican,2990671,0,Arkansas,South,66.8,3.0094,None
-AR,6,385,13964,31,Republican,2990671,0,Arkansas,South,27.6,10.3656,None
-AR,7,668,15809,12,Republican,2990671,0,Arkansas,South,42.3,4.0125,None
-AR,8,759,23257,7,Republican,2990671,0,Arkansas,South,32.6,2.3406,None
-AR,9,1257,18072,17,Republican,2990671,0,Arkansas,South,69.6,5.6843,None
-AR,10,1263,21463,14,Republican,2990671,0,Arkansas,South,58.8,4.6812,None
-AR,11,2637,32545,28,Republican,2990671,0,Arkansas,South,81,9.3624,None
-AR,12,3111,39785,21,Republican,2990671,0,Arkansas,South,78.2,7.0218,None
-AZ,1,932,18701,19,Republican,6946685,45,Arizona,West,49.8,2.7351,Medium
-AZ,2,1286,14004,49,Republican,6946685,45,Arizona,West,91.8,7.0537,Medium
-AZ,3,1231,10721,58,Republican,6946685,45,Arizona,West,114.8,8.3493,Medium
-AZ,4,1445,11056,77,Republican,6946685,45,Arizona,West,130.7,11.0844,Medium
-AZ,5,1697,12286,85,Republican,6946685,45,Arizona,West,138.1,12.2361,Medium
-AZ,6,2357,20822,102,Republican,6946685,45,Arizona,West,113.2,14.6833,Medium
-AZ,7,2431,34582,167,Republican,6946685,45,Arizona,West,70.3,24.0402,Medium
-AZ,8,2830,38729,142,Republican,6946685,45,Arizona,West,73.1,20.4414,Medium
-AZ,9,2217,29160,103,Republican,6946685,45,Arizona,West,76,14.8272,Medium
-AZ,10,4467,47102,134,Republican,6946685,45,Arizona,West,94.8,19.2898,Medium
-AZ,11,7046,55380,129,Republican,6946685,45,Arizona,West,127.2,18.57,Medium
-AZ,12,10801,61121,149,Republican,6946685,45,Arizona,West,176.7,21.4491,Medium
-CA,1,5380,13700,113,Democratic,39148760,89,California,West,392.7,2.8864,Long
-CA,2,8383,101975,221,Democratic,39148760,89,California,West,82.2,5.6451,Long
-CA,3,7473,70979,384,Democratic,39148760,89,California,West,105.3,9.8087,Long
-CA,4,9923,97892,510,Democratic,39148760,89,California,West,101.4,13.0272,Long
-CA,5,11770,277508,541,Democratic,39148760,89,California,West,42.4,13.8191,Long
-CA,6,11181,202294,508,Democratic,39148760,89,California,West,55.3,12.9761,Long
-CA,7,13170,253468,530,Democratic,39148760,89,California,West,52,13.5381,Long
-CA,8,12413,305946,487,Democratic,39148760,89,California,West,40.6,12.4397,Long
-CA,9,14938,357080,480,Democratic,39148760,89,California,West,41.8,12.2609,Long
-CA,10,18577,375195,472,Democratic,39148760,89,California,West,49.5,12.0566,Long
-CA,11,18179,414654,411,Democratic,39148760,89,California,West,43.8,10.4984,Long
-CA,12,20071,451510,424,Democratic,39148760,89,California,West,44.5,10.8305,Long
-CO,1,1907,9140,44,Democratic,5531141,31,Colorado,West,208.6,7.955,Medium
-CO,2,2545,11511,99,Democratic,5531141,31,Colorado,West,221.1,17.8987,Medium
-CO,3,2519,11867,158,Democratic,5531141,31,Colorado,West,212.3,28.5655,Medium
-CO,4,2415,8724,141,Democratic,5531141,31,Colorado,West,276.8,25.492,Medium
-CO,5,3773,18875,257,Democratic,5531141,31,Colorado,West,199.9,46.4642,Medium
-CO,6,3028,18663,145,Democratic,5531141,31,Colorado,West,162.2,26.2152,Medium
-CO,7,2972,23653,136,Democratic,5531141,31,Colorado,West,125.7,24.5881,Medium
-CO,8,2323,22676,237,Democratic,5531141,31,Colorado,West,102.4,42.8483,Medium
-CO,9,2067,24678,109,Democratic,5531141,31,Colorado,West,83.8,19.7066,Medium
-CO,10,2308,34526,125,Democratic,5531141,31,Colorado,West,66.8,22.5993,Medium
-CO,11,1606,31350,85,Democratic,5531141,31,Colorado,West,51.2,15.3675,Medium
-CO,12,1116,31269,62,Democratic,5531141,31,Colorado,West,35.7,11.2093,Medium
-CT,1,2510,10857,57,Democratic,3581504,58,Connecticut,Northeast,231.2,15.9151,Medium
-CT,2,4653,12879,208,Democratic,3581504,58,Connecticut,Northeast,361.3,58.0762,Medium
-CT,3,6208,16805,394,Democratic,3581504,58,Connecticut,Northeast,369.4,110.0096,Medium
-CT,4,6371,18351,752,Democratic,3581504,58,Connecticut,Northeast,347.2,209.9677,Medium
-CT,5,5952,28553,666,Democratic,3581504,58,Connecticut,Northeast,208.5,185.9554,Medium
-CT,6,4309,15898,544,Democratic,3581504,58,Connecticut,Northeast,271,151.8915,Medium
-CT,7,3712,29781,408,Democratic,3581504,58,Connecticut,Northeast,124.6,113.9186,Medium
-CT,8,4097,47096,431,Democratic,3581504,58,Connecticut,Northeast,87,120.3405,Medium
-CT,9,2873,39842,297,Democratic,3581504,58,Connecticut,Northeast,72.1,82.9261,Medium
-CT,10,1676,45248,203,Democratic,3581504,58,Connecticut,Northeast,37,56.6801,Medium
-CT,11,1200,42041,125,Democratic,3581504,58,Connecticut,Northeast,28.5,34.9015,Medium
-CT,12,1170,48769,113,Democratic,3581504,58,Connecticut,Northeast,24,31.551,Medium
-DE,1,228,3888,10,Democratic,949495,68,Delaware,South,58.6,10.5319,Long
-DE,2,609,4541,6,Democratic,949495,68,Delaware,South,134.1,6.3191,Long
-DE,3,833,3748,25,Democratic,949495,68,Delaware,South,222.3,26.3298,Long
-DE,4,1170,3562,41,Democratic,949495,68,Delaware,South,328.5,43.1808,Long
-DE,5,1644,5314,55,Democratic,949495,68,Delaware,South,309.4,57.9255,Long
-DE,6,796,3500,50,Democratic,949495,68,Delaware,South,227.4,52.6596,Long
-DE,7,1370,8611,50,Democratic,949495,68,Delaware,South,159.1,52.6596,Long
-DE,8,1296,10841,67,Democratic,949495,68,Delaware,South,119.5,70.5638,Long
-DE,9,1029,10782,31,Democratic,949495,68,Delaware,South,95.4,32.6489,Long
-DE,10,619,9148,38,Democratic,949495,68,Delaware,South,67.7,40.0213,Long
-DE,11,335,6691,37,Democratic,949495,68,Delaware,South,50.1,38.9681,Long
-DE,12,383,15321,14,Democratic,949495,68,Delaware,South,25,14.7447,Long
-FL,1,4926,46084,59,Republican,20598139,32,Florida,South,106.9,2.8643,Medium
-FL,2,8409,77539,219,Republican,20598139,32,Florida,South,108.4,10.632,Medium
-FL,3,6620,65018,241,Republican,20598139,32,Florida,South,101.8,11.7001,Medium
-FL,4,6128,73879,319,Republican,20598139,32,Florida,South,82.9,15.4868,Medium
-FL,5,5351,89816,298,Republican,20598139,32,Florida,South,59.6,14.4673,Medium
-FL,6,4593,98816,382,Republican,20598139,32,Florida,South,46.5,18.5454,Medium
-FL,7,4484,113913,313,Republican,20598139,32,Florida,South,39.4,15.1955,Medium
-FL,8,5021,136251,280,Republican,20598139,32,Florida,South,36.9,13.5935,Medium
-FL,9,5311,207369,209,Republican,20598139,32,Florida,South,25.6,10.1465,Medium
-FL,10,5192,126528,275,Republican,20598139,32,Florida,South,41,13.3507,Medium
-FL,11,8553,208553,238,Republican,20598139,32,Florida,South,41,11.5544,Medium
-FL,12,14109,202004,234,Republican,20598139,32,Florida,South,69.8,11.3602,Medium
-GA,1,2903,10697,79,Republican,10297484,27,Georgia,South,271.4,7.6718,Short
-GA,2,4889,17532,218,Republican,10297484,27,Georgia,South,278.9,21.1702,Short
-GA,3,5405,28082,172,Republican,10297484,27,Georgia,South,192.5,16.7031,Short
-GA,4,5658,26345,298,Republican,10297484,27,Georgia,South,214.8,28.9391,Short
-GA,5,4734,51880,227,Republican,10297484,27,Georgia,South,91.2,22.0442,Short
-GA,6,5096,60863,262,Republican,10297484,27,Georgia,South,83.7,25.4431,Short
-GA,7,4924,61296,173,Republican,10297484,27,Georgia,South,80.3,16.8002,Short
-GA,8,4086,115977,203,Republican,10297484,27,Georgia,South,35.2,19.7136,Short
-GA,9,5009,136789,207,Republican,10297484,27,Georgia,South,36.6,20.102,Short
-GA,10,4477,-40658,231,Republican,10297484,27,Georgia,South,0,22.4327,Short
-GA,11,5042,82896,183,Republican,10297484,27,Georgia,South,60.8,17.7713,Short
-GA,12,5829,77795,244,Republican,10297484,27,Georgia,South,74.9,23.6951,Short
-HI,1,127,5009,0,Democratic,1422029,67,Hawaii,West,25.4,0,Long
-HI,2,183,4867,5,Democratic,1422029,67,Hawaii,West,37.6,3.5161,Long
-HI,3,117,5878,4,Democratic,1422029,67,Hawaii,West,19.9,2.8129,Long
-HI,4,80,5276,1,Democratic,1422029,67,Hawaii,West,15.2,0.7032,Long
-HI,5,23,4487,6,Democratic,1422029,67,Hawaii,West,5.1,4.2193,Long
-HI,6,14,4816,1,Democratic,1422029,67,Hawaii,West,2.9,0.7032,Long
-HI,7,13,3940,0,Democratic,1422029,67,Hawaii,West,3.3,0,Long
-HI,8,6,7084,0,Democratic,1422029,67,Hawaii,West,0.8,0,Long
-HI,9,3,5348,0,Democratic,1422029,67,Hawaii,West,0.6,0,Long
-HI,10,9,-1450,0,Democratic,1422029,67,Hawaii,West,0,0,Long
-HI,11,24,6553,0,Democratic,1422029,67,Hawaii,West,3.7,0,Long
-HI,12,60,6554,0,Democratic,1422029,67,Hawaii,West,9.2,0,Long
-IA,1,373,4946,7,Republican,3132499,0,Iowa,North Central,75.4,2.2346,None
-IA,2,551,5333,19,Republican,3132499,0,Iowa,North Central,103.3,6.0654,None
-IA,3,851,6167,23,Republican,3132499,0,Iowa,North Central,138,7.3424,None
-IA,4,1742,8730,34,Republican,3132499,0,Iowa,North Central,199.5,10.854,None
-IA,5,2735,12208,53,Republican,3132499,0,Iowa,North Central,224,16.9194,None
-IA,6,3735,20746,71,Republican,3132499,0,Iowa,North Central,180,22.6656,None
-IA,7,2801,20719,82,Republican,3132499,0,Iowa,North Central,135.2,26.1772,None
-IA,8,2437,26360,83,Republican,3132499,0,Iowa,North Central,92.5,26.4964,None
-IA,9,2354,27356,106,Republican,3132499,0,Iowa,North Central,86.1,33.8388,None
-IA,10,2313,28686,83,Republican,3132499,0,Iowa,North Central,80.6,26.4964,None
-IA,11,2220,34033,63,Republican,3132499,0,Iowa,North Central,65.2,20.1117,None
-IA,12,1943,32915,45,Republican,3132499,0,Iowa,North Central,59,14.3655,None
-ID,1,365,3775,7,Republican,1687809,36,Idaho,West,96.7,4.1474,Medium
-ID,2,755,5534,6,Republican,1687809,36,Idaho,West,136.4,3.5549,Medium
-ID,3,283,3868,20,Republican,1687809,36,Idaho,West,73.2,11.8497,Medium
-ID,4,283,2693,15,Republican,1687809,36,Idaho,West,105.1,8.8873,Medium
-ID,5,181,2245,10,Republican,1687809,36,Idaho,West,80.6,5.9248,Medium
-ID,6,189,10256,6,Republican,1687809,36,Idaho,West,18.4,3.5549,Medium
-ID,7,154,2397,6,Republican,1687809,36,Idaho,West,64.2,3.5549,Medium
-ID,8,195,5364,4,Republican,1687809,36,Idaho,West,36.4,2.3699,Medium
-ID,9,171,3337,5,Republican,1687809,36,Idaho,West,51.2,2.9624,Medium
-ID,10,280,6727,4,Republican,1687809,36,Idaho,West,41.6,2.3699,Medium
-ID,11,283,9544,0,Republican,1687809,36,Idaho,West,29.7,0,Medium
-ID,12,273,7970,5,Republican,1687809,36,Idaho,West,34.3,2.9624,Medium
-IL,1,4459,23756,83,Democratic,12821497,69,Illinois,North Central,187.7,6.4735,Long
-IL,2,7555,33507,281,Democratic,12821497,69,Illinois,North Central,225.5,21.9163,Long
-IL,3,9698,41884,488,Democratic,12821497,69,Illinois,North Central,231.5,38.0611,Long
-IL,4,9812,44381,600,Democratic,12821497,69,Illinois,North Central,221.1,46.7964,Long
-IL,5,15043,87192,657,Democratic,12821497,69,Illinois,North Central,172.5,51.2421,Long
-IL,6,17860,104097,713,Democratic,12821497,69,Illinois,North Central,171.6,55.6097,Long
-IL,7,17059,125405,763,Democratic,12821497,69,Illinois,North Central,136,59.5094,Long
-IL,8,15009,149993,778,Democratic,12821497,69,Illinois,North Central,100.1,60.6793,Long
-IL,9,15165,165110,544,Democratic,12821497,69,Illinois,North Central,91.8,42.4287,Long
-IL,10,9653,147910,602,Democratic,12821497,69,Illinois,North Central,65.3,46.9524,Long
-IL,11,7088,145202,671,Democratic,12821497,69,Illinois,North Central,48.8,52.334,Long
-IL,12,4564,149296,383,Democratic,12821497,69,Illinois,North Central,30.6,29.8717,Long
-IN,1,1794,10442,37,Republican,6637426,38,Indiana,North Central,171.8,5.5745,Medium
-IN,2,3348,15391,124,Republican,6637426,38,Indiana,North Central,217.5,18.6819,Medium
-IN,3,3020,17253,215,Republican,6637426,38,Indiana,North Central,175,32.3921,Medium
-IN,4,3570,21247,242,Republican,6637426,38,Indiana,North Central,168,36.4599,Medium
-IN,5,4491,19917,271,Republican,6637426,38,Indiana,North Central,225.5,40.8291,Medium
-IN,6,4445,28653,425,Republican,6637426,38,Indiana,North Central,155.1,64.0308,Medium
-IN,7,4094,34676,252,Republican,6637426,38,Indiana,North Central,118.1,37.9665,Medium
-IN,8,3578,38820,246,Republican,6637426,38,Indiana,North Central,92.2,37.0626,Medium
-IN,9,3373,41419,180,Republican,6637426,38,Indiana,North Central,81.4,27.1189,Medium
-IN,10,3159,41170,193,Republican,6637426,38,Indiana,North Central,76.7,29.0775,Medium
-IN,11,2796,43471,142,Republican,6637426,38,Indiana,North Central,64.3,21.3938,Medium
-IN,12,2753,48355,108,Republican,6637426,38,Indiana,North Central,56.9,16.2714,Medium
-KS,1,330,3240,7,Democratic,2908776,34,Kansas,North Central,101.9,2.4065,Medium
-KS,2,472,4090,18,Democratic,2908776,34,Kansas,North Central,115.4,6.1882,Medium
-KS,3,526,4633,42,Democratic,2908776,34,Kansas,North Central,113.5,14.4391,Medium
-KS,4,599,4954,38,Democratic,2908776,34,Kansas,North Central,120.9,13.0639,Medium
-KS,5,1466,8989,17,Democratic,2908776,34,Kansas,North Central,163.1,5.8444,Medium
-KS,6,1967,12002,13,Democratic,2908776,34,Kansas,North Central,163.9,4.4692,Medium
-KS,7,1658,14017,21,Democratic,2908776,34,Kansas,North Central,118.3,7.2195,Medium
-KS,8,1224,12881,15,Democratic,2908776,34,Kansas,North Central,95,5.1568,Medium
-KS,9,878,14409,15,Democratic,2908776,34,Kansas,North Central,60.9,5.1568,Medium
-KS,10,793,21913,29,Democratic,2908776,34,Kansas,North Central,36.2,9.9698,Medium
-KS,11,639,16197,19,Democratic,2908776,34,Kansas,North Central,39.5,6.532,Medium
-KS,12,769,17453,9,Democratic,2908776,34,Kansas,North Central,44.1,3.0941,Medium
-KY,1,356,4924,7,Democratic,4440204,82,Kentucky,South,72.3,1.5765,Long
-KY,2,528,13145,48,Democratic,4440204,82,Kentucky,South,40.2,10.8103,Long
-KY,3,1040,6728,45,Democratic,4440204,82,Kentucky,South,154.6,10.1347,Long
-KY,4,1002,6137,50,Democratic,4440204,82,Kentucky,South,163.3,11.2607,Long
-KY,5,1096,15979,59,Democratic,4440204,82,Kentucky,South,68.6,13.2877,Long
-KY,6,1099,11248,48,Democratic,4440204,82,Kentucky,South,97.7,10.8103,Long
-KY,7,1432,43977,50,Democratic,4440204,82,Kentucky,South,32.6,11.2607,Long
-KY,8,1392,49962,55,Democratic,4440204,82,Kentucky,South,27.9,12.3868,Long
-KY,9,502,15870,25,Democratic,4440204,82,Kentucky,South,31.6,5.6304,Long
-KY,10,1614,57415,51,Democratic,4440204,82,Kentucky,South,28.1,11.486,Long
-KY,11,1523,32667,35,Democratic,4440204,82,Kentucky,South,46.6,7.8825,Long
-KY,12,1121,36095,35,Democratic,4440204,82,Kentucky,South,31.1,7.8825,Long
-LA,1,3849,30364,193,Democratic,4663616,53,Louisiana,South,126.8,41.3842,Medium
-LA,2,11047,35688,343,Democratic,4663616,53,Louisiana,South,309.5,73.5481,Medium
-LA,3,5234,43767,431,Democratic,4663616,53,Louisiana,South,119.6,92.4176,Medium
-LA,4,3336,18020,392,Democratic,4663616,53,Louisiana,South,185.1,84.0549,Medium
-LA,5,2432,14666,353,Democratic,4663616,53,Louisiana,South,165.8,75.6923,Medium
-LA,6,2710,37123,357,Democratic,4663616,53,Louisiana,South,73,76.55,Medium
-LA,7,2054,39781,232,Democratic,4663616,53,Louisiana,South,51.6,49.7468,Medium
-LA,8,2988,50061,234,Democratic,4663616,53,Louisiana,South,59.7,50.1757,Medium
-LA,9,3016,62953,120,Democratic,4663616,53,Louisiana,South,47.9,25.7311,Medium
-LA,10,2692,52107,134,Democratic,4663616,53,Louisiana,South,51.7,28.7331,Medium
-LA,11,2866,60535,122,Democratic,4663616,53,Louisiana,South,47.3,26.16,Medium
-LA,12,4094,79049,85,Democratic,4663616,53,Louisiana,South,51.8,18.2262,Medium
-MA,1,5461,33187,127,Republican,6830193,55,Massachusetts,Northeast,164.6,18.5939,Medium
-MA,2,8583,34413,362,Republican,6830193,55,Massachusetts,Northeast,249.4,53,Medium
-MA,3,13005,45555,814,Republican,6830193,55,Massachusetts,Northeast,285.5,119.1767,Medium
-MA,4,15059,57683,1120,Republican,6830193,55,Massachusetts,Northeast,261.1,163.9778,Medium
-MA,5,15134,69888,704,Republican,6830193,55,Massachusetts,Northeast,216.5,103.0718,Medium
-MA,6,11969,78849,1059,Republican,6830193,55,Massachusetts,Northeast,151.8,155.0469,Medium
-MA,7,9061,68147,929,Republican,6830193,55,Massachusetts,Northeast,133,136.0137,Medium
-MA,8,8593,75444,797,Republican,6830193,55,Massachusetts,Northeast,113.9,116.6878,Medium
-MA,9,5768,68541,535,Republican,6830193,55,Massachusetts,Northeast,84.2,78.3287,Medium
-MA,10,7470,63914,612,Republican,6830193,55,Massachusetts,Northeast,116.9,89.6022,Medium
-MA,11,2726,52597,323,Republican,6830193,55,Massachusetts,Northeast,51.8,47.29,Medium
-MA,12,1996,61655,257,Republican,6830193,55,Massachusetts,Northeast,32.4,37.627,Medium
-MD,1,1311,16085,38,Republican,6003435,46,Maryland,South,81.5,6.3297,Medium
-MD,2,2711,15099,117,Republican,6003435,46,Maryland,South,179.5,19.4888,Medium
-MD,3,5101,22106,261,Republican,6003435,46,Maryland,South,230.8,43.4751,Medium
-MD,4,4721,19902,311,Republican,6003435,46,Maryland,South,237.2,51.8037,Medium
-MD,5,5920,34150,367,Republican,6003435,46,Maryland,South,173.4,61.1317,Medium
-MD,6,7004,32318,377,Republican,6003435,46,Maryland,South,216.7,62.7974,Medium
-MD,7,6944,29400,358,Republican,6003435,46,Maryland,South,236.2,59.6325,Medium
-MD,8,7485,39155,330,Republican,6003435,46,Maryland,South,191.2,54.9685,Medium
-MD,9,6141,45829,253,Republican,6003435,46,Maryland,South,134,42.1425,Medium
-MD,10,6488,61328,229,Republican,6003435,46,Maryland,South,105.8,38.1448,Medium
-MD,11,4729,62267,165,Republican,6003435,46,Maryland,South,75.9,27.4843,Medium
-MD,12,3505,51143,171,Republican,6003435,46,Maryland,South,68.5,28.4837,Medium
-ME,1,178,3252,5,Democratic,1332813,59,Maine,Northeast,54.7,3.7515,Medium
-ME,2,216,216,7,Democratic,1332813,59,Maine,Northeast,1000,5.252,Medium
-ME,3,215,5735,8,Democratic,1332813,59,Maine,Northeast,37.5,6.0023,Medium
-ME,4,154,2622,16,Democratic,1332813,59,Maine,Northeast,58.7,12.0047,Medium
-ME,5,152,2860,15,Democratic,1332813,59,Maine,Northeast,53.1,11.2544,Medium
-ME,6,186,2948,10,Democratic,1332813,59,Maine,Northeast,63.1,7.5029,Medium
-ME,7,251,2797,4,Democratic,1332813,59,Maine,Northeast,89.7,3.0012,Medium
-ME,8,264,264,8,Democratic,1332813,59,Maine,Northeast,1000,6.0023,Medium
-ME,9,368,13726,6,Democratic,1332813,59,Maine,Northeast,26.8,4.5018,Medium
-ME,10,268,15409,15,Democratic,1332813,59,Maine,Northeast,17.4,11.2544,Medium
-ME,11,229,9452,6,Democratic,1332813,59,Maine,Northeast,24.2,4.5018,Medium
-ME,12,213,9915,1,Democratic,1332813,59,Maine,Northeast,21.5,0.7503,Medium
-MI,1,8499,27844,465,Democratic,9957488,69,Michigan,North Central,305.2,46.6985,Long
-MI,2,8310,32320,898,Democratic,9957488,69,Michigan,North Central,257.1,90.1834,Long
-MI,3,6649,26980,1083,Democratic,9957488,69,Michigan,North Central,246.4,108.7624,Long
-MI,4,5976,34968,939,Democratic,9957488,69,Michigan,North Central,170.9,94.3009,Long
-MI,5,5949,55192,776,Democratic,9957488,69,Michigan,North Central,107.8,77.9313,Long
-MI,6,4959,69140,534,Democratic,9957488,69,Michigan,North Central,71.7,53.628,Long
-MI,7,5144,83754,407,Democratic,9957488,69,Michigan,North Central,61.4,40.8738,Long
-MI,8,3935,104442,282,Democratic,9957488,69,Michigan,North Central,37.7,28.3204,Long
-MI,9,2499,98197,233,Democratic,9957488,69,Michigan,North Central,25.4,23.3995,Long
-MI,10,2028,111194,166,Democratic,9957488,69,Michigan,North Central,18.2,16.6709,Long
-MI,11,1064,94861,82,Democratic,9957488,69,Michigan,North Central,11.2,8.235,Long
-MI,12,1102,79498,83,Democratic,9957488,69,Michigan,North Central,13.9,8.3354,Long
-MN,1,472,15857,11,Democratic,5527358,51,Minnesota,North Central,29.8,1.9901,Medium
-MN,2,516,10184,22,Democratic,5527358,51,Minnesota,North Central,50.7,3.9802,Medium
-MN,3,733,9835,45,Democratic,5527358,51,Minnesota,North Central,74.5,8.1413,Medium
-MN,4,1287,9923,81,Democratic,5527358,51,Minnesota,North Central,129.7,14.6544,Medium
-MN,5,3336,18243,141,Democratic,5527358,51,Minnesota,North Central,182.9,25.5095,Medium
-MN,6,4088,30042,154,Democratic,5527358,51,Minnesota,North Central,136.1,27.8614,Medium
-MN,7,4167,33899,159,Democratic,5527358,51,Minnesota,North Central,122.9,28.766,Medium
-MN,8,4799,49874,143,Democratic,5527358,51,Minnesota,North Central,96.2,25.8713,Medium
-MN,9,4466,54431,151,Democratic,5527358,51,Minnesota,North Central,82,27.3187,Medium
-MN,10,3068,57025,174,Democratic,5527358,51,Minnesota,North Central,53.8,31.4798,Medium
-MN,11,2490,74486,146,Democratic,5527358,51,Minnesota,North Central,33.4,26.4141,Medium
-MN,12,1016,59352,116,Democratic,5527358,51,Minnesota,North Central,17.1,20.9865,Medium
-MO,1,1144,15389,11,Republican,6090062,27,Missouri,North Central,74.3,1.8062,Short
-MO,2,1710,16028,39,Republican,6090062,27,Missouri,North Central,106.7,6.4039,Short
-MO,3,1649,16009,80,Republican,6090062,27,Missouri,North Central,103,13.1362,Short
-MO,4,1255,9142,56,Republican,6090062,27,Missouri,North Central,137.3,9.1953,Short
-MO,5,1362,16383,125,Republican,6090062,27,Missouri,North Central,83.1,20.5252,Short
-MO,6,1613,21563,63,Republican,6090062,27,Missouri,North Central,74.8,10.3447,Short
-MO,7,1090,26230,147,Republican,6090062,27,Missouri,North Central,41.6,24.1377,Short
-MO,8,1074,32814,92,Republican,6090062,27,Missouri,North Central,32.7,15.1066,Short
-MO,9,1211,6188,70,Republican,6090062,27,Missouri,North Central,195.7,11.4941,Short
-MO,10,1284,45132,97,Republican,6090062,27,Missouri,North Central,28.4,15.9276,Short
-MO,11,1338,40265,57,Republican,6090062,27,Missouri,North Central,33.2,9.3595,Short
-MO,12,1501,39096,42,Republican,6090062,27,Missouri,North Central,38.4,6.8965,Short
-MS,1,617,2602,19,Republican,2988762,24,Mississippi,South,237.1,6.3571,Short
-MS,2,978,16073,39,Republican,2988762,24,Mississippi,South,60.8,13.0489,Short
-MS,3,1172,17331,52,Republican,2988762,24,Mississippi,South,67.6,17.3985,Short
-MS,4,1629,14486,72,Republican,2988762,24,Mississippi,South,112.5,24.0902,Short
-MS,5,1626,12048,56,Republican,2988762,24,Mississippi,South,135,18.7369,Short
-MS,6,1865,15896,103,Republican,2988762,24,Mississippi,South,117.3,34.4624,Short
-MS,7,1701,17384,115,Republican,2988762,24,Mississippi,South,97.8,38.4775,Short
-MS,8,1796,20068,97,Republican,2988762,24,Mississippi,South,89.5,32.4549,Short
-MS,9,2027,30059,98,Republican,2988762,24,Mississippi,South,67.4,32.7895,Short
-MS,10,2289,31679,115,Republican,2988762,24,Mississippi,South,72.3,38.4775,Short
-MS,11,1748,28714,70,Republican,2988762,24,Mississippi,South,60.9,23.4211,Short
-MS,12,2384,32591,78,Republican,2988762,24,Mississippi,South,73.1,26.0978,Short
-MT,1,138,2729,4,Democratic,1041732,29,Montana,West,50.6,3.8398,Short
-MT,2,135,2567,2,Democratic,1041732,29,Montana,West,52.6,1.9199,Short
-MT,3,80,2249,1,Democratic,1041732,29,Montana,West,35.6,0.9599,Short
-MT,4,38,2007,5,Democratic,1041732,29,Montana,West,18.9,4.7997,Short
-MT,5,14,1950,3,Democratic,1041732,29,Montana,West,7.2,2.8798,Short
-MT,6,5,2081,1,Democratic,1041732,29,Montana,West,2.4,0.9599,Short
-MT,7,5,7763,0,Democratic,1041732,29,Montana,West,0.6,0,Short
-MT,8,10,5915,0,Democratic,1041732,29,Montana,West,1.7,0,Short
-MT,9,8,4884,1,Democratic,1041732,29,Montana,West,1.6,0.9599,Short
-MT,10,44,8378,0,Democratic,1041732,29,Montana,West,5.3,0,Short
-MT,11,31,10972,1,Democratic,1041732,29,Montana,West,2.8,0.9599,Short
-MT,12,60,10393,1,Democratic,1041732,29,Montana,West,5.8,0.9599,Short
-NC,1,1100,14567,8,Democratic,10155624,53,North Carolina,South,75.5,0.7877,Medium
-NC,2,1723,17976,38,Democratic,10155624,53,North Carolina,South,95.9,3.7418,Medium
-NC,3,1803,23957,62,Democratic,10155624,53,North Carolina,South,75.3,6.105,Medium
-NC,4,1927,18292,105,Democratic,10155624,53,North Carolina,South,105.3,10.3391,Medium
-NC,5,2617,29421,129,Democratic,10155624,53,North Carolina,South,89,12.7023,Medium
-NC,6,2688,39048,110,Democratic,10155624,53,North Carolina,South,68.8,10.8314,Medium
-NC,7,3090,50444,125,Democratic,10155624,53,North Carolina,South,61.3,12.3085,Medium
-NC,8,4354,62764,114,Democratic,10155624,53,North Carolina,South,69.4,11.2253,Medium
-NC,9,4440,87323,75,Democratic,10155624,53,North Carolina,South,50.8,7.3851,Medium
-NC,10,5749,82590,155,Democratic,10155624,53,North Carolina,South,69.6,15.2625,Medium
-NC,11,7271,100790,108,Democratic,10155624,53,North Carolina,South,72.1,10.6345,Medium
-NC,12,8693,115710,125,Democratic,10155624,53,North Carolina,South,75.1,12.3085,Medium
-ND,1,92,2769,3,Republican,752201,0,North Dakota,North Central,33.2,3.9883,None
-ND,2,111,3446,1,Republican,752201,0,North Dakota,North Central,32.2,1.3294,None
-ND,3,104,3213,5,Republican,752201,0,North Dakota,North Central,32.4,6.6472,None
-ND,4,303,4071,4,Republican,752201,0,North Dakota,North Central,74.4,5.3177,None
-ND,5,347,8736,6,Republican,752201,0,North Dakota,North Central,39.7,7.9766,None
-ND,6,275,12698,6,Republican,752201,0,North Dakota,North Central,21.7,7.9766,None
-ND,7,305,11411,13,Republican,752201,0,North Dakota,North Central,26.7,17.2826,None
-ND,8,423,9899,7,Republican,752201,0,North Dakota,North Central,42.7,9.306,None
-ND,9,428,9123,9,Republican,752201,0,North Dakota,North Central,46.9,11.9649,None
-ND,10,224,6790,14,Republican,752201,0,North Dakota,North Central,33,18.612,None
-ND,11,255,7022,7,Republican,752201,0,North Dakota,North Central,36.3,9.306,None
-ND,12,223,7985,2,Republican,752201,0,North Dakota,North Central,27.9,2.6589,None
-NE,1,120,2076,3,Republican,1904760,0,Nebraska,North Central,57.8,1.575,None
-NE,2,275,4155,7,Republican,1904760,0,Nebraska,North Central,66.2,3.675,None
-NE,3,424,4099,8,Republican,1904760,0,Nebraska,North Central,103.4,4.2,None
-NE,4,777,5015,15,Republican,1904760,0,Nebraska,North Central,154.9,7.875,None
-NE,5,1710,7233,22,Republican,1904760,0,Nebraska,North Central,236.4,11.55,None
-NE,6,2725,11004,23,Republican,1904760,0,Nebraska,North Central,247.6,12.075,None
-NE,7,2489,13334,22,Republican,1904760,0,Nebraska,North Central,186.7,11.55,None
-NE,8,2053,22041,25,Republican,1904760,0,Nebraska,North Central,93.1,13.125,None
-NE,9,1730,18058,25,Republican,1904760,0,Nebraska,North Central,95.8,13.125,None
-NE,10,1990,18376,28,Republican,1904760,0,Nebraska,North Central,108.3,14.7,None
-NE,11,1407,16274,10,Republican,1904760,0,Nebraska,North Central,86.5,5.25,None
-NE,12,1099,16821,32,Republican,1904760,0,Nebraska,North Central,65.3,16.8,None
-NH,1,213,4179,2,Republican,1343622,80,New Hampshire,Northeast,51,1.4885,Long
-NH,2,401,3007,6,Republican,1343622,80,New Hampshire,Northeast,133.4,4.4655,Long
-NH,3,305,2876,14,Republican,1343622,80,New Hampshire,Northeast,106.1,10.4196,Long
-NH,4,471,2729,19,Republican,1343622,80,New Hampshire,Northeast,172.6,14.1409,Long
-NH,5,447,5806,18,Republican,1343622,80,New Hampshire,Northeast,77,13.3966,Long
-NH,6,650,6725,26,Republican,1343622,80,New Hampshire,Northeast,96.7,19.3507,Long
-NH,7,572,8691,47,Republican,1343622,80,New Hampshire,Northeast,65.8,34.9801,Long
-NH,8,492,13913,39,Republican,1343622,80,New Hampshire,Northeast,35.4,29.026,Long
-NH,9,545,13565,38,Republican,1343622,80,New Hampshire,Northeast,40.2,28.2818,Long
-NH,10,488,11305,35,Republican,1343622,80,New Hampshire,Northeast,43.2,26.049,Long
-NH,11,394,12779,41,Republican,1343622,80,New Hampshire,Northeast,30.8,30.5145,Long
-NH,12,266,11750,34,Republican,1343622,80,New Hampshire,Northeast,22.6,25.3047,Long
-NJ,1,15021,33773,223,Democratic,8881845,80,New Jersey,Northeast,444.8,25.1074,Long
-NJ,2,25720,49201,965,Democratic,8881845,80,New Jersey,Northeast,522.8,108.6486,Long
-NJ,3,24408,44800,1573,Democratic,8881845,80,New Jersey,Northeast,544.8,177.1028,Long
-NJ,4,23563,45052,1948,Democratic,8881845,80,New Jersey,Northeast,523,219.3238,Long
-NJ,5,21469,49533,1689,Democratic,8881845,80,New Jersey,Northeast,433.4,190.1632,Long
-NJ,6,16737,53264,1802,Democratic,8881845,80,New Jersey,Northeast,314.2,202.8858,Long
-NJ,7,10150,145437,1264,Democratic,8881845,80,New Jersey,Northeast,69.8,142.3128,Long
-NJ,8,8270,87122,1078,Democratic,8881845,80,New Jersey,Northeast,94.9,121.3712,Long
-NJ,9,6751,115710,605,Democratic,8881845,80,New Jersey,Northeast,58.3,68.1165,Long
-NJ,10,5781,181785,579,Democratic,8881845,80,New Jersey,Northeast,31.8,65.1892,Long
-NJ,11,3251,171820,533,Democratic,8881845,80,New Jersey,Northeast,18.9,60.0101,Long
-NJ,12,2630,142285,424,Democratic,8881845,80,New Jersey,Northeast,18.5,47.7378,Long
-NM,1,198,6554,4,Democratic,2092434,98,New Mexico,West,30.2,1.9116,Long
-NM,2,405,9298,8,Democratic,2092434,98,New Mexico,West,43.6,3.8233,Long
-NM,3,659,10145,19,Democratic,2092434,98,New Mexico,West,65,9.0803,Long
-NM,4,626,6785,27,Democratic,2092434,98,New Mexico,West,92.3,12.9036,Long
-NM,5,852,20048,46,Democratic,2092434,98,New Mexico,West,42.5,21.984,Long
-NM,6,1208,22917,52,Democratic,2092434,98,New Mexico,West,52.7,24.8514,Long
-NM,7,1038,25001,52,Democratic,2092434,98,New Mexico,West,41.5,24.8514,Long
-NM,8,1027,30899,62,Democratic,2092434,98,New Mexico,West,33.2,29.6306,Long
-NM,9,930,39741,50,Democratic,2092434,98,New Mexico,West,23.4,23.8956,Long
-NM,10,774,25754,42,Democratic,2092434,98,New Mexico,West,30.1,20.0723,Long
-NM,11,1262,35686,38,Democratic,2092434,98,New Mexico,West,35.4,18.1607,Long
-NM,12,783,29120,40,Democratic,2092434,98,New Mexico,West,26.9,19.1165,Long
-NV,1,835,7562,13,Democratic,2922849,44,Nevada,West,110.4,4.4477,Medium
-NV,2,974,6845,41,Democratic,2922849,44,Nevada,West,142.3,14.0274,Medium
-NV,3,1001,8022,62,Democratic,2922849,44,Nevada,West,124.8,21.2122,Medium
-NV,4,849,6394,43,Democratic,2922849,44,Nevada,West,132.8,14.7117,Medium
-NV,5,868,7064,56,Democratic,2922849,44,Nevada,West,122.9,19.1594,Medium
-NV,6,789,7765,49,Democratic,2922849,44,Nevada,West,101.6,16.7645,Medium
-NV,7,717,16191,44,Democratic,2922849,44,Nevada,West,44.3,15.0538,Medium
-NV,8,735,23480,53,Democratic,2922849,44,Nevada,West,31.3,18.133,Medium
-NV,9,951,35812,31,Democratic,2922849,44,Nevada,West,26.6,10.6061,Medium
-NV,10,833,28724,33,Democratic,2922849,44,Nevada,West,29,11.2904,Medium
-NV,11,1200,31498,15,Democratic,2922849,44,Nevada,West,38.1,5.132,Medium
-NV,12,1628,38885,23,Democratic,2922849,44,Nevada,West,41.9,7.869,Medium
-NY,1,50130,113916,1340,Democratic,19618453,99,New York,Northeast,440.1,68.303,Long
-NY,2,63068,134872,3939,Democratic,19618453,99,New York,Northeast,467.6,200.7804,Long
-NY,3,63345,159085,5345,Democratic,19618453,99,New York,Northeast,398.2,272.4476,Long
-NY,4,49482,150182,3994,Democratic,19618453,99,New York,Northeast,329.5,203.5838,Long
-NY,5,43416,195669,2810,Democratic,19618453,99,New York,Northeast,221.9,143.2325,Long
-NY,6,26086,183905,2007,Democratic,19618453,99,New York,Northeast,141.8,102.3016,Long
-NY,7,17293,196214,2200,Democratic,19618453,99,New York,Northeast,88.1,112.1393,Long
-NY,8,14360,242626,998,Democratic,19618453,99,New York,Northeast,59.2,50.8705,Long
-NY,9,10991,306389,721,Democratic,19618453,99,New York,Northeast,35.9,36.7511,Long
-NY,10,9204,393703,459,Democratic,19618453,99,New York,Northeast,23.4,23.3963,Long
-NY,11,6442,438038,325,Democratic,19618453,99,New York,Northeast,14.7,16.566,Long
-NY,12,5093,445909,260,Democratic,19618453,99,New York,Northeast,11.4,13.2528,Long
-OH,1,1635,28487,47,Republican,11641879,57,Ohio,North Central,57.4,4.0371,Medium
-OH,2,2583,21647,112,Republican,11641879,57,Ohio,North Central,119.3,9.6204,Medium
-OH,3,2498,17163,157,Republican,11641879,57,Ohio,North Central,145.5,13.4858,Medium
-OH,4,6445,26713,233,Republican,11641879,57,Ohio,North Central,241.3,20.014,Medium
-OH,5,2403,27992,242,Republican,11641879,57,Ohio,North Central,85.8,20.787,Medium
-OH,6,4841,38029,336,Republican,11641879,57,Ohio,North Central,127.3,28.8613,Medium
-OH,7,4281,56996,301,Republican,11641879,57,Ohio,North Central,75.1,25.8549,Medium
-OH,8,3702,59871,284,Republican,11641879,57,Ohio,North Central,61.8,24.3947,Medium
-OH,9,4054,61798,282,Republican,11641879,57,Ohio,North Central,65.6,24.2229,Medium
-OH,10,3344,70508,256,Republican,11641879,57,Ohio,North Central,47.4,21.9896,Medium
-OH,11,2812,80482,163,Republican,11641879,57,Ohio,North Central,34.9,14.0012,Medium
-OH,12,2848,77743,176,Republican,11641879,57,Ohio,North Central,36.6,15.1178,Medium
-OK,1,459,953,20,Republican,3918137,35,Oklahoma,South,481.6,5.1045,Medium
-OK,2,907,11499,44,Republican,3918137,35,Oklahoma,South,78.9,11.2298,Medium
-OK,3,712,14976,41,Republican,3918137,35,Oklahoma,South,47.5,10.4642,Medium
-OK,4,623,16075,56,Republican,3918137,35,Oklahoma,South,38.8,14.2925,Medium
-OK,5,603,15355,43,Republican,3918137,35,Oklahoma,South,39.3,10.9746,Medium
-OK,6,717,19718,40,Republican,3918137,35,Oklahoma,South,36.4,10.2089,Medium
-OK,7,605,16694,31,Republican,3918137,35,Oklahoma,South,36.2,7.9119,Medium
-OK,8,757,43036,16,Republican,3918137,35,Oklahoma,South,17.6,4.0836,Medium
-OK,9,648,20794,24,Republican,3918137,35,Oklahoma,South,31.2,6.1254,Medium
-OK,10,555,44716,21,Republican,3918137,35,Oklahoma,South,12.4,5.3597,Medium
-OK,11,671,29384,14,Republican,3918137,35,Oklahoma,South,22.8,3.5731,Medium
-OK,12,1282,27764,10,Republican,3918137,35,Oklahoma,South,46.2,2.5522,Medium
-OR,1,481,9267,10,Democratic,4081943,88,Oregon,West,51.9,2.4498,Long
-OR,2,491,9181,15,Democratic,4081943,88,Oregon,West,53.5,3.6747,Long
-OR,3,452,9356,22,Democratic,4081943,88,Oregon,West,48.3,5.3896,Long
-OR,4,369,8765,23,Democratic,4081943,88,Oregon,West,42.1,5.6346,Long
-OR,5,352,10070,14,Democratic,4081943,88,Oregon,West,35,3.4297,Long
-OR,6,485,14226,21,Democratic,4081943,88,Oregon,West,34.1,5.1446,Long
-OR,7,447,12182,17,Democratic,4081943,88,Oregon,West,36.7,4.1647,Long
-OR,8,440,22114,10,Democratic,4081943,88,Oregon,West,19.9,2.4498,Long
-OR,9,241,15818,8,Democratic,4081943,88,Oregon,West,15.2,1.9599,Long
-OR,10,368,18671,9,Democratic,4081943,88,Oregon,West,19.7,2.2048,Long
-OR,11,653,19408,12,Democratic,4081943,88,Oregon,West,33.6,2.9398,Long
-OR,12,1110,25921,13,Democratic,4081943,88,Oregon,West,42.8,3.1848,Long
-PA,1,3992,32994,56,Democratic,12791181,64,Pennsylvania,Northeast,121,4.378,Long
-PA,2,9716,48790,177,Democratic,12791181,64,Pennsylvania,Northeast,199.1,13.8377,Long
-PA,3,10786,42353,344,Democratic,12791181,64,Pennsylvania,Northeast,254.7,26.8935,Long
-PA,4,9183,33220,980,Democratic,12791181,64,Pennsylvania,Northeast,276.4,76.6153,Long
-PA,5,8736,42237,152,Democratic,12791181,64,Pennsylvania,Northeast,206.8,11.8832,Long
-PA,6,7693,41794,1296,Democratic,12791181,64,Pennsylvania,Northeast,184.1,101.3198,Long
-PA,7,7034,45098,794,Democratic,12791181,64,Pennsylvania,Northeast,156,62.074,Long
-PA,8,5675,53720,818,Democratic,12791181,64,Pennsylvania,Northeast,105.6,63.9503,Long
-PA,9,4971,58772,528,Democratic,12791181,64,Pennsylvania,Northeast,84.6,41.2784,Long
-PA,10,4873,64399,515,Democratic,12791181,64,Pennsylvania,Northeast,75.7,40.2621,Long
-PA,11,3546,63433,347,Democratic,12791181,64,Pennsylvania,Northeast,55.9,27.1281,Long
-PA,12,2427,66788,262,Democratic,12791181,64,Pennsylvania,Northeast,36.3,20.4829,Long
-RI,1,365,2641,8,Democratic,1056611,41,Rhode Island,Northeast,138.2,7.5714,Medium
-RI,2,741,6342,22,Democratic,1056611,41,Rhode Island,Northeast,116.8,20.8213,Medium
-RI,3,2021,12593,50,Democratic,1056611,41,Rhode Island,Northeast,160.5,47.3211,Medium
-RI,4,2216,16400,106,Democratic,1056611,41,Rhode Island,Northeast,135.1,100.3207,Medium
-RI,5,2459,18393,53,Democratic,1056611,41,Rhode Island,Northeast,133.7,50.1604,Medium
-RI,6,2007,18742,116,Democratic,1056611,41,Rhode Island,Northeast,107.1,109.785,Medium
-RI,7,1681,18804,89,Democratic,1056611,41,Rhode Island,Northeast,89.4,84.2316,Medium
-RI,8,1337,22007,88,Democratic,1056611,41,Rhode Island,Northeast,60.8,83.2851,Medium
-RI,9,1259,18117,102,Democratic,1056611,41,Rhode Island,Northeast,69.5,96.5351,Medium
-RI,10,902,24197,98,Democratic,1056611,41,Rhode Island,Northeast,37.3,92.7494,Medium
-RI,11,579,21327,76,Democratic,1056611,41,Rhode Island,Northeast,27.1,71.9281,Medium
-RI,12,473,22731,57,Democratic,1056611,41,Rhode Island,Northeast,20.8,53.9461,Medium
-SC,1,785,3389,17,Republican,4955925,27,South Carolina,South,231.6,3.4302,Short
-SC,2,1334,17981,29,Republican,4955925,27,South Carolina,South,74.2,5.8516,Short
-SC,3,1136,10192,46,Republican,4955925,27,South Carolina,South,111.5,9.2818,Short
-SC,4,886,7405,27,Republican,4955925,27,South Carolina,South,119.6,5.448,Short
-SC,5,1174,10868,53,Republican,4955925,27,South Carolina,South,108,10.6943,Short
-SC,6,1144,15626,106,Republican,4955925,27,South Carolina,South,73.2,21.3885,Short
-SC,7,1170,25369,72,Republican,4955925,27,South Carolina,South,46.1,14.5281,Short
-SC,8,1129,41923,44,Republican,4955925,27,South Carolina,South,26.9,8.8783,Short
-SC,9,1360,37671,47,Republican,4955925,27,South Carolina,South,36.1,9.4836,Short
-SC,10,1999,46043,55,Republican,4955925,27,South Carolina,South,43.4,11.0978,Short
-SC,11,2813,29205,67,Republican,4955925,27,South Carolina,South,96.3,13.5192,Short
-SC,12,4762,19697,39,Republican,4955925,27,South Carolina,South,241.8,7.8694,Short
-SD,1,78,2897,0,Republican,864289,0,South Dakota,North Central,26.9,0,None
-SD,2,212,2551,5,Republican,864289,0,South Dakota,North Central,83.1,5.7851,None
-SD,3,668,3028,0,Republican,864289,0,South Dakota,North Central,220.6,0,None
-SD,4,767,3519,2,Republican,864289,0,South Dakota,North Central,218,2.314,None
-SD,5,558,3797,3,Republican,864289,0,South Dakota,North Central,147,3.4711,None
-SD,6,408,2410,13,Republican,864289,0,South Dakota,North Central,169.3,15.0413,None
-SD,7,942,6175,15,Republican,864289,0,South Dakota,North Central,152.6,17.3553,None
-SD,8,422,4512,7,Republican,864289,0,South Dakota,North Central,93.5,8.0991,None
-SD,9,568,7329,4,Republican,864289,0,South Dakota,North Central,77.5,4.6281,None
-SD,10,414,9808,12,Republican,864289,0,South Dakota,North Central,42.2,13.8842,None
-SD,11,456,12313,6,Republican,864289,0,South Dakota,North Central,37,6.9421,None
-SD,12,443,8043,9,Republican,864289,0,South Dakota,North Central,55.1,10.4132,None
-TN,1,1572,16176,21,Republican,6651089,30,Tennessee,South,97.2,3.1574,Short
-TN,2,1899,25514,49,Republican,6651089,30,Tennessee,South,74.4,7.3672,Short
-TN,3,1685,25957,52,Republican,6651089,30,Tennessee,South,64.9,7.8183,Short
-TN,4,1571,29351,33,Republican,6651089,30,Tennessee,South,53.5,4.9616,Short
-TN,5,2658,53746,31,Republican,6651089,30,Tennessee,South,49.5,4.6609,Short
-TN,6,3638,56934,38,Republican,6651089,30,Tennessee,South,63.9,5.7134,Short
-TN,7,2421,64962,39,Republican,6651089,30,Tennessee,South,37.3,5.8637,Short
-TN,8,2267,62299,40,Republican,6651089,30,Tennessee,South,36.4,6.0141,Short
-TN,9,2587,57381,38,Republican,6651089,30,Tennessee,South,45.1,5.7134,Short
-TN,10,3410,58632,38,Republican,6651089,30,Tennessee,South,58.2,5.7134,Short
-TN,11,3200,59061,54,Republican,6651089,30,Tennessee,South,54.2,8.119,Short
-TN,12,4255,117793,58,Republican,6651089,30,Tennessee,South,36.1,8.7204,Short
-TX,1,2856,31825,32,Republican,27885195,28,Texas,South,89.7,1.1476,Short
-TX,2,4996,45657,113,Republican,27885195,28,Texas,South,109.4,4.0523,Short
-TX,3,6362,57818,164,Republican,27885195,28,Texas,South,110,5.8813,Short
-TX,4,5572,58932,199,Republican,27885195,28,Texas,South,94.5,7.1364,Short
-TX,5,5975,94985,173,Republican,27885195,28,Texas,South,62.9,6.204,Short
-TX,6,7198,126826,216,Republican,27885195,28,Texas,South,56.8,7.746,Short
-TX,7,7679,110962,227,Republican,27885195,28,Texas,South,69.2,8.1405,Short
-TX,8,8864,161974,236,Republican,27885195,28,Texas,South,54.7,8.4633,Short
-TX,9,6648,121087,167,Republican,27885195,28,Texas,South,54.9,5.9888,Short
-TX,10,10008,164991,162,Republican,27885195,28,Texas,South,60.7,5.8095,Short
-TX,11,10685,161131,155,Republican,27885195,28,Texas,South,66.3,5.5585,Short
-TX,12,15953,201087,176,Republican,27885195,28,Texas,South,79.3,6.3116,Short
-UT,1,588,12690,4,Republican,3045350,0,Utah,West,46.3,1.3135,None
-UT,2,851,16134,8,Republican,3045350,0,Utah,West,52.7,2.627,None
-UT,3,674,11829,6,Republican,3045350,0,Utah,West,57,1.9702,None
-UT,4,884,25882,13,Republican,3045350,0,Utah,West,34.2,4.2688,None
-UT,5,1047,30081,13,Republican,3045350,0,Utah,West,34.8,4.2688,None
-UT,6,1106,24276,11,Republican,3045350,0,Utah,West,45.6,3.6121,None
-UT,7,983,26770,17,Republican,3045350,0,Utah,West,36.7,5.5823,None
-UT,8,1086,23826,15,Republican,3045350,0,Utah,West,45.6,4.9255,None
-UT,9,1102,21281,13,Republican,3045350,0,Utah,West,51.8,4.2688,None
-UT,10,1582,23199,12,Republican,3045350,0,Utah,West,68.2,3.9404,None
-UT,11,2357,25069,14,Republican,3045350,0,Utah,West,94,4.5972,None
-UT,12,2378,28840,18,Republican,3045350,0,Utah,West,82.5,5.9107,None
-VA,1,960,8931,20,Democratic,8413774,60,Virginia,South,107.5,2.3771,Medium
-VA,2,2083,15244,36,Democratic,8413774,60,Virginia,South,136.6,4.2787,Medium
-VA,3,2838,14118,91,Democratic,8413774,60,Virginia,South,201,10.8156,Medium
-VA,4,3459,15591,170,Democratic,8413774,60,Virginia,South,221.9,20.205,Medium
-VA,5,4709,24944,168,Democratic,8413774,60,Virginia,South,188.8,19.9673,Medium
-VA,6,5917,30410,221,Democratic,8413774,60,Virginia,South,194.6,26.2665,Medium
-VA,7,5544,41621,178,Democratic,8413774,60,Virginia,South,133.2,21.1558,Medium
-VA,8,6345,47460,150,Democratic,8413774,60,Virginia,South,133.7,17.8279,Medium
-VA,9,7197,64392,195,Democratic,8413774,60,Virginia,South,111.8,23.1763,Medium
-VA,10,6897,61708,171,Democratic,8413774,60,Virginia,South,111.8,20.3238,Medium
-VA,11,5499,61967,89,Democratic,8413774,60,Virginia,South,88.7,10.5779,Medium
-VA,12,3593,94582,74,Democratic,8413774,60,Virginia,South,38,8.7951,Medium
-VT,1,195,2575,6,Republican,624977,52,Vermont,Northeast,75.7,9.6004,Medium
-VT,2,288,2984,10,Republican,624977,52,Vermont,Northeast,96.5,16.0006,Medium
-VT,3,162,3008,6,Republican,624977,52,Vermont,Northeast,53.9,9.6004,Medium
-VT,4,58,2334,11,Republican,624977,52,Vermont,Northeast,24.9,17.6006,Medium
-VT,5,34,2214,7,Republican,624977,52,Vermont,Northeast,15.4,11.2004,Medium
-VT,6,47,2165,5,Republican,624977,52,Vermont,Northeast,21.7,8.0003,Medium
-VT,7,20,3062,1,Republican,624977,52,Vermont,Northeast,6.5,1.6001,Medium
-VT,8,15,5022,1,Republican,624977,52,Vermont,Northeast,3,1.6001,Medium
-VT,9,23,5365,0,Republican,624977,52,Vermont,Northeast,4.3,0,Medium
-VT,10,21,6196,1,Republican,624977,52,Vermont,Northeast,3.4,1.6001,Medium
-VT,11,96,7609,0,Republican,624977,52,Vermont,Northeast,12.6,0,Medium
-VT,12,47,8662,0,Republican,624977,52,Vermont,Northeast,5.4,0,Medium
-WA,1,2508,28128,116,Democratic,7294336,68,Washington,West,89.2,15.9027,Long
-WA,2,2116,29409,167,Democratic,7294336,68,Washington,West,72,22.8945,Long
-WA,3,1756,25445,113,Democratic,7294336,68,Washington,West,69,15.4915,Long
-WA,4,1830,25459,98,Democratic,7294336,68,Washington,West,71.9,13.4351,Long
-WA,5,1665,29524,125,Democratic,7294336,68,Washington,West,56.4,17.1366,Long
-WA,6,1672,28979,76,Democratic,7294336,68,Washington,West,57.7,10.419,Long
-WA,7,1482,28332,104,Democratic,7294336,68,Washington,West,52.3,14.2576,Long
-WA,8,1583,34033,57,Democratic,7294336,68,Washington,West,46.5,7.8143,Long
-WA,9,1649,29269,68,Democratic,7294336,68,Washington,West,56.3,9.3223,Long
-WA,10,1902,34614,54,Democratic,7294336,68,Washington,West,54.9,7.403,Long
-WA,11,1918,40358,37,Democratic,7294336,68,Washington,West,47.5,5.0724,Long
-WA,12,1921,63421,60,Democratic,7294336,68,Washington,West,30.3,8.2256,Long
-WI,1,894,10032,11,Democratic,5778394,49,Wisconsin,North Central,89.1,1.9036,Medium
-WI,2,1227,12364,76,Democratic,5778394,49,Wisconsin,North Central,99.2,13.1524,Medium
-WI,3,977,10462,78,Democratic,5778394,49,Wisconsin,North Central,93.4,13.4986,Medium
-WI,4,1065,10909,72,Democratic,5778394,49,Wisconsin,North Central,97.6,12.4602,Medium
-WI,5,1669,17363,58,Democratic,5778394,49,Wisconsin,North Central,96.1,10.0374,Medium
-WI,6,2277,22709,53,Democratic,5778394,49,Wisconsin,North Central,100.3,9.1721,Medium
-WI,7,2045,30826,65,Democratic,5778394,49,Wisconsin,North Central,66.3,11.2488,Medium
-WI,8,2274,37763,49,Democratic,5778394,49,Wisconsin,North Central,60.2,8.4799,Medium
-WI,9,2978,55615,50,Democratic,5778394,49,Wisconsin,North Central,53.5,8.6529,Medium
-WI,10,3054,65923,90,Democratic,5778394,49,Wisconsin,North Central,46.3,15.5753,Medium
-WI,11,2391,85858,54,Democratic,5778394,49,Wisconsin,North Central,27.8,9.3452,Medium
-WI,12,1890,69010,42,Democratic,5778394,49,Wisconsin,North Central,27.4,7.2685,Medium
-WV,1,142,3513,1,Republican,1829054,41,West Virginia,South,40.4,0.5467,Medium
-WV,2,250,7916,3,Republican,1829054,41,West Virginia,South,31.6,1.6402,Medium
-WV,3,228,4979,5,Republican,1829054,41,West Virginia,South,45.8,2.7337,Medium
-WV,4,274,5725,17,Republican,1829054,41,West Virginia,South,47.9,9.2944,Medium
-WV,5,165,20292,11,Republican,1829054,41,West Virginia,South,8.1,6.014,Medium
-WV,6,159,11768,13,Republican,1829054,41,West Virginia,South,13.5,7.1075,Medium
-WV,7,133,10246,7,Republican,1829054,41,West Virginia,South,13,3.8271,Medium
-WV,8,138,13232,11,Republican,1829054,41,West Virginia,South,10.4,6.014,Medium
-WV,9,345,9510,6,Republican,1829054,41,West Virginia,South,36.3,3.2804,Medium
-WV,10,187,12732,3,Republican,1829054,41,West Virginia,South,14.7,1.6402,Medium
-WV,11,128,13795,7,Republican,1829054,41,West Virginia,South,9.3,3.8271,Medium
-WV,12,172,22733,4,Republican,1829054,41,West Virginia,South,7.6,2.1869,Medium
-WY,1,80,1369,0,Republican,581836,0,Wyoming,West,58.4,0,None
-WY,2,107,1897,0,Republican,581836,0,Wyoming,West,56.4,0,None
-WY,3,59,1959,1,Republican,581836,0,Wyoming,West,30.1,1.7187,None
-WY,4,45,1657,5,Republican,581836,0,Wyoming,West,27.2,8.5935,None
-WY,5,69,994,1,Republican,581836,0,Wyoming,West,69.4,1.7187,None
-WY,6,207,2300,0,Republican,581836,0,Wyoming,West,90,0,None
-WY,7,79,4144,0,Republican,581836,0,Wyoming,West,19.1,0,None
-WY,8,91,2791,3,Republican,581836,0,Wyoming,West,32.6,5.1561,None
-WY,9,84,3652,3,Republican,581836,0,Wyoming,West,23,5.1561,None
-WY,10,60,4240,4,Republican,581836,0,Wyoming,West,14.2,6.8748,None
-WY,11,60,4594,0,Republican,581836,0,Wyoming,West,13.1,0,None
-WY,12,119,4077,1,Republican,581836,0,Wyoming,West,29.2,1.7187,None
+state,week,week_id,positiveIncrease,totalTestResultsIncrease,deathIncrease,hospitalizedCurrently,Party,population,lockdown_days,state_full,region,positive_rate,death_rate,hosp_rate,lockdown_class
+AK,2020-02-25,11,1,98,0,NA,Republican,738516,30,Alaska,West,1,0,NA,Short
+AK,2020-03-03,11,13,628,0,NA,Republican,738516,30,Alaska,West,2.1,0,NA,Short
+AK,2020-03-10,12,71,2149,2,NA,Republican,738516,30,Alaska,West,3.3,2.7081,NA,Short
+AK,2020-03-17,13,86,3119,3,NA,Republican,738516,30,Alaska,West,2.8,4.0622,NA,Short
+AK,2020-03-24,14,86,1692,3,NA,Republican,738516,30,Alaska,West,5.1,4.0622,NA,Short
+AK,2020-03-31,15,57,1923,1,39,Republican,738516,30,Alaska,West,3,1.3541,52.8086,Short
+AK,2020-04-07,16,25,6077,0,39.142857142857146,Republican,738516,30,Alaska,West,0.4,0,53.002,Short
+AK,2020-04-14,17,26,5667,0,15.428571428571429,Republican,738516,30,Alaska,West,0.5,0,20.8913,Short
+AK,2020-04-21,18,13,5050,1,11.571428571428571,Republican,738516,30,Alaska,West,0.3,1.3541,15.6685,Short
+AK,2020-04-28,19,14,6832,0,9.571428571428571,Republican,738516,30,Alaska,West,0.2,0,12.9604,Short
+AK,2020-05-05,20,16,9070,0,14,Republican,738516,30,Alaska,West,0.2,0,18.9569,Short
+AK,2020-05-12,21,26,9344,0,12,Republican,738516,30,Alaska,West,0.3,0,16.2488,Short
+AK,2020-05-19,22,102,12206,0,10.428571428571429,Republican,738516,30,Alaska,West,0.8,0,14.121,Short
+AK,2020-05-26,23,118,7902,2,13.285714285714286,Republican,738516,30,Alaska,West,1.5,2.7081,17.9897,Short
+AK,2020-06-02,24,89,15115,0,18.428571428571427,Republican,738516,30,Alaska,West,0.6,0,24.9535,Short
+AK,2020-06-09,25,18,3906,0,14,Republican,738516,30,Alaska,West,0.5,0,18.9569,Short
+AL,2020-02-25,11,6,18,0,NA,Republican,4864680,26,Alabama,South,33.3,0,NA,Short
+AL,2020-03-03,11,118,124,0,NA,Republican,4864680,26,Alabama,South,95.2,0,NA,Short
+AL,2020-03-10,12,572,4728,3,NA,Republican,4864680,26,Alabama,South,12.1,0.6167,NA,Short
+AL,2020-03-17,13,884,5973,40,NA,Republican,4864680,26,Alabama,South,14.8,8.2225,NA,Short
+AL,2020-03-24,14,1611,10396,48,NA,Republican,4864680,26,Alabama,South,15.5,9.867,NA,Short
+AL,2020-03-31,15,1464,21289,55,NA,Republican,4864680,26,Alabama,South,6.9,11.306,NA,Short
+AL,2020-04-07,16,1482,28806,66,NA,Republican,4864680,26,Alabama,South,5.1,13.5672,NA,Short
+AL,2020-04-14,17,1297,20865,76,NA,Republican,4864680,26,Alabama,South,6.2,15.6228,NA,Short
+AL,2020-04-21,18,2133,33285,100,NA,Republican,4864680,26,Alabama,South,6.4,20.5563,NA,Short
+AL,2020-04-28,19,1956,28000,97,NA,Republican,4864680,26,Alabama,South,7,19.9396,NA,Short
+AL,2020-05-05,20,2415,29182,61,NA,Republican,4864680,26,Alabama,South,8.3,12.5394,NA,Short
+AL,2020-05-12,21,3421,29525,72,NA,Republican,4864680,26,Alabama,South,11.6,14.8006,NA,Short
+AL,2020-05-19,22,2684,33443,71,NA,Republican,4864680,26,Alabama,South,8,14.595,NA,Short
+AL,2020-05-26,23,4558,47608,84,624,Republican,4864680,26,Alabama,South,9.6,17.2673,128.2715,Short
+AL,2020-06-02,24,4948,46271,65,629.4285714285714,Republican,4864680,26,Alabama,South,10.7,13.3616,129.3875,Short
+AL,2020-06-09,25,905,9587,3,625.5,Republican,4864680,26,Alabama,South,9.4,0.6167,128.5799,Short
+AR,2020-02-25,11,12,65,0,NA,Republican,2990671,0,Arkansas,South,18.5,0,NA,None
+AR,2020-03-03,11,106,608,0,NA,Republican,2990671,0,Arkansas,South,17.4,0,NA,None
+AR,2020-03-10,12,286,2657,5,29.571428571428573,Republican,2990671,0,Arkansas,South,10.8,1.6719,9.8879,None
+AR,2020-03-17,13,339,7028,9,62,Republican,2990671,0,Arkansas,South,4.8,3.0094,20.7311,None
+AR,2020-03-24,14,483,8208,10,76.57142857142857,Republican,2990671,0,Arkansas,South,5.9,3.3437,25.6034,None
+AR,2020-03-31,15,513,5563,14,80.85714285714286,Republican,2990671,0,Arkansas,South,9.2,4.6812,27.0365,None
+AR,2020-04-07,16,1090,13912,9,95.71428571428571,Republican,2990671,0,Arkansas,South,7.8,3.0094,32.0043,None
+AR,2020-04-14,17,543,13529,26,99.28571428571429,Republican,2990671,0,Arkansas,South,4,8.6937,33.1985,None
+AR,2020-04-21,18,375,13946,15,78.85714285714286,Republican,2990671,0,Arkansas,South,2.7,5.0156,26.3677,None
+AR,2020-04-28,19,831,16116,10,62.42857142857143,Republican,2990671,0,Arkansas,South,5.2,3.3437,20.8744,None
+AR,2020-05-05,20,1034,21403,15,77.57142857142857,Republican,2990671,0,Arkansas,South,4.8,5.0156,25.9378,None
+AR,2020-05-12,21,1401,23450,20,100.71428571428571,Republican,2990671,0,Arkansas,South,6,6.6875,33.6762,None
+AR,2020-05-19,22,2088,30260,21,131.71428571428572,Republican,2990671,0,Arkansas,South,6.9,7.0218,44.0417,None
+AR,2020-05-26,23,2446,30260,22,180.42857142857142,Republican,2990671,0,Arkansas,South,8.1,7.3562,60.3305,None
+AR,2020-06-02,24,3595,55217,48,216.42857142857142,Republican,2990671,0,Arkansas,South,6.5,16.0499,72.3679,None
+AR,2020-06-09,25,941,14105,3,238.5,Republican,2990671,0,Arkansas,South,6.7,1.0031,79.748,None
+AZ,2020-02-25,11,3,65,0,NA,Republican,6946685,45,Arizona,West,4.6,0,NA,Medium
+AZ,2020-03-03,11,92,211,1,NA,Republican,6946685,45,Arizona,West,43.6,0.144,NA,Medium
+AZ,2020-03-10,12,769,7984,14,NA,Republican,6946685,45,Arizona,West,9.6,2.0153,NA,Medium
+AZ,2020-03-17,13,1146,18832,37,NA,Republican,6946685,45,Arizona,West,6.1,5.3263,NA,Medium
+AZ,2020-03-24,14,1374,13370,56,NA,Republican,6946685,45,Arizona,West,10.3,8.0614,NA,Medium
+AZ,2020-03-31,15,1326,10515,69,567.5,Republican,6946685,45,Arizona,West,12.6,9.9328,81.6936,Medium
+AZ,2020-04-07,16,1561,11463,89,657.7142857142857,Republican,6946685,45,Arizona,West,13.6,12.8119,94.6803,Medium
+AZ,2020-04-14,17,2084,15489,82,713.2857142857143,Republican,6946685,45,Arizona,West,13.5,11.8042,102.68,Medium
+AZ,2020-04-21,18,2596,27813,184,736,Republican,6946685,45,Arizona,West,9.3,26.4875,105.9498,Medium
+AZ,2020-04-28,19,2671,40978,147,761.4285714285714,Republican,6946685,45,Arizona,West,6.5,21.1612,109.6103,Medium
+AZ,2020-05-05,20,2408,33651,120,801.4285714285714,Republican,6946685,45,Arizona,West,7.2,17.2744,115.3685,Medium
+AZ,2020-05-12,21,3216,36608,104,888.1428571428571,Republican,6946685,45,Arizona,West,8.8,14.9712,127.8513,Medium
+AZ,2020-05-19,22,6196,54599,139,1090.4285714285713,Republican,6946685,45,Arizona,West,11.3,20.0095,156.9711,Medium
+AZ,2020-05-26,23,9007,56751,141,1296.2857142857142,Republican,6946685,45,Arizona,West,15.9,20.2975,186.6049,Medium
+AZ,2020-06-02,24,15340,76883,155,1633,Republican,6946685,45,Arizona,West,20,22.3128,235.0762,Medium
+AZ,2020-06-09,25,4788,24510,4,1967,Republican,6946685,45,Arizona,West,19.5,0.5758,283.1566,Medium
+CA,2020-02-25,11,95,95,5,NA,Democratic,39148760,89,California,West,100,0.1277,NA,Long
+CA,2020-03-03,11,1027,11360,19,NA,Democratic,39148760,89,California,West,9,0.4853,NA,Long
+CA,2020-03-10,12,3364,12664,77,890,Democratic,39148760,89,California,West,26.6,1.9669,22.7338,Long
+CA,2020-03-17,13,7383,88508,175,1764,Democratic,39148760,89,California,West,8.3,4.4701,45.0589,Long
+CA,2020-03-24,14,8589,59519,333,3027.1428571428573,Democratic,39148760,89,California,West,14.4,8.506,77.3241,Long
+CA,2020-03-31,15,8348,86447,463,4776.285714285715,Democratic,39148760,89,California,West,9.7,11.8267,122.0035,Long
+CA,2020-04-07,16,12174,246369,579,4847.285714285715,Democratic,39148760,89,California,West,4.9,14.7897,123.8171,Long
+CA,2020-04-14,17,11060,180768,520,4887,Democratic,39148760,89,California,West,6.1,13.2827,124.8315,Long
+CA,2020-04-21,18,12364,225767,507,4609.285714285715,Democratic,39148760,89,California,West,5.5,12.9506,117.7377,Long
+CA,2020-04-28,19,12232,266556,526,4541.571428571428,Democratic,39148760,89,California,West,4.6,13.4359,116.0081,Long
+CA,2020-05-05,20,13838,336180,504,4509.285714285715,Democratic,39148760,89,California,West,4.1,12.874,115.1834,Long
+CA,2020-05-12,21,16247,373289,448,4387.428571428572,Democratic,39148760,89,California,West,4.4,11.4435,112.0707,Long
+CA,2020-05-19,22,19138,419705,403,4435.142857142857,Democratic,39148760,89,California,West,4.6,10.2941,113.2895,Long
+CA,2020-05-26,23,19627,416093,430,4536.857142857143,Democratic,39148760,89,California,West,4.7,10.9837,115.8876,Long
+CA,2020-06-02,24,23666,510019,435,4472.428571428572,Democratic,39148760,89,California,West,4.6,11.1115,114.2419,Long
+CA,2020-06-09,25,8745,177274,91,4741.5,Democratic,39148760,89,California,West,4.9,2.3245,121.1149,Long
+CO,2020-02-25,11,73,432,1,NA,Democratic,5531141,31,Colorado,West,16.9,0.1808,NA,Medium
+CO,2020-03-03,11,262,2969,3,NA,Democratic,5531141,31,Colorado,West,8.8,0.5424,NA,Medium
+CO,2020-03-10,12,1371,7996,27,173.28571428571428,Democratic,5531141,31,Colorado,West,17.1,4.8815,31.3291,Medium
+CO,2020-03-17,13,2439,10395,80,568.7142857142857,Democratic,5531141,31,Colorado,West,23.5,14.4636,102.8204,Medium
+CO,2020-03-24,14,2337,10582,139,817,Democratic,5531141,31,Colorado,West,22.1,25.1304,147.7091,Medium
+CO,2020-03-31,15,2537,10654,141,855.7142857142857,Democratic,5531141,31,Colorado,West,23.8,25.492,154.7085,Medium
+CO,2020-04-07,16,3209,13482,283,926.7142857142857,Democratic,5531141,31,Colorado,West,23.8,51.1649,167.5449,Medium
+CO,2020-04-14,17,3512,20160,146,981,Democratic,5531141,31,Colorado,West,17.4,26.396,177.3594,Medium
+CO,2020-04-21,18,3059,19823,140,828.7142857142857,Democratic,5531141,31,Colorado,West,15.4,25.3112,149.827,Medium
+CO,2020-04-28,19,2405,25068,190,690,Democratic,5531141,31,Colorado,West,9.6,34.351,124.7482,Medium
+CO,2020-05-05,20,2255,23112,174,622.2857142857143,Democratic,5531141,31,Colorado,West,9.8,31.4582,112.5058,Medium
+CO,2020-05-12,21,2126,30789,112,491.14285714285717,Democratic,5531141,31,Colorado,West,6.9,20.249,88.7959,Medium
+CO,2020-05-19,22,2002,32536,88,369.14285714285717,Democratic,5531141,31,Colorado,West,6.2,15.9099,66.739,Medium
+CO,2020-05-26,23,1207,28184,71,294.2857142857143,Democratic,5531141,31,Colorado,West,4.3,12.8364,53.2052,Medium
+CO,2020-06-02,24,1365,36608,48,270.57142857142856,Democratic,5531141,31,Colorado,West,3.7,8.6781,48.9178,Medium
+CO,2020-06-09,25,352,9703,4,255.5,Democratic,5531141,31,Colorado,West,3.6,0.7232,46.193,Medium
+CT,2020-02-25,11,8,62,0,NA,Democratic,3581504,58,Connecticut,Northeast,12.9,0,NA,Medium
+CT,2020-03-03,11,183,2164,4,NA,Democratic,3581504,58,Connecticut,Northeast,8.5,1.1168,NA,Medium
+CT,2020-03-10,12,1097,6100,23,107.42857142857143,Democratic,3581504,58,Connecticut,Northeast,18,6.4219,29.9954,Medium
+CT,2020-03-17,13,3985,13629,138,723.4285714285714,Democratic,3581504,58,Connecticut,Northeast,29.2,38.5313,201.9902,Medium
+CT,2020-03-24,14,6234,17802,329,1371.142857142857,Democratic,3581504,58,Connecticut,Northeast,35,91.8608,382.84,Medium
+CT,2020-03-31,15,5299,15631,542,1845.5714285714287,Democratic,3581504,58,Connecticut,Northeast,33.9,151.3331,515.3063,Medium
+CT,2020-04-07,16,7773,22140,826,1916,Democratic,3581504,58,Connecticut,Northeast,35.1,230.6294,534.9708,Medium
+CT,2020-04-14,17,4182,22655,477,1683,Democratic,3581504,58,Connecticut,Northeast,18.5,133.1843,469.9143,Medium
+CT,2020-04-21,18,4220,23312,593,1428.142857142857,Democratic,3581504,58,Connecticut,Northeast,18.1,165.5729,398.7551,Medium
+CT,2020-04-28,19,3719,41186,407,1133,Democratic,3581504,58,Connecticut,Northeast,9,113.6394,316.3475,Medium
+CT,2020-05-05,20,3319,43612,336,848.2857142857143,Democratic,3581504,58,Connecticut,Northeast,7.6,93.8153,236.8518,Medium
+CT,2020-05-12,21,2000,38568,237,649,Democratic,3581504,58,Connecticut,Northeast,5.2,66.1733,181.2088,Medium
+CT,2020-05-19,22,1796,48614,143,404.42857142857144,Democratic,3581504,58,Connecticut,Northeast,3.7,39.9274,112.9214,Medium
+CT,2020-05-26,23,1176,48705,131,277.57142857142856,Democratic,3581504,58,Connecticut,Northeast,2.4,36.5768,77.5014,Medium
+CT,2020-06-02,24,721,47401,65,184.71428571428572,Democratic,3581504,58,Connecticut,Northeast,1.5,18.1488,51.5745,Medium
+CT,2020-06-09,25,67,5897,12,144.5,Democratic,3581504,58,Connecticut,Northeast,1.1,3.3505,40.3462,Medium
+DE,2020-02-25,11,5,24,0,NA,Democratic,949495,68,Delaware,South,20.8,0,NA,Long
+DE,2020-03-03,11,39,39,0,NA,Democratic,949495,68,Delaware,South,100,0,NA,Long
+DE,2020-03-10,12,169,169,3,17.5,Democratic,949495,68,Delaware,South,100,3.1596,18.4309,Long
+DE,2020-03-17,13,379,6217,11,57.142857142857146,Democratic,949495,68,Delaware,South,6.1,11.5851,60.1824,Long
+DE,2020-03-24,14,886,4636,19,152.57142857142858,Democratic,949495,68,Delaware,South,19.1,20.0106,160.6869,Long
+DE,2020-03-31,15,844,2914,28,208.57142857142858,Democratic,949495,68,Delaware,South,29,29.4894,219.6656,Long
+DE,2020-04-07,16,1253,3681,51,272,Democratic,949495,68,Delaware,South,34,53.7128,286.4681,Long
+DE,2020-04-14,17,1462,5414,56,311.7142857142857,Democratic,949495,68,Delaware,South,27,58.9787,328.2948,Long
+DE,2020-04-21,18,1239,6184,53,287.14285714285717,Democratic,949495,68,Delaware,South,20,55.8191,302.4164,Long
+DE,2020-04-28,19,1270,10462,65,272.85714285714283,Democratic,949495,68,Delaware,South,12.1,68.4574,287.3708,Long
+DE,2020-05-05,20,1143,10776,38,225.14285714285714,Democratic,949495,68,Delaware,South,10.6,40.0213,237.1185,Long
+DE,2020-05-12,21,732,8795,37,194.57142857142858,Democratic,949495,68,Delaware,South,8.3,38.9681,204.921,Long
+DE,2020-05-19,22,423,8306,29,145.14285714285714,Democratic,949495,68,Delaware,South,5.1,30.5426,152.8632,Long
+DE,2020-05-26,23,384,12464,29,104.85714285714286,Democratic,949495,68,Delaware,South,3.1,30.5426,110.4346,Long
+DE,2020-06-02,24,452,12317,15,82.85714285714286,Democratic,949495,68,Delaware,South,3.7,15.7979,87.2644,Long
+DE,2020-06-09,25,139,4307,1,84,Democratic,949495,68,Delaware,South,3.2,1.0532,88.4681,Long
+FL,2020-02-25,11,49,226,1,NA,Republican,20598139,32,Florida,South,21.7,0.0485,NA,Medium
+FL,2020-03-03,11,581,6682,9,NA,Republican,20598139,32,Florida,South,8.7,0.4369,NA,Medium
+FL,2020-03-10,12,3105,31892,42,NA,Republican,20598139,32,Florida,South,9.7,2.039,NA,Medium
+FL,2020-03-17,13,7348,62938,137,NA,Republican,20598139,32,Florida,South,11.7,6.6511,NA,Medium
+FL,2020-03-24,14,7383,70866,247,NA,Republican,20598139,32,Florida,South,10.4,11.9914,NA,Medium
+FL,2020-03-31,15,6775,73594,316,NA,Republican,20598139,32,Florida,South,9.2,15.3412,NA,Medium
+FL,2020-04-07,16,5570,86572,321,NA,Republican,20598139,32,Florida,South,6.4,15.5839,NA,Medium
+FL,2020-04-14,17,4624,82913,313,NA,Republican,20598139,32,Florida,South,5.6,15.1955,NA,Medium
+FL,2020-04-21,18,4538,111719,397,NA,Republican,20598139,32,Florida,South,4.1,19.2736,NA,Medium
+FL,2020-04-28,19,4810,102316,255,472,Republican,20598139,32,Florida,South,4.7,12.3798,22.9147,Medium
+FL,2020-05-05,20,5316,226390,272,472,Republican,20598139,32,Florida,South,2.3,13.2051,22.9147,Medium
+FL,2020-05-12,21,5297,138531,218,NA,Republican,20598139,32,Florida,South,3.8,10.5835,NA,Medium
+FL,2020-05-19,22,7334,179217,243,NA,Republican,20598139,32,Florida,South,4.1,11.7972,NA,Medium
+FL,2020-05-26,23,10794,196228,243,NA,Republican,20598139,32,Florida,South,5.5,11.7972,NA,Medium
+FL,2020-06-02,24,20245,190859,221,NA,Republican,20598139,32,Florida,South,10.6,10.7291,NA,Medium
+FL,2020-06-09,25,6420,56215,29,NA,Republican,20598139,32,Florida,South,11.4,1.4079,NA,Medium
+GA,2020-02-25,11,44,44,1,NA,Republican,10297484,27,Georgia,South,100,0.0971,NA,Short
+GA,2020-03-03,11,441,2998,13,NA,Republican,10297484,27,Georgia,South,14.7,1.2624,NA,Short
+GA,2020-03-10,12,1859,7987,55,NA,Republican,10297484,27,Georgia,South,23.3,5.3411,NA,Short
+GA,2020-03-17,13,3794,15243,132,NA,Republican,10297484,27,Georgia,South,24.9,12.8187,NA,Short
+GA,2020-03-24,14,5999,25421,227,NA,Republican,10297484,27,Georgia,South,23.6,22.0442,NA,Short
+GA,2020-03-31,15,5510,22493,245,NA,Republican,10297484,27,Georgia,South,24.5,23.7922,NA,Short
+GA,2020-04-07,16,5026,44806,231,NA,Republican,10297484,27,Georgia,South,11.2,22.4327,NA,Short
+GA,2020-04-14,17,5611,55786,270,NA,Republican,10297484,27,Georgia,South,10.1,26.22,NA,Short
+GA,2020-04-21,18,4226,60524,226,NA,Republican,10297484,27,Georgia,South,7,21.9471,NA,Short
+GA,2020-04-28,19,4615,85745,192,1005,Republican,10297484,27,Georgia,South,5.4,18.6453,97.5967,Short
+GA,2020-05-05,20,4985,132468,219,953.7142857142857,Republican,10297484,27,Georgia,South,3.8,21.2673,92.6162,Short
+GA,2020-05-12,21,4154,1301,192,877.5714285714286,Republican,10297484,27,Georgia,South,319.3,18.6453,85.2219,Short
+GA,2020-05-19,22,5023,68019,171,817.4285714285714,Republican,10297484,27,Georgia,South,7.4,16.606,79.3814,Short
+GA,2020-05-26,23,5492,76823,272,820.1428571428571,Republican,10297484,27,Georgia,South,7.1,26.4142,79.645,Short
+GA,2020-06-02,24,7008,94704,196,893.1428571428571,Republican,10297484,27,Georgia,South,7.4,19.0338,86.7341,Short
+GA,2020-06-09,25,2119,13642,6,972,Republican,10297484,27,Georgia,South,15.5,0.5827,94.392,Short
+HI,2020-02-25,11,0,0,0,NA,Democratic,1422029,67,Hawaii,West,NaN,0,NA,Long
+HI,2020-03-03,11,35,159,0,NA,Democratic,1422029,67,Hawaii,West,22,0,NA,Long
+HI,2020-03-10,12,83,4316,0,NA,Democratic,1422029,67,Hawaii,West,1.9,0,NA,Long
+HI,2020-03-17,13,199,7801,3,NA,Democratic,1422029,67,Hawaii,West,2.6,2.1097,NA,Long
+HI,2020-03-24,14,146,5253,5,NA,Democratic,1422029,67,Hawaii,West,2.8,3.5161,NA,Long
+HI,2020-03-31,15,88,4812,1,NA,Democratic,1422029,67,Hawaii,West,1.8,0.7032,NA,Long
+HI,2020-04-07,16,48,5697,4,NA,Democratic,1422029,67,Hawaii,West,0.8,2.8129,NA,Long
+HI,2020-04-14,17,18,3945,3,NA,Democratic,1422029,67,Hawaii,West,0.5,2.1097,NA,Long
+HI,2020-04-21,18,10,4277,1,NA,Democratic,1422029,67,Hawaii,West,0.2,0.7032,NA,Long
+HI,2020-04-28,19,9,4621,0,NA,Democratic,1422029,67,Hawaii,West,0.2,0,NA,Long
+HI,2020-05-05,20,4,7938,0,NA,Democratic,1422029,67,Hawaii,West,0.1,0,NA,Long
+HI,2020-05-12,21,7,5193,0,NA,Democratic,1422029,67,Hawaii,West,0.1,0,NA,Long
+HI,2020-05-19,22,15,-757,0,NA,Democratic,1422029,67,Hawaii,West,0,0,NA,Long
+HI,2020-05-26,23,42,6081,0,NA,Democratic,1422029,67,Hawaii,West,0.7,0,NA,Long
+HI,2020-06-02,24,83,7396,0,NA,Democratic,1422029,67,Hawaii,West,1.1,0,NA,Long
+HI,2020-06-09,25,25,1977,0,NA,Democratic,1422029,67,Hawaii,West,1.3,0,NA,Long
+IA,2020-02-25,11,4,41,0,NA,Republican,3132499,0,Iowa,North Central,9.8,0,NA,None
+IA,2020-03-03,11,51,1017,0,NA,Republican,3132499,0,Iowa,North Central,5,0,NA,None
+IA,2020-03-10,12,230,3556,3,33,Republican,3132499,0,Iowa,North Central,6.5,0.9577,10.5347,None
+IA,2020-03-17,13,488,5567,11,66.42857142857143,Republican,3132499,0,Iowa,North Central,8.8,3.5116,21.2063,None
+IA,2020-03-24,14,724,6892,20,111.57142857142857,Republican,3132499,0,Iowa,North Central,10.5,6.3847,35.6174,None
+IA,2020-03-31,15,1003,5815,40,165.14285714285714,Republican,3132499,0,Iowa,North Central,17.2,12.7694,52.7192,None
+IA,2020-04-07,16,2579,11403,38,250.14285714285714,Republican,3132499,0,Iowa,North Central,22.6,12.1309,79.8541,None
+IA,2020-04-14,17,3549,11999,63,320.85714285714283,Republican,3132499,0,Iowa,North Central,29.6,20.1117,102.4285,None
+IA,2020-04-21,18,3030,25127,77,402,Republican,3132499,0,Iowa,North Central,12.1,24.581,128.332,None
+IA,2020-04-28,19,2657,24824,94,394.14285714285717,Republican,3132499,0,Iowa,North Central,10.7,30.008,125.8238,None
+IA,2020-05-05,20,2565,27641,98,374.57142857142856,Republican,3132499,0,Iowa,North Central,9.3,31.2849,119.5759,None
+IA,2020-05-12,21,2351,26482,87,377,Republican,3132499,0,Iowa,North Central,8.9,27.7734,120.3512,None
+IA,2020-05-19,22,2234,34291,67,318.42857142857144,Republican,3132499,0,Iowa,North Central,6.5,21.3887,101.6532,None
+IA,2020-05-26,23,2239,34894,52,243,Republican,3132499,0,Iowa,North Central,6.4,16.6002,77.5738,None
+IA,2020-06-02,24,1779,30599,31,192.57142857142858,Republican,3132499,0,Iowa,North Central,5.8,9.8963,61.4753,None
+IA,2020-06-09,25,555,8425,5,169.5,Republican,3132499,0,Iowa,North Central,6.6,1.5962,54.1102,None
+ID,2020-02-25,11,2,109,0,NA,Republican,1687809,36,Idaho,West,1.8,0,NA,Medium
+ID,2020-03-03,11,29,735,0,NA,Republican,1687809,36,Idaho,West,3.9,0,NA,Medium
+ID,2020-03-10,12,199,2661,4,NA,Republican,1687809,36,Idaho,West,7.5,2.3699,NA,Medium
+ID,2020-03-17,13,783,5298,6,NA,Republican,1687809,36,Idaho,West,14.8,3.5549,NA,Medium
+ID,2020-03-24,14,383,4894,15,NA,Republican,1687809,36,Idaho,West,7.8,8.8873,NA,Medium
+ID,2020-03-31,15,259,3183,18,NA,Republican,1687809,36,Idaho,West,8.1,10.6647,NA,Medium
+ID,2020-04-07,16,215,2534,11,NA,Republican,1687809,36,Idaho,West,8.5,6.5173,NA,Medium
+ID,2020-04-14,17,165,10009,9,NA,Republican,1687809,36,Idaho,West,1.6,5.3324,NA,Medium
+ID,2020-04-21,18,170,2316,4,NA,Republican,1687809,36,Idaho,West,7.3,2.3699,NA,Medium
+ID,2020-04-28,19,184,3882,6,NA,Republican,1687809,36,Idaho,West,4.7,3.5549,NA,Medium
+ID,2020-05-05,20,206,4921,6,NA,Republican,1687809,36,Idaho,West,4.2,3.5549,NA,Medium
+ID,2020-05-12,21,208,4815,3,NA,Republican,1687809,36,Idaho,West,4.3,1.7775,NA,Medium
+ID,2020-05-19,22,308,9815,1,NA,Republican,1687809,36,Idaho,West,3.1,0.5925,NA,Medium
+ID,2020-05-26,23,242,7419,4,NA,Republican,1687809,36,Idaho,West,3.3,2.3699,NA,Medium
+ID,2020-06-02,24,518,8538,2,NA,Republican,1687809,36,Idaho,West,6.1,1.185,NA,Medium
+ID,2020-06-09,25,135,1772,0,NA,Republican,1687809,36,Idaho,West,7.6,0,NA,Medium
+IL,2020-02-25,11,27,99,0,NA,Democratic,12821497,69,Illinois,North Central,27.3,0,NA,Long
+IL,2020-03-03,11,707,5879,6,NA,Democratic,12821497,69,Illinois,North Central,12,0.468,NA,Long
+IL,2020-03-10,12,2738,19250,41,NA,Democratic,12821497,69,Illinois,North Central,14.2,3.1978,NA,Long
+IL,2020-03-17,13,6866,28090,196,NA,Democratic,12821497,69,Illinois,North Central,24.4,15.2868,NA,Long
+IL,2020-03-24,14,8823,38568,434,3680,Democratic,12821497,69,Illinois,North Central,22.9,33.8494,287.018,Long
+IL,2020-03-31,15,9980,45255,582,4163.285714285715,Democratic,12821497,69,Illinois,North Central,22.1,45.3925,324.7114,Long
+IL,2020-04-07,16,12617,64213,615,4679.714285714285,Democratic,12821497,69,Illinois,North Central,19.6,47.9663,364.9897,Long
+IL,2020-04-14,17,16728,98279,685,4801.571428571428,Democratic,12821497,69,Illinois,North Central,17,53.4259,374.4938,Long
+IL,2020-04-21,18,17580,116435,790,4736.714285714285,Democratic,12821497,69,Illinois,North Central,15.1,61.6153,369.4354,Long
+IL,2020-04-28,19,16372,145318,780,4421,Democratic,12821497,69,Illinois,North Central,11.3,60.8353,344.8115,Long
+IL,2020-05-05,20,15339,160598,661,4002,Democratic,12821497,69,Illinois,North Central,9.6,51.554,312.132,Long
+IL,2020-05-12,21,11121,154858,540,3661,Democratic,12821497,69,Illinois,North Central,7.2,42.1168,285.5361,Long
+IL,2020-05-19,22,7973,144969,534,3082.714285714286,Democratic,12821497,69,Illinois,North Central,5.5,41.6488,240.4333,Long
+IL,2020-05-26,23,5842,147732,606,2395.4285714285716,Democratic,12821497,69,Illinois,North Central,4,47.2644,186.8291,Long
+IL,2020-06-02,24,4372,168162,359,1871.857142857143,Democratic,12821497,69,Illinois,North Central,2.6,27.9999,145.9936,Long
+IL,2020-06-09,25,1120,42035,46,1629.5,Democratic,12821497,69,Illinois,North Central,2.7,3.5877,127.0912,Long
+IN,2020-02-25,11,-712,-640,0,NA,Republican,6637426,38,Indiana,North Central,111.2,0,NA,Medium
+IN,2020-03-03,11,111,744,4,NA,Republican,6637426,38,Indiana,North Central,14.9,0.6026,NA,Medium
+IN,2020-03-10,12,1106,7574,27,NA,Republican,6637426,38,Indiana,North Central,14.6,4.0678,NA,Medium
+IN,2020-03-17,13,2721,11393,85,NA,Republican,6637426,38,Indiana,North Central,23.9,12.8062,NA,Medium
+IN,2020-03-24,14,3482,19415,214,NA,Republican,6637426,38,Indiana,North Central,17.9,32.2414,NA,Medium
+IN,2020-03-31,15,3206,17658,215,NA,Republican,6637426,38,Indiana,North Central,18.2,32.3921,NA,Medium
+IN,2020-04-07,16,3754,22901,240,1515,Republican,6637426,38,Indiana,North Central,16.4,36.1586,228.2511,Medium
+IN,2020-04-14,17,4900,24367,444,1470.5714285714287,Republican,6637426,38,Indiana,North Central,20.1,66.8934,221.5575,Medium
+IN,2020-04-21,18,4437,31545,261,1448.4285714285713,Republican,6637426,38,Indiana,North Central,14.1,39.3225,218.2214,Medium
+IN,2020-04-28,19,3548,35672,251,1320.2857142857142,Republican,6637426,38,Indiana,North Central,9.9,37.8159,198.9153,Medium
+IN,2020-05-05,20,3621,43575,202,1221.857142857143,Republican,6637426,38,Indiana,North Central,8.3,30.4335,184.086,Medium
+IN,2020-05-12,21,3310,41462,182,1121.857142857143,Republican,6637426,38,Indiana,North Central,8,27.4203,169.0199,Medium
+IN,2020-05-19,22,2786,41135,167,985.4285714285714,Republican,6637426,38,Indiana,North Central,6.8,25.1604,148.4655,Medium
+IN,2020-05-26,23,2546,43107,121,889.4285714285714,Republican,6637426,38,Indiana,North Central,5.9,18.23,134.002,Medium
+IN,2020-06-02,24,2518,61165,123,813.5714285714286,Republican,6637426,38,Indiana,North Central,4.1,18.5313,122.5733,Medium
+IN,2020-06-09,25,572,17114,17,750,Republican,6637426,38,Indiana,North Central,3.3,2.5612,112.9956,Medium
+KS,2020-02-25,11,5,57,1,NA,Democratic,2908776,34,Kansas,North Central,8.8,0.3438,NA,Medium
+KS,2020-03-03,11,49,373,1,NA,Democratic,2908776,34,Kansas,North Central,13.1,0.3438,NA,Medium
+KS,2020-03-10,12,206,3460,3,NA,Democratic,2908776,34,Kansas,North Central,6,1.0314,NA,Medium
+KS,2020-03-17,13,437,3646,16,NA,Democratic,2908776,34,Kansas,North Central,12,5.5006,NA,Medium
+KS,2020-03-24,14,570,4765,34,NA,Democratic,2908776,34,Kansas,North Central,12,11.6888,NA,Medium
+KS,2020-03-31,15,522,5333,31,NA,Democratic,2908776,34,Kansas,North Central,9.8,10.6574,NA,Medium
+KS,2020-04-07,16,1266,7523,31,NA,Democratic,2908776,34,Kansas,North Central,16.8,10.6574,NA,Medium
+KS,2020-04-14,17,1690,9743,14,NA,Democratic,2908776,34,Kansas,North Central,17.3,4.813,NA,Medium
+KS,2020-04-21,18,2005,14991,26,NA,Democratic,2908776,34,Kansas,North Central,13.4,8.9385,NA,Medium
+KS,2020-04-28,19,1135,11659,15,NA,Democratic,2908776,34,Kansas,North Central,9.7,5.1568,NA,Medium
+KS,2020-05-05,20,1072,14842,13,NA,Democratic,2908776,34,Kansas,North Central,7.2,4.4692,NA,Medium
+KS,2020-05-12,21,761,18515,23,NA,Democratic,2908776,34,Kansas,North Central,4.1,7.9071,NA,Medium
+KS,2020-05-19,22,674,18704,24,NA,Democratic,2908776,34,Kansas,North Central,3.6,8.2509,NA,Medium
+KS,2020-05-26,23,654,15499,11,NA,Democratic,2908776,34,Kansas,North Central,4.2,3.7817,NA,Medium
+KS,2020-06-02,24,1012,18497,11,NA,Democratic,2908776,34,Kansas,North Central,5.5,3.7817,NA,Medium
+KS,2020-06-09,25,406,7364,5,NA,Democratic,2908776,34,Kansas,North Central,5.5,1.7189,NA,Medium
+KY,2020-02-25,11,1720,1715,1,NA,Democratic,4440204,82,Kentucky,South,100.3,0.2252,NA,Long
+KY,2020-03-03,11,-1674,-1001,1,NA,Democratic,4440204,82,Kentucky,South,167.2,0.2252,NA,Long
+KY,2020-03-10,12,248,4355,6,NA,Democratic,4440204,82,Kentucky,South,5.7,1.3513,NA,Long
+KY,2020-03-17,13,529,10449,29,NA,Democratic,4440204,82,Kentucky,South,5.1,6.5312,NA,Long
+KY,2020-03-24,14,862,8716,53,271,Democratic,4440204,82,Kentucky,South,9.9,11.9364,61.0332,Long
+KY,2020-03-31,15,829,6308,47,344.7142857142857,Democratic,4440204,82,Kentucky,South,13.1,10.5851,77.6348,Long
+KY,2020-04-07,16,1257,14366,63,286.14285714285717,Democratic,4440204,82,Kentucky,South,8.7,14.1885,64.4436,Long
+KY,2020-04-14,17,1100,12687,48,318.7142857142857,Democratic,4440204,82,Kentucky,South,8.7,10.8103,71.7792,Long
+KY,2020-04-21,18,1409,28798,50,345.57142857142856,Democratic,4440204,82,Kentucky,South,4.9,11.2607,77.8278,Long
+KY,2020-04-28,19,1156,41287,34,384.7142857142857,Democratic,4440204,82,Kentucky,South,2.8,7.6573,86.6434,Long
+KY,2020-05-05,20,982,43725,59,439.7142857142857,Democratic,4440204,82,Kentucky,South,2.2,13.2877,99.0302,Long
+KY,2020-05-12,21,1038,36736,27,492.2857142857143,Democratic,4440204,82,Kentucky,South,2.8,6.0808,110.8701,Long
+KY,2020-05-19,22,1823,40867,52,489.14285714285717,Democratic,4440204,82,Kentucky,South,4.5,11.7112,110.1622,Long
+KY,2020-05-26,23,1158,45523,29,493.14285714285717,Democratic,4440204,82,Kentucky,South,2.5,6.5312,111.0631,Long
+KY,2020-06-02,24,1185,22576,25,385.2857142857143,Democratic,4440204,82,Kentucky,South,5.2,5.6304,86.7721,Long
+KY,2020-06-09,25,209,4871,2,351.5,Democratic,4440204,82,Kentucky,South,4.3,0.4504,79.163,Long
+LA,2020-02-25,11,45,117,0,NA,Democratic,4663616,53,Louisiana,South,38.5,0,NA,Medium
+LA,2020-03-03,11,529,2600,16,NA,Democratic,4663616,53,Louisiana,South,20.3,3.4308,NA,Medium
+LA,2020-03-10,12,2735,22401,121,627.6,Democratic,4663616,53,Louisiana,South,12.2,25.9455,134.5737,Medium
+LA,2020-03-17,13,9181,33337,272,1462.4285714285713,Democratic,4663616,53,Louisiana,South,27.5,58.3238,313.5825,Medium
+LA,2020-03-24,14,7518,38417,397,1985.4285714285713,Democratic,4663616,53,Louisiana,South,19.6,85.1271,425.7273,Medium
+LA,2020-03-31,15,3566,41084,461,1954.4285714285713,Democratic,4663616,53,Louisiana,South,8.7,98.8503,419.0801,Medium
+LA,2020-04-07,16,2932,1003,377,1744.4285714285713,Democratic,4663616,53,Louisiana,South,292.3,80.8386,374.0506,Medium
+LA,2020-04-14,17,2628,33856,306,1633.142857142857,Democratic,4663616,53,Louisiana,South,7.8,65.6143,350.1881,Medium
+LA,2020-04-21,18,2277,39299,317,1447.5714285714287,Democratic,4663616,53,Louisiana,South,5.8,67.973,310.3968,Medium
+LA,2020-04-28,19,2700,47585,212,1208.5714285714287,Democratic,4663616,53,Louisiana,South,5.7,45.4583,259.149,Medium
+LA,2020-05-05,20,2923,54705,189,938.8571428571429,Democratic,4663616,53,Louisiana,South,5.3,40.5265,201.3153,Medium
+LA,2020-05-12,21,2537,54372,117,776.8571428571429,Democratic,4663616,53,Louisiana,South,4.7,25.0878,166.5783,Medium
+LA,2020-05-19,22,2909,59250,140,627.7142857142857,Democratic,4663616,53,Louisiana,South,4.9,30.0196,134.5982,Medium
+LA,2020-05-26,23,3797,76314,79,559.7142857142857,Democratic,4663616,53,Louisiana,South,5,16.9396,120.0172,Medium
+LA,2020-06-02,24,3102,100433,100,573.8571428571429,Democratic,4663616,53,Louisiana,South,3.1,21.4426,123.0498,Medium
+LA,2020-06-09,25,854,13248,13,609.5,Democratic,4663616,53,Louisiana,South,6.4,2.7875,130.6926,Medium
+MA,2020-02-25,11,30,30,0,NA,Republican,6830193,55,Massachusetts,Northeast,100,0,NA,Medium
+MA,2020-03-03,11,388,5187,7,NA,Republican,6830193,55,Massachusetts,Northeast,7.5,1.0249,NA,Medium
+MA,2020-03-10,12,3732,29848,65,NA,Republican,6830193,55,Massachusetts,Northeast,12.5,9.5166,NA,Medium
+MA,2020-03-17,13,7479,33755,232,1370,Republican,6830193,55,Massachusetts,Northeast,22.2,33.9668,200.58,Medium
+MA,2020-03-24,14,11129,40053,642,2070.4285714285716,Republican,6830193,55,Massachusetts,Northeast,27.8,93.9944,303.1289,Medium
+MA,2020-03-31,15,14761,53250,1037,3494.5714285714284,Republican,6830193,55,Massachusetts,Northeast,27.7,151.8259,511.6358,Medium
+MA,2020-04-07,16,15821,64714,894,3872.1428571428573,Republican,6830193,55,Massachusetts,Northeast,24.4,130.8894,566.9156,Medium
+MA,2020-04-14,17,12915,72149,969,3803.1428571428573,Republican,6830193,55,Massachusetts,Northeast,17.9,141.8701,556.8134,Medium
+MA,2020-04-21,18,10480,77543,994,3468,Republican,6830193,55,Massachusetts,Northeast,13.5,145.5303,507.7455,Medium
+MA,2020-04-28,19,8190,71552,865,2968,Republican,6830193,55,Massachusetts,Northeast,11.4,126.6436,434.5412,Medium
+MA,2020-05-05,20,6729,72897,599,2439.4285714285716,Republican,6830193,55,Massachusetts,Northeast,9.2,87.6988,357.1537,Medium
+MA,2020-05-12,21,4639,61533,464,2074.5714285714284,Republican,6830193,55,Massachusetts,Northeast,7.5,67.9337,303.7354,Medium
+MA,2020-05-19,22,6831,62120,521,1658.7142857142858,Republican,6830193,55,Massachusetts,Northeast,11,76.279,242.8503,Medium
+MA,2020-05-26,23,2263,58957,287,1295.857142857143,Republican,6830193,55,Massachusetts,Northeast,3.8,42.0193,189.7248,Medium
+MA,2020-06-02,24,1541,61341,252,1004.8571428571429,Republican,6830193,55,Massachusetts,Northeast,2.5,36.895,147.1199,Medium
+MA,2020-06-09,25,274,15126,46,923.5,Republican,6830193,55,Massachusetts,Northeast,1.8,6.7348,135.2085,Medium
+MD,2020-02-25,11,17,17,0,NA,Republican,6003435,46,Maryland,South,100,0,NA,Medium
+MD,2020-03-03,11,164,164,3,NA,Republican,6003435,46,Maryland,South,100,0.4997,NA,Medium
+MD,2020-03-10,12,802,12224,14,NA,Republican,6003435,46,Maryland,South,6.6,2.332,NA,Medium
+MD,2020-03-17,13,2133,13102,84,NA,Republican,6003435,46,Maryland,South,16.3,13.992,NA,Medium
+MD,2020-03-24,14,4569,21628,197,NA,Republican,6003435,46,Maryland,South,21.1,32.8145,NA,Medium
+MD,2020-03-31,15,4614,18132,284,NA,Republican,6003435,46,Maryland,South,25.4,47.3063,NA,Medium
+MD,2020-04-07,16,5458,23753,366,1420.6,Republican,6003435,46,Maryland,South,23,60.9651,236.6312,Medium
+MD,2020-04-14,17,6707,36399,375,1592.857142857143,Republican,6003435,46,Maryland,South,18.4,62.4642,265.3243,Medium
+MD,2020-04-21,18,7061,30506,369,1672.2857142857142,Republican,6003435,46,Maryland,South,23.1,61.4648,278.5548,Medium
+MD,2020-04-28,19,6434,34147,348,1547.2857142857142,Republican,6003435,46,Maryland,South,18.8,57.9668,257.7334,Medium
+MD,2020-05-05,20,7527,42152,266,1394.4285714285713,Republican,6003435,46,Maryland,South,17.9,44.308,232.2718,Medium
+MD,2020-05-12,21,6520,61619,256,1298.7142857142858,Republican,6003435,46,Maryland,South,10.6,42.6423,216.3285,Medium
+MD,2020-05-19,22,5467,63430,178,1120.7142857142858,Republican,6003435,46,Maryland,South,8.6,29.6497,186.6788,Medium
+MD,2020-05-26,23,3823,51382,186,920.5714285714286,Republican,6003435,46,Maryland,South,7.4,30.9823,153.3408,Medium
+MD,2020-06-02,24,2651,53522,126,698.8571428571429,Republican,6003435,46,Maryland,South,5,20.988,116.4095,Medium
+MD,2020-06-09,25,647,12445,22,605,Republican,6003435,46,Maryland,South,5.2,3.6646,100.7756,Medium
+ME,2020-02-25,11,3,52,0,NA,Democratic,1332813,59,Maine,Northeast,5.8,0,NA,Medium
+ME,2020-03-03,11,70,2243,0,NA,Democratic,1332813,59,Maine,Northeast,3.1,0,NA,Medium
+ME,2020-03-10,12,138,1268,1,NA,Democratic,1332813,59,Maine,Northeast,10.9,0.7503,NA,Medium
+ME,2020-03-17,13,245,2939,9,NA,Democratic,1332813,59,Maine,Northeast,8.3,6.7526,NA,Medium
+ME,2020-03-24,14,160,160,9,NA,Democratic,1332813,59,Maine,Northeast,100,6.7526,NA,Medium
+ME,2020-03-31,15,231,8219,13,46.5,Democratic,1332813,59,Maine,Northeast,2.8,9.7538,34.8886,Medium
+ME,2020-04-07,16,143,2851,18,41,Democratic,1332813,59,Maine,Northeast,5,13.5053,30.762,Medium
+ME,2020-04-14,17,162,2924,6,35.857142857142854,Democratic,1332813,59,Maine,Northeast,5.5,4.5018,26.9034,Medium
+ME,2020-04-21,18,256,2802,8,38.42857142857143,Democratic,1332813,59,Maine,Northeast,9.1,6.0023,28.8327,Medium
+ME,2020-04-28,19,240,240,6,36.714285714285715,Democratic,1332813,59,Maine,Northeast,100,4.5018,27.5465,Medium
+ME,2020-05-05,20,365,13723,7,43.142857142857146,Democratic,1332813,59,Maine,Northeast,2.7,5.252,32.3698,Medium
+ME,2020-05-12,21,269,12103,12,56.285714285714285,Democratic,1332813,59,Maine,Northeast,2.2,9.0035,42.2308,Medium
+ME,2020-05-19,22,242,9357,9,42.57142857142857,Democratic,1332813,59,Maine,Northeast,2.6,6.7526,31.941,Medium
+ME,2020-05-26,23,233,9427,2,31,Democratic,1332813,59,Maine,Northeast,2.5,1.5006,23.2591,Medium
+ME,2020-06-02,24,181,11226,2,28.428571428571427,Democratic,1332813,59,Maine,Northeast,1.6,1.5006,21.3298,Medium
+ME,2020-06-09,25,33,1428,0,26.5,Democratic,1332813,59,Maine,Northeast,2.3,0,19.8828,Medium
+MI,2020-02-25,11,699,847,0,NA,Democratic,9957488,69,Michigan,North Central,82.5,0,NA,Long
+MI,2020-03-03,11,5827,9708,23,NA,Democratic,9957488,69,Michigan,North Central,60,2.3098,NA,Long
+MI,2020-03-10,12,7842,19658,260,NA,Democratic,9957488,69,Michigan,North Central,39.9,26.111,NA,Long
+MI,2020-03-17,13,8716,34019,747,NA,Democratic,9957488,69,Michigan,North Central,25.6,75.0189,NA,Long
+MI,2020-03-24,14,7399,28435,1051,3761.6666666666665,Democratic,9957488,69,Michigan,North Central,26,105.5487,377.7727,Long
+MI,2020-03-31,15,6049,30922,1026,3795.285714285714,Democratic,9957488,69,Michigan,North Central,19.6,103.038,381.1489,Long
+MI,2020-04-07,16,6234,48075,822,3280.1428571428573,Democratic,9957488,69,Michigan,North Central,13,82.5509,329.4147,Long
+MI,2020-04-14,17,5409,65167,650,2469,Democratic,9957488,69,Michigan,North Central,8.3,65.2775,247.9541,Long
+MI,2020-04-21,18,4060,74612,457,1811.2857142857142,Democratic,9957488,69,Michigan,North Central,5.4,45.8951,181.9019,Long
+MI,2020-04-28,19,5291,99182,321,1353,Democratic,9957488,69,Michigan,North Central,5.3,32.237,135.8776,Long
+MI,2020-05-05,20,3270,105670,255,1042.2857142857142,Democratic,9957488,69,Michigan,North Central,3.1,25.6089,104.6736,Long
+MI,2020-05-12,21,2028,100981,190,878.4285714285714,Democratic,9957488,69,Michigan,North Central,2,19.0811,88.2179,Long
+MI,2020-05-19,22,1593,98026,114,695.1428571428571,Democratic,9957488,69,Michigan,North Central,1.6,11.4487,69.8111,Long
+MI,2020-05-26,23,922,83627,97,682.8571428571429,Democratic,9957488,69,Michigan,North Central,1.1,9.7414,68.5772,Long
+MI,2020-06-02,24,1709,95151,74,570.4285714285714,Democratic,9957488,69,Michigan,North Central,1.8,7.4316,57.2864,Long
+MI,2020-06-09,25,412,23383,10,440.5,Democratic,9957488,69,Michigan,North Central,1.8,1.0043,44.2381,Long
+MN,2020-02-25,11,69,699,0,NA,Democratic,5527358,51,Minnesota,North Central,9.9,0,NA,Medium
+MN,2020-03-03,11,237,3342,1,NA,Democratic,5527358,51,Minnesota,North Central,7.1,0.1809,NA,Medium
+MN,2020-03-10,12,360,13803,4,30.25,Democratic,5527358,51,Minnesota,North Central,2.6,0.7237,5.4728,Medium
+MN,2020-03-17,13,471,9763,19,65.85714285714286,Democratic,5527358,51,Minnesota,North Central,4.8,3.4374,11.9148,Medium
+MN,2020-03-24,14,648,10859,40,129.85714285714286,Democratic,5527358,51,Minnesota,North Central,6,7.2367,23.4935,Medium
+MN,2020-03-31,15,982,9266,57,194.71428571428572,Democratic,5527358,51,Minnesota,North Central,10.6,10.3123,35.2274,Medium
+MN,2020-04-07,16,2339,14139,123,253.71428571428572,Democratic,5527358,51,Minnesota,North Central,16.5,22.2529,45.9015,Medium
+MN,2020-04-14,17,3944,27571,151,333.42857142857144,Democratic,5527358,51,Minnesota,North Central,14.3,27.3187,60.3233,Medium
+MN,2020-04-21,18,4250,29681,163,432.85714285714283,Democratic,5527358,51,Minnesota,North Central,14.3,29.4897,78.3118,Medium
+MN,2020-04-28,19,4384,45743,151,480.7142857142857,Democratic,5527358,51,Minnesota,North Central,9.6,27.3187,86.97,Medium
+MN,2020-05-05,20,5060,52602,152,534,Democratic,5527358,51,Minnesota,North Central,9.6,27.4996,96.6104,Medium
+MN,2020-05-12,21,3416,58867,175,587.5714285714286,Democratic,5527358,51,Minnesota,North Central,5.8,31.6607,106.3024,Medium
+MN,2020-05-19,22,2672,67024,145,520.1428571428571,Democratic,5527358,51,Minnesota,North Central,4,26.2331,94.1033,Medium
+MN,2020-05-26,23,1612,74113,133,426.85714285714283,Democratic,5527358,51,Minnesota,North Central,2.2,24.0621,77.2263,Medium
+MN,2020-06-02,24,2002,74333,90,348.2857142857143,Democratic,5527358,51,Minnesota,North Central,2.7,16.2826,63.0112,Medium
+MN,2020-06-09,25,760,21094,12,327,Democratic,5527358,51,Minnesota,North Central,3.6,2.171,59.1603,Medium
+MO,2020-02-25,11,3,93,0,NA,Republican,6090062,27,Missouri,North Central,3.2,0,NA,Short
+MO,2020-03-03,11,69,348,3,NA,Republican,6090062,27,Missouri,North Central,19.8,0.4926,NA,Short
+MO,2020-03-10,12,765,10478,7,NA,Republican,6090062,27,Missouri,North Central,7.3,1.1494,NA,Short
+MO,2020-03-17,13,1453,13985,14,413,Republican,6090062,27,Missouri,North Central,10.4,2.2988,67.8154,Short
+MO,2020-03-24,14,1733,18267,85,504.57142857142856,Republican,6090062,27,Missouri,North Central,9.5,13.9572,82.8516,Short
+MO,2020-03-31,15,1493,10587,66,1000.2857142857143,Republican,6090062,27,Missouri,North Central,14.1,10.8373,164.2489,Short
+MO,2020-04-07,16,1309,13459,98,908.7142857142857,Republican,6090062,27,Missouri,North Central,9.7,16.0918,149.2126,Short
+MO,2020-04-14,17,1328,15526,78,790.8571428571429,Republican,6090062,27,Missouri,North Central,8.6,12.8078,129.8603,Short
+MO,2020-04-21,18,1512,26154,121,886.2857142857143,Republican,6090062,27,Missouri,North Central,5.8,19.8684,145.5298,Short
+MO,2020-04-28,19,1009,30442,117,798.4285714285714,Republican,6090062,27,Missouri,North Central,3.3,19.2116,131.1035,Short
+MO,2020-05-05,20,1077,8964,87,680.2857142857143,Republican,6090062,27,Missouri,North Central,12,14.2856,111.7042,Short
+MO,2020-05-12,21,1210,37126,95,656,Republican,6090062,27,Missouri,North Central,3.3,15.5992,107.7165,Short
+MO,2020-05-19,22,1480,44635,38,658,Republican,6090062,27,Missouri,North Central,3.3,6.2397,108.0449,Short
+MO,2020-05-26,23,1368,39731,70,579.8571428571429,Republican,6090062,27,Missouri,North Central,3.4,11.4941,95.2137,Short
+MO,2020-06-02,24,1780,41319,76,551.1428571428571,Republican,6090062,27,Missouri,North Central,4.3,12.4793,90.4987,Short
+MO,2020-06-09,25,553,6259,6,415,Republican,6090062,27,Missouri,North Central,8.8,0.9852,68.1438,Short
+MS,2020-02-25,11,6,70,0,NA,Republican,2988762,24,Mississippi,South,8.6,0,NA,Short
+MS,2020-03-03,11,134,745,1,NA,Republican,2988762,24,Mississippi,South,18,0.3346,NA,Short
+MS,2020-03-10,12,523,2388,12,NA,Republican,2988762,24,Mississippi,South,21.9,4.015,NA,Short
+MS,2020-03-17,13,792,3365,22,NA,Republican,2988762,24,Mississippi,South,23.5,7.3609,NA,Short
+MS,2020-03-24,14,1187,14686,58,NA,Republican,2988762,24,Mississippi,South,8.1,19.406,NA,Short
+MS,2020-03-31,15,1332,17491,59,NA,Republican,2988762,24,Mississippi,South,7.6,19.7406,NA,Short
+MS,2020-04-07,16,1744,20192,69,592.3333333333334,Republican,2988762,24,Mississippi,South,8.6,23.0865,198.1869,Short
+MS,2020-04-14,17,1723,15518,70,638.8571428571429,Republican,2988762,24,Mississippi,South,11.1,23.4211,213.7531,Short
+MS,2020-04-21,18,1937,7004,130,637.8571428571429,Republican,2988762,24,Mississippi,South,27.7,43.4963,213.4185,Short
+MS,2020-04-28,19,1745,26997,89,594.7142857142857,Republican,2988762,24,Mississippi,South,6.5,29.7782,198.9835,Short
+MS,2020-05-05,20,1882,25744,106,601,Republican,2988762,24,Mississippi,South,7.3,35.4662,201.0866,Short
+MS,2020-05-12,21,2224,31712,107,565.2857142857143,Republican,2988762,24,Mississippi,South,7,35.8008,189.1371,Short
+MS,2020-05-19,22,1540,27191,80,597.2857142857143,Republican,2988762,24,Mississippi,South,5.7,26.7669,199.8439,Short
+MS,2020-05-26,23,2579,20762,86,640.7142857142857,Republican,2988762,24,Mississippi,South,12.4,28.7745,214.3745,Short
+MS,2020-06-02,24,1293,24830,49,636.8571428571429,Republican,2988762,24,Mississippi,South,5.2,16.3947,213.0839,Short
+MS,2020-06-09,25,1646,14534,40,699.5,Republican,2988762,24,Mississippi,South,11.3,13.3835,234.0434,Short
+MT,2020-02-25,11,5,87,0,NA,Democratic,1041732,29,Montana,West,5.7,0,NA,Short
+MT,2020-03-03,11,15,1058,0,NA,Democratic,1041732,29,Montana,West,1.4,0,NA,Short
+MT,2020-03-10,12,109,2219,1,NA,Democratic,1041732,29,Montana,West,4.9,0.9599,NA,Short
+MT,2020-03-17,13,136,2792,4,NA,Democratic,1041732,29,Montana,West,4.9,3.8398,NA,Short
+MT,2020-03-24,14,112,2404,1,21,Democratic,1041732,29,Montana,West,4.7,0.9599,20.1587,Short
+MT,2020-03-31,15,49,1988,4,21,Democratic,1041732,29,Montana,West,2.5,3.8398,20.1587,Short
+MT,2020-04-07,16,19,1928,4,14.285714285714286,Democratic,1041732,29,Montana,West,1,3.8398,13.7134,Short
+MT,2020-04-14,17,10,2138,2,7.428571428571429,Democratic,1041732,29,Montana,West,0.5,1.9199,7.131,Short
+MT,2020-04-21,18,3,6694,0,5.571428571428571,Democratic,1041732,29,Montana,West,0,0,5.3482,Short
+MT,2020-04-28,19,10,4762,0,3.4285714285714284,Democratic,1041732,29,Montana,West,0.2,0,3.2912,Short
+MT,2020-05-05,20,11,6561,0,3.4285714285714284,Democratic,1041732,29,Montana,West,0.2,0,3.2912,Short
+MT,2020-05-12,21,26,6632,1,2.142857142857143,Democratic,1041732,29,Montana,West,0.4,0.9599,2.057,Short
+MT,2020-05-19,22,35,7470,1,1.2857142857142858,Democratic,1041732,29,Montana,West,0.5,0.9599,1.2342,Short
+MT,2020-05-26,23,48,11250,0,5.285714285714286,Democratic,1041732,29,Montana,West,0.4,0,5.074,Short
+MT,2020-06-02,24,110,11526,2,7.571428571428571,Democratic,1041732,29,Montana,West,1,1.9199,7.2681,Short
+MT,2020-06-09,25,42,1775,1,15,Democratic,1041732,29,Montana,West,2.4,0.9599,14.3991,Short
+NC,2020-02-25,11,16,153,0,NA,Democratic,10155624,53,North Carolina,South,10.5,0,NA,Medium
+NC,2020-03-03,11,161,5116,0,NA,Democratic,10155624,53,North Carolina,South,3.1,0,NA,Medium
+NC,2020-03-10,12,751,12251,4,55.5,Democratic,10155624,53,North Carolina,South,6.1,0.3939,5.465,Medium
+NC,2020-03-17,13,1467,21246,20,175.42857142857142,Democratic,10155624,53,North Carolina,South,6.9,1.9694,17.274,Medium
+NC,2020-03-24,14,1910,21620,56,350.57142857142856,Democratic,10155624,53,North Carolina,South,8.8,5.5142,34.5199,Medium
+NC,2020-03-31,15,1828,15818,84,394.57142857142856,Democratic,10155624,53,North Carolina,South,11.6,8.2713,38.8525,Medium
+NC,2020-04-07,16,2483,29054,125,445.42857142857144,Democratic,10155624,53,North Carolina,South,8.5,12.3085,43.8603,Medium
+NC,2020-04-14,17,2886,34210,131,504.7142857142857,Democratic,10155624,53,North Carolina,South,8.4,12.8993,49.698,Medium
+NC,2020-04-21,18,2851,46887,124,510.85714285714283,Democratic,10155624,53,North Carolina,South,6.1,12.21,50.3029,Medium
+NC,2020-04-28,19,3622,52224,108,483.14285714285717,Democratic,10155624,53,North Carolina,South,6.9,10.6345,47.5739,Medium
+NC,2020-05-05,20,4743,90996,85,554,Democratic,10155624,53,North Carolina,South,5.2,8.3697,54.5511,Medium
+NC,2020-05-12,21,4948,74575,140,651.8571428571429,Democratic,10155624,53,North Carolina,South,6.6,13.7855,64.1868,Medium
+NC,2020-05-19,22,6952,93193,115,683.2857142857143,Democratic,10155624,53,North Carolina,South,7.5,11.3238,67.2815,Medium
+NC,2020-05-26,23,8051,114340,112,769.1428571428571,Democratic,10155624,53,North Carolina,South,7,11.0284,75.7357,Medium
+NC,2020-06-02,24,8713,119651,108,840.1428571428571,Democratic,10155624,53,North Carolina,South,7.3,10.6345,82.7269,Medium
+NC,2020-06-09,25,2216,26004,11,857.5,Democratic,10155624,53,North Carolina,South,8.5,1.0831,84.436,Medium
+ND,2020-02-25,11,1,48,0,NA,Republican,752201,0,North Dakota,North Central,2.1,0,NA,None
+ND,2020-03-03,11,27,1114,0,NA,Republican,752201,0,North Dakota,North Central,2.4,0,NA,None
+ND,2020-03-10,12,55,1723,1,NA,Republican,752201,0,North Dakota,North Central,3.2,1.3294,NA,None
+ND,2020-03-17,13,103,3315,2,NA,Republican,752201,0,North Dakota,North Central,3.1,2.6589,NA,None
+ND,2020-03-24,14,107,3873,4,15.714285714285714,Republican,752201,0,North Dakota,North Central,2.8,5.3177,20.8911,None
+ND,2020-03-31,15,235,2883,2,13.428571428571429,Republican,752201,0,North Dakota,North Central,8.2,2.6589,17.8524,None
+ND,2020-04-07,16,275,6387,7,17.714285714285715,Republican,752201,0,North Dakota,North Central,4.3,9.306,23.5499,None
+ND,2020-04-14,17,350,12197,8,26.142857142857142,Republican,752201,0,North Dakota,North Central,2.9,10.6355,34.7551,None
+ND,2020-04-21,18,311,12386,11,32.42857142857143,Republican,752201,0,North Dakota,North Central,2.5,14.6238,43.1116,None
+ND,2020-04-28,19,384,9554,7,34.857142857142854,Republican,752201,0,North Dakota,North Central,4,9.306,46.3402,None
+ND,2020-05-05,20,517,10661,10,35.57142857142857,Republican,752201,0,North Dakota,North Central,4.8,13.2943,47.2898,None
+ND,2020-05-12,21,189,6833,8,38,Republican,752201,0,North Dakota,North Central,2.8,10.6355,50.5184,None
+ND,2020-05-19,22,262,7899,15,32.857142857142854,Republican,752201,0,North Dakota,North Central,3.3,19.9415,43.6813,None
+ND,2020-05-26,23,242,6993,2,32,Republican,752201,0,North Dakota,North Central,3.5,2.6589,42.5418,None
+ND,2020-06-02,24,193,8358,5,28.142857142857142,Republican,752201,0,North Dakota,North Central,2.3,6.6472,37.414,None
+ND,2020-06-09,25,62,3222,1,31,Republican,752201,0,North Dakota,North Central,1.9,1.3294,41.2124,None
+NE,2020-02-25,11,9,42,0,NA,Republican,1904760,0,Nebraska,North Central,21.4,0,NA,None
+NE,2020-03-03,11,24,300,0,NA,Republican,1904760,0,Nebraska,North Central,8,0,NA,None
+NE,2020-03-10,12,58,1606,2,NA,Republican,1904760,0,Nebraska,North Central,3.6,1.05,NA,None
+NE,2020-03-17,13,225,3379,4,NA,Republican,1904760,0,Nebraska,North Central,6.7,2.1,NA,None
+NE,2020-03-24,14,379,4606,11,NA,Republican,1904760,0,Nebraska,North Central,8.2,5.775,NA,None
+NE,2020-03-31,15,438,3692,7,NA,Republican,1904760,0,Nebraska,North Central,11.9,3.675,NA,None
+NE,2020-04-07,16,1283,6296,26,NA,Republican,1904760,0,Nebraska,North Central,20.4,13.65,NA,None
+NE,2020-04-14,17,2417,9375,23,NA,Republican,1904760,0,Nebraska,North Central,25.8,12.075,NA,None
+NE,2020-04-21,18,2993,13628,19,NA,Republican,1904760,0,Nebraska,North Central,22,9.975,NA,None
+NE,2020-04-28,19,1941,17002,27,192,Republican,1904760,0,Nebraska,North Central,11.4,14.175,100.8001,None
+NE,2020-05-05,20,1890,20004,28,NA,Republican,1904760,0,Nebraska,North Central,9.4,14.7,NA,None
+NE,2020-05-12,21,1992,19026,23,NA,Republican,1904760,0,Nebraska,North Central,10.5,12.075,NA,None
+NE,2020-05-19,22,1725,18539,16,194,Republican,1904760,0,Nebraska,North Central,9.3,8.4,101.8501,None
+NE,2020-05-26,23,1134,16830,30,169.42857142857142,Republican,1904760,0,Nebraska,North Central,6.7,15.75,88.9501,None
+NE,2020-06-02,24,1078,17477,28,154,Republican,1904760,0,Nebraska,North Central,6.2,14.7,80.8501,None
+NE,2020-06-09,25,219,4654,0,140.5,Republican,1904760,0,Nebraska,North Central,4.7,0,73.7626,None
+NH,2020-02-25,11,3,177,0,NA,Republican,1343622,80,New Hampshire,Northeast,1.7,0,NA,Long
+NH,2020-03-03,11,48,809,0,NA,Republican,1343622,80,New Hampshire,Northeast,5.9,0,NA,Long
+NH,2020-03-10,12,132,2815,2,NA,Republican,1343622,80,New Hampshire,Northeast,4.7,1.4885,NA,Long
+NH,2020-03-17,13,353,3662,5,NA,Republican,1343622,80,New Hampshire,Northeast,9.6,3.7213,NA,Long
+NH,2020-03-24,14,345,2988,15,NA,Republican,1343622,80,New Hampshire,Northeast,11.5,11.1639,NA,Long
+NH,2020-03-31,15,402,2359,15,74.4,Republican,1343622,80,New Hampshire,Northeast,17,11.1639,55.3727,Long
+NH,2020-04-07,16,433,4875,16,86.85714285714286,Republican,1343622,80,New Hampshire,Northeast,8.9,11.9081,64.644,Long
+NH,2020-04-14,17,590,6622,28,103.28571428571429,Republican,1343622,80,New Hampshire,Northeast,8.9,20.8392,76.8711,Long
+NH,2020-04-21,18,637,7949,40,110,Republican,1343622,80,New Hampshire,Northeast,8,29.7703,81.8683,Long
+NH,2020-04-28,19,517,10378,38,115.57142857142857,Republican,1343622,80,New Hampshire,Northeast,5,28.2818,86.0148,Long
+NH,2020-05-05,20,625,16863,49,105.14285714285714,Republican,1343622,80,New Hampshire,Northeast,3.7,36.4686,78.2533,Long
+NH,2020-05-12,21,403,9421,30,98.14285714285714,Republican,1343622,80,New Hampshire,Northeast,4.3,22.3277,73.0435,Long
+NH,2020-05-19,22,527,15049,45,93.71428571428571,Republican,1343622,80,New Hampshire,Northeast,3.5,33.4916,69.7475,Long
+NH,2020-05-26,23,232,9947,32,79.71428571428571,Republican,1343622,80,New Hampshire,Northeast,2.3,23.8162,59.3279,Long
+NH,2020-06-02,24,235,11611,22,63.285714285714285,Republican,1343622,80,New Hampshire,Northeast,2,16.3737,47.1008,Long
+NH,2020-06-09,25,58,3295,2,55,Republican,1343622,80,New Hampshire,Northeast,1.8,1.4885,40.9341,Long
+NJ,2020-02-25,11,26,66,0,NA,Democratic,8881845,80,New Jersey,Northeast,39.4,0,NA,Long
+NJ,2020-03-03,11,1277,1474,15,NA,Democratic,8881845,80,New Jersey,Northeast,86.6,1.6888,NA,Long
+NJ,2020-03-10,12,9797,28889,124,1693.3333333333333,Democratic,8881845,80,New Jersey,Northeast,33.9,13.9611,190.6511,Long
+NJ,2020-03-17,13,23000,44846,706,2430.8571428571427,Democratic,8881845,80,New Jersey,Northeast,51.3,79.488,273.6883,Long
+NJ,2020-03-24,14,24027,44837,1337,6712,Democratic,8881845,80,New Jersey,Northeast,53.6,150.5318,755.6988,Long
+NJ,2020-03-31,15,23269,42343,1887,7970.428571428572,Democratic,8881845,80,New Jersey,Northeast,55,212.4559,897.3843,Long
+NJ,2020-04-07,16,24103,51150,1793,7156.142857142857,Democratic,8881845,80,New Jersey,Northeast,47.1,201.8725,805.7045,Long
+NJ,2020-04-14,17,18194,48626,1879,6223.857142857143,Democratic,8881845,80,New Jersey,Northeast,37.4,211.5551,700.7392,Long
+NJ,2020-04-21,18,13368,42894,1374,5054.571428571428,Democratic,8881845,80,New Jersey,Northeast,31.2,154.6976,569.0903,Long
+NJ,2020-04-28,19,8004,170018,1133,4057.4285714285716,Democratic,8881845,80,New Jersey,Northeast,4.7,127.5636,456.8227,Long
+NJ,2020-05-05,20,8015,103511,832,3291,Democratic,8881845,80,New Jersey,Northeast,7.7,93.6742,370.5311,Long
+NJ,2020-05-12,21,6504,166573,553,2746.5714285714284,Democratic,8881845,80,New Jersey,Northeast,3.9,62.2618,309.2343,Long
+NJ,2020-05-19,22,4285,174140,472,2204.4285714285716,Democratic,8881845,80,New Jersey,Northeast,2.5,53.1421,248.1949,Long
+NJ,2020-05-26,23,2712,158767,483,1635.142857142857,Democratic,8881845,80,New Jersey,Northeast,1.7,54.3806,184.0995,Long
+NJ,2020-06-02,24,2229,140658,268,1276.5714285714287,Democratic,8881845,80,New Jersey,Northeast,1.6,30.1739,143.7282,Long
+NJ,2020-06-09,25,581,48526,38,1069,Democratic,8881845,80,New Jersey,Northeast,1.2,4.2784,120.3579,Long
+NM,2020-02-25,11,7,157,0,NA,Democratic,2092434,98,New Mexico,West,4.5,0,NA,Long
+NM,2020-03-03,11,47,3581,0,NA,Democratic,2092434,98,New Mexico,West,1.3,0,NA,Long
+NM,2020-03-10,12,134,5559,1,17,Democratic,2092434,98,New Mexico,West,2.4,0.4779,8.1245,Long
+NM,2020-03-17,13,304,6245,9,27.142857142857142,Democratic,2092434,98,New Mexico,West,4.9,4.3012,12.9719,Long
+NM,2020-03-24,14,596,11466,9,55.42857142857143,Democratic,2092434,98,New Mexico,West,5.2,4.3012,26.49,Long
+NM,2020-03-31,15,620,8515,32,86.85714285714286,Democratic,2092434,98,New Mexico,West,7.3,15.2932,41.5101,Long
+NM,2020-04-07,16,810,15897,33,118,Democratic,2092434,98,New Mexico,West,5.1,15.7711,56.3937,Long
+NM,2020-04-14,17,992,19608,47,158,Democratic,2092434,98,New Mexico,West,5.1,22.4619,75.5101,Long
+NM,2020-04-21,18,1160,22144,50,183.14285714285714,Democratic,2092434,98,New Mexico,West,5.2,23.8956,87.5262,Long
+NM,2020-04-28,19,989,31196,72,204.28571428571428,Democratic,2092434,98,New Mexico,West,3.2,34.4097,97.6307,Long
+NM,2020-05-05,20,963,33925,49,207.57142857142858,Democratic,2092434,98,New Mexico,West,2.8,23.4177,99.2009,Long
+NM,2020-05-12,21,868,29878,42,206.71428571428572,Democratic,2092434,98,New Mexico,West,2.9,20.0723,98.7913,Long
+NM,2020-05-19,22,1179,36379,43,179.85714285714286,Democratic,2092434,98,New Mexico,West,3.2,20.5502,85.9559,Long
+NM,2020-05-26,23,854,30644,39,183.42857142857142,Democratic,2092434,98,New Mexico,West,2.8,18.6386,87.6628,Long
+NM,2020-06-02,24,734,29318,38,159.42857142857142,Democratic,2092434,98,New Mexico,West,2.5,18.1607,76.1929,Long
+NM,2020-06-09,25,305,8829,5,134,Democratic,2092434,98,New Mexico,West,3.5,2.3896,64.0403,Long
+NV,2020-02-25,11,15,15,0,NA,Democratic,2922849,44,Nevada,West,100,0,NA,Medium
+NV,2020-03-03,11,104,2320,2,NA,Democratic,2922849,44,Nevada,West,4.5,0.6843,NA,Medium
+NV,2020-03-10,12,497,6014,8,NA,Democratic,2922849,44,Nevada,West,8.3,2.7371,NA,Medium
+NV,2020-03-17,13,1121,7641,36,NA,Democratic,2922849,44,Nevada,West,14.7,12.3167,NA,Medium
+NV,2020-03-24,14,958,7424,56,282,Democratic,2922849,44,Nevada,West,12.9,19.1594,96.4812,Medium
+NV,2020-03-31,15,926,7164,49,282,Democratic,2922849,44,Nevada,West,12.9,16.7645,96.4812,Medium
+NV,2020-04-07,16,913,6457,53,NA,Democratic,2922849,44,Nevada,West,14.1,18.133,NA,Medium
+NV,2020-04-14,17,772,7179,50,NA,Democratic,2922849,44,Nevada,West,10.8,17.1066,NA,Medium
+NV,2020-04-21,18,717,11724,47,NA,Democratic,2922849,44,Nevada,West,6.1,16.0802,NA,Medium
+NV,2020-04-28,19,634,17553,44,476.14285714285717,Democratic,2922849,44,Nevada,West,3.6,15.0538,162.9037,Medium
+NV,2020-05-05,20,1034,33383,43,414.85714285714283,Democratic,2922849,44,Nevada,West,3.1,14.7117,141.9359,Medium
+NV,2020-05-12,21,799,31485,29,394.14285714285717,Democratic,2922849,44,Nevada,West,2.5,9.9218,134.8489,Medium
+NV,2020-05-19,22,965,33239,20,355.2857142857143,Democratic,2922849,44,Nevada,West,2.9,6.8426,121.5546,Medium
+NV,2020-05-26,23,1486,33109,26,344.57142857142856,Democratic,2922849,44,Nevada,West,4.5,8.8954,117.8889,Medium
+NV,2020-06-02,24,1985,34083,23,354.85714285714283,Democratic,2922849,44,Nevada,West,5.8,7.869,121.408,Medium
+NV,2020-06-09,25,604,5102,3,371.5,Democratic,2922849,44,Nevada,West,11.8,1.0264,127.102,Medium
+NY,2020-02-25,11,308,2995,0,NA,Democratic,19618453,99,New York,Northeast,10.3,0,NA,Long
+NY,2020-03-03,11,9832,42134,44,767.2,Democratic,19618453,99,New York,Northeast,23.3,2.2428,39.106,Long
+NY,2020-03-10,12,41962,110497,684,4461.428571428572,Democratic,19618453,99,New York,Northeast,38,34.8651,227.4098,Long
+NY,2020-03-17,13,61386,127687,2837,12181.857142857143,Democratic,19618453,99,New York,Northeast,48.1,144.6088,620.9387,Long
+NY,2020-03-24,14,66754,157359,5062,17770,Democratic,19618453,99,New York,Northeast,42.4,258.0224,905.7799,Long
+NY,2020-03-31,15,56274,155552,4735,18083.14285714286,Democratic,19618453,99,New York,Northeast,36.2,241.3544,921.7415,Long
+NY,2020-04-07,16,45411,181036,3237,15251.714285714286,Democratic,19618453,99,New York,Northeast,25.1,164.9977,777.4168,Long
+NY,2020-04-14,17,30834,181503,2310,11914.714285714286,Democratic,19618453,99,New York,Northeast,17,117.7463,607.3218,Long
+NY,2020-04-21,18,20145,194697,2362,8978.857142857143,Democratic,19618453,99,New York,Northeast,10.3,120.3969,457.6741,Long
+NY,2020-04-28,19,15110,224949,1207,6831,Democratic,19618453,99,New York,Northeast,6.7,61.5237,348.1926,Long
+NY,2020-05-05,20,11694,273344,804,5428.571428571428,Democratic,19618453,99,New York,Northeast,4.3,40.9818,276.7074,Long
+NY,2020-05-12,21,9734,353320,566,4089.1428571428573,Democratic,19618453,99,New York,Northeast,2.8,28.8504,208.4335,Long
+NY,2020-05-19,22,7656,432026,364,3006.5714285714284,Democratic,19618453,99,New York,Northeast,1.8,18.554,153.2522,Long
+NY,2020-05-26,23,5314,434833,315,2143.714285714286,Democratic,19618453,99,New York,Northeast,1.2,16.0563,109.2703,Long
+NY,2020-06-02,24,4642,455553,183,1449.142857142857,Democratic,19618453,99,New York,Northeast,1,9.328,73.8663,Long
+NY,2020-06-09,25,1216,124306,29,1132,Democratic,19618453,99,New York,Northeast,1,1.4782,57.7008,Long
+OH,2020-02-25,11,9,38,0,NA,Republican,11641879,57,Ohio,North Central,23.7,0,NA,Medium
+OH,2020-03-03,11,234,324,3,NA,Republican,11641879,57,Ohio,North Central,72.2,0.2577,NA,Medium
+OH,2020-03-10,12,1159,20031,22,NA,Republican,11641879,57,Ohio,North Central,5.8,1.8897,NA,Medium
+OH,2020-03-17,13,2333,21453,77,NA,Republican,11641879,57,Ohio,North Central,10.9,6.6141,NA,Medium
+OH,2020-03-24,14,2511,18600,145,NA,Republican,11641879,57,Ohio,North Central,13.5,12.455,NA,Medium
+OH,2020-03-31,15,3972,18570,204,NA,Republican,11641879,57,Ohio,North Central,21.4,17.5229,NA,Medium
+OH,2020-04-07,16,5365,32942,260,NA,Republican,11641879,57,Ohio,North Central,16.3,22.3332,NA,Medium
+OH,2020-04-14,17,3748,33836,310,1003,Republican,11641879,57,Ohio,North Central,11.1,26.628,86.1545,Medium
+OH,2020-04-21,18,4362,50851,310,1024.142857142857,Republican,11641879,57,Ohio,North Central,8.6,26.628,87.9706,Medium
+OH,2020-04-28,19,3777,50032,279,956,Republican,11641879,57,Ohio,North Central,7.5,23.9652,82.1173,Medium
+OH,2020-05-05,20,3934,69792,346,895.7142857142857,Republican,11641879,57,Ohio,North Central,5.6,29.7203,76.939,Medium
+OH,2020-05-12,21,3626,65453,193,858.4285714285714,Republican,11641879,57,Ohio,North Central,5.5,16.5781,73.7363,Medium
+OH,2020-05-19,22,3077,76579,221,704.7142857142857,Republican,11641879,57,Ohio,North Central,4,18.9832,60.5327,Medium
+OH,2020-05-26,23,2737,80372,184,583.8571428571429,Republican,11641879,57,Ohio,North Central,3.4,15.805,50.1515,Medium
+OH,2020-06-02,24,3414,91067,143,521,Republican,11641879,57,Ohio,North Central,3.7,12.2832,44.7522,Medium
+OH,2020-06-09,25,1275,29636,7,522.5,Republican,11641879,57,Ohio,North Central,4.3,0.6013,44.881100000000004,Medium
+OK,2020-02-25,11,2,23,0,NA,Republican,3918137,35,Oklahoma,South,8.7,0,NA,Medium
+OK,2020-03-03,11,49,573,1,NA,Republican,3918137,35,Oklahoma,South,8.6,0.2552,NA,Medium
+OK,2020-03-10,12,324,944,14,NA,Republican,3918137,35,Oklahoma,South,34.3,3.5731,NA,Medium
+OK,2020-03-17,13,782,964,27,175.66666666666666,Republican,3918137,35,Oklahoma,South,81.1,6.891,44.8342,Medium
+OK,2020-03-24,14,709,20137,52,215.33333333333334,Republican,3918137,35,Oklahoma,South,3.5,13.2716,54.9581,Medium
+OK,2020-03-31,15,702,12878,45,288.85714285714283,Republican,3918137,35,Oklahoma,South,5.5,11.4851,73.7231,Medium
+OK,2020-04-07,16,623,17548,55,308.2857142857143,Republican,3918137,35,Oklahoma,South,3.6,14.0373,78.6817,Medium
+OK,2020-04-14,17,658,10571,44,280.7142857142857,Republican,3918137,35,Oklahoma,South,6.2,11.2298,71.6448,Medium
+OK,2020-04-21,18,639,32214,32,223.71428571428572,Republican,3918137,35,Oklahoma,South,2,8.1671,57.0971,Medium
+OK,2020-04-28,19,747,27530,18,196.28571428571428,Republican,3918137,35,Oklahoma,South,2.7,4.594,50.0967,Medium
+OK,2020-05-05,20,723,37504,23,171,Republican,3918137,35,Oklahoma,South,1.9,5.8701,43.6432,Medium
+OK,2020-05-12,21,458,32215,23,166.5,Republican,3918137,35,Oklahoma,South,1.4,5.8701,42.4947,Medium
+OK,2020-05-19,22,585,28483,11,148.28571428571428,Republican,3918137,35,Oklahoma,South,2.1,2.8075,37.846,Medium
+OK,2020-05-26,23,1070,24838,14,153.57142857142858,Republican,3918137,35,Oklahoma,South,4.3,3.5731,39.195,Medium
+OK,2020-06-02,24,1964,35523,9,179.42857142857142,Republican,3918137,35,Oklahoma,South,5.5,2.297,45.7944,Medium
+OK,2020-06-09,25,696,696,1,197,Republican,3918137,35,Oklahoma,South,100,0.2552,50.279,Medium
+OR,2020-02-25,11,11,62,0,NA,Democratic,4081943,88,Oregon,West,17.7,0,NA,Long
+OR,2020-03-03,11,84,1750,3,NA,Democratic,4081943,88,Oregon,West,4.8,0.7349,NA,Long
+OR,2020-03-10,12,365,8055,10,99,Democratic,4081943,88,Oregon,West,4.5,2.4498,24.2532,Long
+OR,2020-03-17,13,520,7362,13,137.5,Democratic,4081943,88,Oregon,West,7.1,3.1848,33.6849,Long
+OR,2020-03-24,14,372,9690,22,147,Democratic,4081943,88,Oregon,West,3.8,5.3896,36.0123,Long
+OR,2020-03-31,15,473,10359,24,304.2857142857143,Democratic,4081943,88,Oregon,West,4.6,5.8796,74.5443,Long
+OR,2020-04-07,16,409,9794,15,287.85714285714283,Democratic,4081943,88,Oregon,West,4.2,3.6747,70.5196,Long
+OR,2020-04-14,17,382,12759,22,233.42857142857142,Democratic,4081943,88,Oregon,West,3,5.3896,57.1857,Long
+OR,2020-04-21,18,525,14484,18,184.42857142857142,Democratic,4081943,88,Oregon,West,3.6,4.4097,45.1816,Long
+OR,2020-04-28,19,452,17579,10,161.71428571428572,Democratic,4081943,88,Oregon,West,2.6,2.4498,39.617,Long
+OR,2020-05-05,20,276,18008,10,138.57142857142858,Democratic,4081943,88,Oregon,West,1.5,2.4498,33.9474,Long
+OR,2020-05-12,21,297,16588,6,138.85714285714286,Democratic,4081943,88,Oregon,West,1.8,1.4699,34.0174,Long
+OR,2020-05-19,22,477,19364,10,115,Democratic,4081943,88,Oregon,West,2.5,2.4498,28.1729,Long
+OR,2020-05-26,23,715,20030,10,133.57142857142858,Democratic,4081943,88,Oregon,West,3.6,2.4498,32.7225,Long
+OR,2020-06-02,24,1373,27906,16,144.85714285714286,Democratic,4081943,88,Oregon,West,4.9,3.9197,35.4873,Long
+OR,2020-06-09,25,333,12533,3,149.5,Democratic,4081943,88,Oregon,West,2.7,0.7349,36.6247,Long
+PA,2020-02-25,11,31,148,0,NA,Democratic,12791181,64,Pennsylvania,Northeast,20.9,0,NA,Long
+PA,2020-03-03,11,324,3885,2,NA,Democratic,12791181,64,Pennsylvania,Northeast,8.3,0.1564,NA,Long
+PA,2020-03-10,12,2380,23868,32,NA,Democratic,12791181,64,Pennsylvania,Northeast,10,2.5017,NA,Long
+PA,2020-03-17,13,7266,42025,102,NA,Democratic,12791181,64,Pennsylvania,Northeast,17.3,7.9742,NA,Long
+PA,2020-03-24,14,11638,50123,358,1960.2,Democratic,12791181,64,Pennsylvania,Northeast,23.2,27.988,153.2462,Long
+PA,2020-03-31,15,9414,33812,342,2397.1428571428573,Democratic,12791181,64,Pennsylvania,Northeast,27.8,26.7372,187.4059,Long
+PA,2020-04-07,16,8980,38970,701,2726.5714285714284,Democratic,12791181,64,Pennsylvania,Northeast,23,54.8034,213.1603,Long
+PA,2020-04-14,17,8256,42441,881,2737.285714285714,Democratic,12791181,64,Pennsylvania,Northeast,19.5,68.8756,213.9979,Long
+PA,2020-04-21,18,7011,41731,1270,2503.5714285714284,Democratic,12791181,64,Pennsylvania,Northeast,16.8,99.2872,195.7264,Long
+PA,2020-04-28,19,6295,50729,715,2056.4285714285716,Democratic,12791181,64,Pennsylvania,Northeast,12.4,55.8979,160.7692,Long
+PA,2020-05-05,20,5372,60616,693,1739.857142857143,Democratic,12791181,64,Pennsylvania,Northeast,8.9,54.178,136.0201,Long
+PA,2020-05-12,21,5048,59320,441,1488.5714285714287,Democratic,12791181,64,Pennsylvania,Northeast,8.5,34.4769,116.3748,Long
+PA,2020-05-19,22,3675,63056,394,1234.5714285714287,Democratic,12791181,64,Pennsylvania,Northeast,5.8,30.8025,96.5174,Long
+PA,2020-05-26,23,2756,64223,280,1013.1428571428571,Democratic,12791181,64,Pennsylvania,Northeast,4.3,21.8901,79.2064,Long
+PA,2020-06-02,24,2804,72676,208,782.4285714285714,Democratic,12791181,64,Pennsylvania,Northeast,3.9,16.2612,61.1694,Long
+PA,2020-06-09,25,920,20121,7,740,Democratic,12791181,64,Pennsylvania,Northeast,4.6,0.5473,57.8524,Long
+RI,2020-02-25,11,15,119,0,NA,Democratic,1056611,41,Rhode Island,Northeast,12.6,0,NA,Medium
+RI,2020-03-03,11,46,710,0,NA,Democratic,1056611,41,Rhode Island,Northeast,6.5,0,NA,Medium
+RI,2020-03-10,12,173,1852,0,23.75,Democratic,1056611,41,Rhode Island,Northeast,9.3,0,22.4775,Medium
+RI,2020-03-17,13,567,3610,17,62.42857142857143,Democratic,1056611,41,Rhode Island,Northeast,15.7,16.0892,59.0838,Medium
+RI,2020-03-24,14,1543,11817,39,141.42857142857142,Democratic,1056611,41,Rhode Island,Northeast,13.1,36.9105,133.8511,Medium
+RI,2020-03-31,15,2130,14607,94,232.85714285714286,Democratic,1056611,41,Rhode Island,Northeast,14.6,88.9637,220.3811,Medium
+RI,2020-04-07,16,2650,18077,65,294.85714285714283,Democratic,1056611,41,Rhode Island,Northeast,14.7,61.5174,279.0593,Medium
+RI,2020-04-14,17,2160,19037,81,297.57142857142856,Democratic,1056611,41,Rhode Island,Northeast,11.3,76.6602,281.6282,Medium
+RI,2020-04-21,18,1700,17887,122,320.2857142857143,Democratic,1056611,41,Rhode Island,Northeast,9.5,115.4635,303.1255,Medium
+RI,2020-04-28,19,1445,20665,71,274.42857142857144,Democratic,1056611,41,Rhode Island,Northeast,7,67.196,259.7253,Medium
+RI,2020-05-05,20,1518,21652,108,247,Democratic,1056611,41,Rhode Island,Northeast,7,102.2136,233.7663,Medium
+RI,2020-05-12,21,867,20185,114,226.28571428571428,Democratic,1056611,41,Rhode Island,Northeast,4.3,107.8921,214.1618,Medium
+RI,2020-05-19,22,622,20422,61,189.57142857142858,Democratic,1056611,41,Rhode Island,Northeast,3,57.7317,179.4146,Medium
+RI,2020-05-26,23,506,20779,61,149.71428571428572,Democratic,1056611,41,Rhode Island,Northeast,2.4,57.7317,141.6929,Medium
+RI,2020-06-02,24,390,23071,61,127.85714285714286,Democratic,1056611,41,Rhode Island,Northeast,1.7,57.7317,121.0068,Medium
+RI,2020-06-09,25,122,4079,9,114.5,Democratic,1056611,41,Rhode Island,Northeast,3,8.5178,108.3653,Medium
+SC,2020-02-25,11,4,82,0,NA,Republican,4955925,27,South Carolina,South,4.9,0,NA,Short
+SC,2020-03-03,11,139,1284,1,NA,Republican,4955925,27,South Carolina,South,10.8,0.2018,NA,Short
+SC,2020-03-10,12,387,1540,12,NA,Republican,4955925,27,South Carolina,South,25.1,2.4213,NA,Short
+SC,2020-03-17,13,1378,15367,27,NA,Republican,4955925,27,South Carolina,South,9,5.448,NA,Short
+SC,2020-03-24,14,1290,11779,40,NA,Republican,4955925,27,South Carolina,South,11,8.0711,NA,Short
+SC,2020-03-31,15,1039,8740,39,NA,Republican,4955925,27,South Carolina,South,11.9,7.8694,NA,Short
+SC,2020-04-07,16,1007,10181,47,NA,Republican,4955925,27,South Carolina,South,9.9,9.4836,NA,Short
+SC,2020-04-14,17,1236,12602,101,NA,Republican,4955925,27,South Carolina,South,9.8,20.3796,NA,Short
+SC,2020-04-21,18,1042,19347,63,NA,Republican,4955925,27,South Carolina,South,5.4,12.7121,NA,Short
+SC,2020-04-28,19,876,28653,50,NA,Republican,4955925,27,South Carolina,South,3.1,10.0889,NA,Short
+SC,2020-05-05,20,1488,49294,45,424.3333333333333,Republican,4955925,27,South Carolina,South,3,9.08,85.6214,Short
+SC,2020-05-12,21,1499,30609,62,411.7142857142857,Republican,4955925,27,South Carolina,South,4.9,12.5103,83.0752,Short
+SC,2020-05-19,22,2522,43225,58,438.42857142857144,Republican,4955925,27,South Carolina,South,5.8,11.7032,88.4655,Short
+SC,2020-05-26,23,4039,9162,54,509.57142857142856,Republican,4955925,27,South Carolina,South,44.1,10.896,102.8206,Short
+SC,2020-06-02,24,5831,54343,45,599.1428571428571,Republican,4955925,27,South Carolina,South,10.7,9.08,120.8943,Short
+SC,2020-06-09,25,1915,7631,15,711.5,Republican,4955925,27,South Carolina,South,25.1,3.0267,143.5655,Short
+SD,2020-02-25,11,4,173,0,NA,Republican,864289,0,South Dakota,North Central,2.3,0,NA,None
+SD,2020-03-03,11,5,514,1,NA,Republican,864289,0,South Dakota,North Central,1,1.157,NA,None
+SD,2020-03-10,12,54,1955,0,NA,Republican,864289,0,South Dakota,North Central,2.8,0,NA,None
+SD,2020-03-17,13,144,2564,1,NA,Republican,864289,0,South Dakota,North Central,5.6,1.157,NA,None
+SD,2020-03-24,14,414,2780,4,NA,Republican,864289,0,South Dakota,North Central,14.9,4.6281,NA,None
+SD,2020-03-31,15,916,3656,1,NA,Republican,864289,0,South Dakota,North Central,25.1,1.157,NA,None
+SD,2020-04-07,16,605,3936,3,61.4,Republican,864289,0,South Dakota,North Central,15.4,3.4711,71.0411,None
+SD,2020-04-14,17,441,2495,11,68.42857142857143,Republican,864289,0,South Dakota,North Central,17.7,12.7272,79.1733,None
+SD,2020-04-21,18,805,4861,13,73.14285714285714,Republican,864289,0,South Dakota,North Central,16.6,15.0413,84.6278,None
+SD,2020-04-28,19,566,5224,10,78.28571428571429,Republican,864289,0,South Dakota,North Central,10.8,11.5702,90.5782,None
+SD,2020-05-05,20,509,5352,6,82,Republican,864289,0,South Dakota,North Central,9.5,6.9421,94.8757,None
+SD,2020-05-12,21,492,9410,12,97.71428571428571,Republican,864289,0,South Dakota,North Central,5.2,13.8842,113.0574,None
+SD,2020-05-19,22,407,12520,3,87.28571428571429,Republican,864289,0,South Dakota,North Central,3.3,3.4711,100.9914,None
+SD,2020-05-26,23,466,9055,10,89.85714285714286,Republican,864289,0,South Dakota,North Central,5.1,11.5702,103.9665,None
+SD,2020-06-02,24,392,7402,6,91.71428571428571,Republican,864289,0,South Dakota,North Central,5.3,6.9421,106.1153,None
+SD,2020-06-09,25,101,1414,0,88.5,Republican,864289,0,South Dakota,North Central,7.1,0,102.3963,None
+TN,2020-02-25,11,25,105,0,NA,Republican,6651089,30,Tennessee,South,23.8,0,NA,Short
+TN,2020-03-03,11,339,3481,0,NA,Republican,6651089,30,Tennessee,South,9.7,0,NA,Short
+TN,2020-03-10,12,1002,14695,6,NA,Republican,6651089,30,Tennessee,South,6.8,0.9021,NA,Short
+TN,2020-03-17,13,1948,23053,37,NA,Republican,6651089,30,Tennessee,South,8.5,5.563,NA,Short
+TN,2020-03-24,14,1793,25437,58,NA,Republican,6651089,30,Tennessee,South,7,8.7204,NA,Short
+TN,2020-03-31,15,1648,23758,44,NA,Republican,6651089,30,Tennessee,South,6.9,6.6155,NA,Short
+TN,2020-04-07,16,2427,50820,33,NA,Republican,6651089,30,Tennessee,South,4.8,4.9616,NA,Short
+TN,2020-04-14,17,3472,54870,31,NA,Republican,6651089,30,Tennessee,South,6.3,4.6609,NA,Short
+TN,2020-04-21,18,2107,56472,33,NA,Republican,6651089,30,Tennessee,South,3.7,4.9616,NA,Short
+TN,2020-04-28,19,2520,67453,53,NA,Republican,6651089,30,Tennessee,South,3.7,7.9686,NA,Short
+TN,2020-05-05,20,2501,53557,34,NA,Republican,6651089,30,Tennessee,South,4.7,5.1119,NA,Short
+TN,2020-05-12,21,2777,53288,35,NA,Republican,6651089,30,Tennessee,South,5.2,5.2623,NA,Short
+TN,2020-05-19,22,3505,64375,53,NA,Republican,6651089,30,Tennessee,South,5.4,7.9686,NA,Short
+TN,2020-05-26,23,3470,109941,55,NA,Republican,6651089,30,Tennessee,South,3.2,8.2693,NA,Short
+TN,2020-06-02,24,4905,73978,52,413,Republican,6651089,30,Tennessee,South,6.6,7.8183,62.0951,Short
+TN,2020-06-09,25,1107,24765,7,408.5,Republican,6651089,30,Tennessee,South,4.5,1.0525,61.4185,Short
+TX,2020-02-25,11,30,30,0,NA,Republican,27885195,28,Texas,South,100,0,NA,Short
+TX,2020-03-03,11,253,6471,5,NA,Republican,27885195,28,Texas,South,3.9,0.1793,NA,Short
+TX,2020-03-10,12,1748,18738,22,NA,Republican,27885195,28,Texas,South,9.3,0.7889,NA,Short
+TX,2020-03-17,13,4058,38491,78,196,Republican,27885195,28,Texas,South,10.5,2.7972,7.0288,Short
+TX,2020-03-24,14,6451,56782,149,1315.4285714285713,Republican,27885195,28,Texas,South,11.4,5.3433,47.173,Short
+TX,2020-03-31,15,5699,55706,199,1394.7142857142858,Republican,27885195,28,Texas,South,10.2,7.1364,50.0163,Short
+TX,2020-04-07,16,5513,86577,170,1557,Republican,27885195,28,Texas,South,6.4,6.0964,55.8361,Short
+TX,2020-04-14,17,6749,117832,224,1668.2857142857142,Republican,27885195,28,Texas,South,5.7,8.0329,59.8269,Short
+TX,2020-04-21,18,7338,108646,202,1713.142857142857,Republican,27885195,28,Texas,South,6.8,7.244,61.4356,Short
+TX,2020-04-28,19,9139,149445,256,1672.4285714285713,Republican,27885195,28,Texas,South,6.1,9.1805,59.9755,Short
+TX,2020-05-05,20,7510,123967,201,1647.4285714285713,Republican,27885195,28,Texas,South,6.1,7.2081,59.079,Short
+TX,2020-05-12,21,7829,165811,120,1629.5714285714287,Republican,27885195,28,Texas,South,4.7,4.3034,58.4386,Short
+TX,2020-05-19,22,11215,164760,193,1739,Republican,27885195,28,Texas,South,6.8,6.9212,62.3628,Short
+TX,2020-05-26,23,12458,167042,138,2062.5714285714284,Republican,27885195,28,Texas,South,7.5,4.9489,73.9665,Short
+TX,2020-06-02,24,21724,203079,208,2752.285714285714,Republican,27885195,28,Texas,South,10.7,7.4592,98.7006,Short
+TX,2020-06-09,25,7146,85611,27,3560,Republican,27885195,28,Texas,South,8.3,0.9683,127.6663,Short
+UT,2020-02-25,11,4,135,0,NA,Republican,3045350,0,Utah,West,3,0,NA,None
+UT,2020-03-03,11,130,2423,0,NA,Republican,3045350,0,Utah,West,5.4,0,NA,None
+UT,2020-03-10,12,466,8752,2,NA,Republican,3045350,0,Utah,West,5.3,0.6567,NA,None
+UT,2020-03-17,13,826,16731,6,NA,Republican,3045350,0,Utah,West,4.9,1.9702,NA,None
+UT,2020-03-24,14,778,14503,10,NA,Republican,3045350,0,Utah,West,5.4,3.2837,NA,None
+UT,2020-03-31,15,725,17398,7,NA,Republican,3045350,0,Utah,West,4.2,2.2986,NA,None
+UT,2020-04-07,16,1017,30262,16,NA,Republican,3045350,0,Utah,West,3.4,5.2539,NA,None
+UT,2020-04-14,17,1033,27598,8,NA,Republican,3045350,0,Utah,West,3.7,2.627,NA,None
+UT,2020-04-21,18,1122,25490,17,194,Republican,3045350,0,Utah,West,4.4,5.5823,63.7037,None
+UT,2020-04-28,19,965,23480,12,157,Republican,3045350,0,Utah,West,4.1,3.9404,51.554,None
+UT,2020-05-05,20,1192,24005,19,156.71428571428572,Republican,3045350,0,Utah,West,5,6.239,51.4602,None
+UT,2020-05-12,21,1273,19326,15,137.57142857142858,Republican,3045350,0,Utah,West,6.6,4.9255,45.1743,None
+UT,2020-05-19,22,2265,25044,9,147,Republican,3045350,0,Utah,West,9,2.9553,48.2703,None
+UT,2020-05-26,23,2183,27633,18,209,Republican,3045350,0,Utah,West,7.9,5.9107,68.6292,None
+UT,2020-06-02,24,3087,30095,16,236.28571428571428,Republican,3045350,0,Utah,West,10.3,5.2539,77.589,None
+UT,2020-06-09,25,838,6435,3,210,Republican,3045350,0,Utah,West,13,0.9851,68.9576,None
+VA,2020-02-25,11,21,78,0,NA,Democratic,8413774,60,Virginia,South,26.9,0,NA,Medium
+VA,2020-03-03,11,122,2643,2,NA,Democratic,8413774,60,Virginia,South,4.6,0.2377,NA,Medium
+VA,2020-03-10,12,587,6376,15,NA,Democratic,8413774,60,Virginia,South,9.2,1.7828,NA,Medium
+VA,2020-03-17,13,1668,12386,35,246,Democratic,8413774,60,Virginia,South,13.5,4.1598,29.2378,Medium
+VA,2020-03-24,14,2670,16447,78,1053,Democratic,8413774,60,Virginia,South,16.2,9.2705,125.1519,Medium
+VA,2020-03-31,15,2976,13932,128,1217.2857142857142,Democratic,8413774,60,Virginia,South,21.4,15.2131,144.6777,Medium
+VA,2020-04-07,16,4313,20711,178,1357.5714285714287,Democratic,8413774,60,Virginia,South,20.8,21.1558,161.3511,Medium
+VA,2020-04-14,17,5365,29454,180,1481.7142857142858,Democratic,8413774,60,Virginia,South,18.2,21.3935,176.1058,Medium
+VA,2020-04-21,18,5465,35053,211,1528.4285714285713,Democratic,8413774,60,Virginia,South,15.6,25.0779,181.6579,Medium
+VA,2020-04-28,19,6487,48419,175,1523.2857142857142,Democratic,8413774,60,Virginia,South,13.4,20.7992,181.0467,Medium
+VA,2020-05-05,20,6066,46902,157,1484.7142857142858,Democratic,8413774,60,Virginia,South,12.9,18.6599,176.4623,Medium
+VA,2020-05-12,21,7862,73042,211,1440.857142857143,Democratic,8413774,60,Virginia,South,10.8,25.0779,171.2498,Medium
+VA,2020-05-19,22,5786,65619,90,1306.2857142857142,Democratic,8413774,60,Virginia,South,8.8,10.6967,155.2556,Medium
+VA,2020-05-26,23,4472,88862,81,1105.2857142857142,Democratic,8413774,60,Virginia,South,5,9.6271,131.3662,Medium
+VA,2020-06-02,24,3574,71411,66,900.1428571428571,Democratic,8413774,60,Virginia,South,5,7.8443,106.9844,Medium
+VA,2020-06-09,25,1022,26719,13,855.5,Democratic,8413774,60,Virginia,South,3.8,1.5451,101.6785,Medium
+VT,2020-02-18,10,1,26,0,NA,Republican,624977,52,Vermont,Northeast,3.8,0,NA,Medium
+VT,2020-02-25,10,7,314,0,NA,Republican,624977,52,Vermont,Northeast,2.2,0,NA,Medium
+VT,2020-03-03,11,44,792,2,NA,Republican,624977,52,Vermont,Northeast,5.6,3.2001,NA,Medium
+VT,2020-03-10,12,182,2294,10,NA,Republican,624977,52,Vermont,Northeast,7.9,16.0006,NA,Medium
+VT,2020-03-17,13,278,2328,8,27.6,Republican,624977,52,Vermont,Northeast,11.9,12.8005,44.1616,Medium
+VT,2020-03-24,14,221,3042,5,37.57142857142857,Republican,624977,52,Vermont,Northeast,7.3,8.0003,60.1165,Medium
+VT,2020-03-31,15,80,3229,13,48.57142857142857,Republican,624977,52,Vermont,Northeast,2.5,20.8008,77.7171,Medium
+VT,2020-04-07,16,39,2097,8,41.857142857142854,Republican,624977,52,Vermont,Northeast,1.9,12.8005,66.9739,Medium
+VT,2020-04-14,17,44,2006,5,25,Republican,624977,52,Vermont,Northeast,2.2,8.0003,40.0015,Medium
+VT,2020-04-21,18,30,2488,2,20.428571428571427,Republican,624977,52,Vermont,Northeast,1.2,3.2001,32.6869,Medium
+VT,2020-04-28,19,14,4521,0,17.857142857142858,Republican,624977,52,Vermont,Northeast,0.3,0,28.5725,Medium
+VT,2020-05-05,20,14,4287,1,18,Republican,624977,52,Vermont,Northeast,0.3,1.6001,28.8011,Medium
+VT,2020-05-12,21,23,5243,1,19.714285714285715,Republican,624977,52,Vermont,Northeast,0.4,1.6001,31.544,Medium
+VT,2020-05-19,22,69,7416,0,13.857142857142858,Republican,624977,52,Vermont,Northeast,0.9,0,22.1722,Medium
+VT,2020-05-26,23,79,9850,0,13.285714285714286,Republican,624977,52,Vermont,Northeast,0.8,0,21.2579,Medium
+VT,2020-06-02,24,22,7095,1,12.428571428571429,Republican,624977,52,Vermont,Northeast,0.3,1.6001,19.8864,Medium
+VT,2020-06-09,25,16,1579,0,9.5,Republican,624977,52,Vermont,Northeast,1,0,15.2006,Medium
+WA,2020-02-11,9,24,41,1,NA,Democratic,7294336,68,Washington,West,58.5,0.1371,NA,Long
+WA,2020-02-18,9,613,1966,22,NA,Democratic,7294336,68,Washington,West,31.2,3.016,NA,Long
+WA,2020-02-25,10,1572,15925,24,NA,Democratic,7294336,68,Washington,West,9.9,3.2902,NA,Long
+WA,2020-03-03,11,2353,26915,60,NA,Democratic,7294336,68,Washington,West,8.7,8.2256,NA,Long
+WA,2020-03-10,12,2560,28857,109,NA,Democratic,7294336,68,Washington,West,8.9,14.9431,NA,Long
+WA,2020-03-17,13,2335,28781,145,574,Democratic,7294336,68,Washington,West,8.1,19.8784,78.6912,Long
+WA,2020-03-24,14,1873,27802,129,636.5714285714286,Democratic,7294336,68,Washington,West,6.7,17.685,87.2693,Long
+WA,2020-03-31,15,1802,25152,104,562.2857142857143,Democratic,7294336,68,Washington,West,7.2,14.2576,77.0853,Long
+WA,2020-04-07,16,1703,27549,67,512.1428571428571,Democratic,7294336,68,Washington,West,6.2,9.1852,70.211,Long
+WA,2020-04-14,17,1692,29158,159,477.42857142857144,Democratic,7294336,68,Washington,West,5.8,21.7977,65.452,Long
+WA,2020-04-21,18,1473,29215,81,357.14285714285717,Democratic,7294336,68,Washington,West,5,11.1045,48.9617,Long
+WA,2020-04-28,19,1563,29165,87,351.42857142857144,Democratic,7294336,68,Washington,West,5.4,11.9271,48.1783,Long
+WA,2020-05-05,20,1654,33597,58,225.42857142857142,Democratic,7294336,68,Washington,West,4.9,7.9514,30.9046,Long
+WA,2020-05-12,21,1783,31385,61,284.14285714285717,Democratic,7294336,68,Washington,West,5.7,8.3627,38.9539,Long
+WA,2020-05-19,22,1952,34874,38,258.57142857142856,Democratic,7294336,68,Washington,West,5.6,5.2095,35.4482,Long
+WA,2020-05-26,23,1758,58477,55,219.71428571428572,Democratic,7294336,68,Washington,West,3,7.5401,30.1212,Long
+WA,2020-06-02,24,1695,46017,51,243,Democratic,7294336,68,Washington,West,3.7,6.9917,33.3135,Long
+WA,2020-06-09,25,0,-213,15,236,Democratic,7294336,68,Washington,West,-0,2.0564,32.3539,Long
+WI,2020-02-25,11,16,142,0,NA,Democratic,5778394,49,Wisconsin,North Central,11.3,0,NA,Medium
+WI,2020-03-03,11,262,4721,4,NA,Democratic,5778394,49,Wisconsin,North Central,5.5,0.6922,NA,Medium
+WI,2020-03-10,12,708,11312,9,NA,Democratic,5778394,49,Wisconsin,North Central,6.3,1.5575,NA,Medium
+WI,2020-03-17,13,1123,9750,43,NA,Democratic,5778394,49,Wisconsin,North Central,11.5,7.4415,NA,Medium
+WI,2020-03-24,14,1101,11922,81,444,Democratic,5778394,49,Wisconsin,North Central,9.2,14.0177,76.838,Medium
+WI,2020-03-31,15,986,10268,74,405.42857142857144,Democratic,5778394,49,Wisconsin,North Central,9.6,12.8063,70.1628,Medium
+WI,2020-04-07,16,1488,14664,55,366.14285714285717,Democratic,5778394,49,Wisconsin,North Central,10.1,9.5182,63.3641,Medium
+WI,2020-04-14,17,1973,20405,68,498.7142857142857,Democratic,5778394,49,Wisconsin,North Central,9.7,11.768,86.3067,Medium
+WI,2020-04-21,18,2279,28644,64,561.1428571428571,Democratic,5778394,49,Wisconsin,North Central,8,11.0757,97.1105,Medium
+WI,2020-04-28,19,2248,34519,55,526,Democratic,5778394,49,Wisconsin,North Central,6.5,9.5182,91.0288,Medium
+WI,2020-05-05,20,2690,47813,54,579,Democratic,5778394,49,Wisconsin,North Central,5.6,9.3452,100.2009,Medium
+WI,2020-05-12,21,3353,66932,81,648.4285714285714,Democratic,5778394,49,Wisconsin,North Central,5,14.0177,112.2161,Medium
+WI,2020-05-19,22,2341,74235,57,565.7142857142857,Democratic,5778394,49,Wisconsin,North Central,3.2,9.8643,97.9016,Medium
+WI,2020-05-26,23,1947,75544,46,390,Democratic,5778394,49,Wisconsin,North Central,2.6,7.9607,67.4928,Medium
+WI,2020-06-02,24,2021,68185,53,258.7142857142857,Democratic,5778394,49,Wisconsin,North Central,3,9.1721,44.7727,Medium
+WI,2020-06-09,25,529,12600,1,244,Democratic,5778394,49,Wisconsin,North Central,4.2,0.1731,42.2263,Medium
+WV,2020-02-25,11,0,23,0,NA,Republican,1829054,41,West Virginia,South,0,0,NA,Medium
+WV,2020-03-03,11,11,315,0,NA,Republican,1829054,41,West Virginia,South,3.5,0,NA,Medium
+WV,2020-03-10,12,85,2086,0,NA,Republican,1829054,41,West Virginia,South,4.1,0,NA,Medium
+WV,2020-03-17,13,186,5259,2,NA,Republican,1829054,41,West Virginia,South,3.5,1.0935,NA,Medium
+WV,2020-03-24,14,295,7766,3,85,Republican,1829054,41,West Virginia,South,3.8,1.6402,46.4721,Medium
+WV,2020-03-31,15,208,3988,11,85.42857142857143,Republican,1829054,41,West Virginia,South,5.2,6.014,46.7064,Medium
+WV,2020-04-07,16,235,13526,16,91.28571428571429,Republican,1829054,41,West Virginia,South,1.7,8.7477,49.9087,Medium
+WV,2020-04-14,17,149,16180,16,90,Republican,1829054,41,West Virginia,South,0.9,8.7477,49.2058,Medium
+WV,2020-04-21,18,166,11851,5,68.57142857142857,Republican,1829054,41,West Virginia,South,1.4,2.7337,37.4901,Medium
+WV,2020-04-28,19,122,12396,11,52.857142857142854,Republican,1829054,41,West Virginia,South,1,6.014,28.8986,Medium
+WV,2020-05-05,20,260,10351,8,48.57142857142857,Republican,1829054,41,West Virginia,South,2.5,4.3738,26.5555,Medium
+WV,2020-05-12,21,257,12146,3,33,Republican,1829054,41,West Virginia,South,2.1,1.6402,18.0421,Medium
+WV,2020-05-19,22,157,13833,9,30.142857142857142,Republican,1829054,41,West Virginia,South,1.1,4.9206,16.48,Medium
+WV,2020-05-26,23,128,17794,4,28,Republican,1829054,41,West Virginia,South,0.7,2.1869,15.3085,Medium
+WV,2020-06-02,24,227,20879,0,24.428571428571427,Republican,1829054,41,West Virginia,South,1.1,0,13.3559,Medium
+WV,2020-06-09,25,66,2808,1,22,Republican,1829054,41,West Virginia,South,2.4,0.5467,12.0281,Medium
+WY,2020-02-25,11,2,2,0,NA,Republican,581836,0,Wyoming,West,100,0,NA,None
+WY,2020-03-03,11,21,459,0,NA,Republican,581836,0,Wyoming,West,4.6,0,NA,None
+WY,2020-03-10,12,59,1096,0,NA,Republican,581836,0,Wyoming,West,5.4,0,NA,None
+WY,2020-03-17,13,105,1575,0,NA,Republican,581836,0,Wyoming,West,6.7,0,NA,None
+WY,2020-03-24,14,74,2327,0,NA,Republican,581836,0,Wyoming,West,3.2,0,NA,None
+WY,2020-03-31,15,44,1063,2,19,Republican,581836,0,Wyoming,West,4.1,3.4374,32.6552,None
+WY,2020-04-07,16,44,1624,5,18,Republican,581836,0,Wyoming,West,2.7,8.5935,30.9366,None
+WY,2020-04-14,17,217,1883,0,14.142857142857142,Republican,581836,0,Wyoming,West,11.5,0,24.3073,None
+WY,2020-04-21,18,78,2018,0,11.714285714285714,Republican,581836,0,Wyoming,West,3.9,0,20.1333,None
+WY,2020-04-28,19,72,4347,0,9.714285714285714,Republican,581836,0,Wyoming,West,1.7,0,16.6959,None
+WY,2020-05-05,20,97,3640,5,8.714285714285714,Republican,581836,0,Wyoming,West,2.7,8.5935,14.9772,None
+WY,2020-05-12,21,85,4049,4,12.428571428571429,Republican,581836,0,Wyoming,West,2.1,6.8748,21.361,None
+WY,2020-05-19,22,41,4425,1,6.285714285714286,Republican,581836,0,Wyoming,West,0.9,1.7187,10.8032,None
+WY,2020-05-26,23,111,4547,1,6.285714285714286,Republican,581836,0,Wyoming,West,2.4,1.7187,10.8032,None
+WY,2020-06-02,24,129,-5714,2,6.714285714285714,Republican,581836,0,Wyoming,West,0,3.4374,11.5398,None
+WY,2020-06-09,25,51,51,0,8,Republican,581836,0,Wyoming,West,100,0,13.7496,None
