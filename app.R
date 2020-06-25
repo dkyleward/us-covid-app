@@ -39,40 +39,53 @@ peak_stats <- weekly_stats %>%
 app$layout(
   htmlDiv(list(
     
-    htmlDiv(list(
-      htmlH1("Weekly COVID-19 Statistics")
-    )),
-    
-    htmlDiv(list(
-      dccDropdown(
-        id = "stat-dropdown",
-        options = list(
-          list(
-            label = "Deaths",
-            value = "Deaths"
-          ),
-          list(
-            label = "Hospitalized",
-            value = "Hospitalized"
-          ),
-          list(
-            label = "Cases",
-            value = "Cases"
-          )
-        ),
-        value = 'Deaths'
-      )), style = list(width = "20%", padding = "0px 0px 20px 0px")
+    htmlDiv(
+      list(
+        htmlH1("Weekly COVID-19 Statistics")
+      ),
+      style = list(
+        "padding-left" = "10px"
+      )
     ),
     
-    htmlDiv(list(
-      dccRadioItems(
-        id = "radio",
-        options = list(list(label = 'Total', value = 'Total'),
-                       list(label = 'Rate', value = 'Rate')),
-        value = 'Rate',
-        labelStyle = list(display = 'inline-block')
+    htmlDiv(
+      list(
+        dccDropdown(
+          id = "stat-dropdown",
+          options = list(
+            list(
+              label = "Deaths",
+              value = "Deaths"
+            ),
+            list(
+              label = "Hospitalized",
+              value = "Hospitalized"
+            ),
+            list(
+              label = "Cases",
+              value = "Cases"
+            )
+          ),
+          value = 'Deaths'
+        )
+      ),
+      style = list(
+        width = "20%",
+        padding = "0px 0px 20px 10px"
       )
-    )),
+    ),
+    
+    htmlDiv(
+      list(
+        dccRadioItems(
+          id = "radio",
+          options = list(list(label = 'Total', value = 'Total'),
+                         list(label = 'Rate', value = 'Rate')),
+          value = 'Rate',
+          labelStyle = list(display = 'inline-block')
+        )
+      )
+    ),
     
     htmlDiv(list(
       dccGraph(
@@ -82,26 +95,34 @@ app$layout(
       )),
       style = list(
         display = 'inline-block', 
-        width = '49%',
-        padding = "0 20"
+        align = "left"
+        # height = 400
+        # width = '70%',
+        # padding = "0 20"
       )
     ),
     
     htmlDiv(list(
       dccGraph(id='graph', config = list(displayModeBar = FALSE))
     ), style = list(
-      display = 'inline-block', width = '30%'
+      display = 'inline-block',
+      width = 400
     )),
     
-    htmlDiv(list(
-      dccMarkdown(
-        '
+    htmlDiv(
+      list(
+        dccMarkdown(
+          '
         By: [D. Kyle Ward](https://dkyleward.netlify.app/)  
         Data Source: [https://covidtracking.com/](https://covidtracking.com/)  
         GitHub: [https://github.com/dkyleward/us-covid-app](https://github.com/dkyleward/us-covid-app)
         '
+        )
+      ),
+      style = list(
+        "padding-left" = "10px"
       )
-    ))
+    )
     
     # htmlDiv(list(
     #   dccMarkdown(
@@ -114,7 +135,11 @@ app$layout(
     #     id = "hover-data"
     #   )
     # ))
-  ))
+  ), style = list(
+    width = 1100, 
+    border = "1px solid black"
+  )
+  )
 )
 
 # # use this callback to see what values are available on hover
@@ -198,15 +223,24 @@ create_map <- function(stat, rate_flag, df = peak_stats) {
       locationmode = 'USA-states'
     ) %>%
     layout(
-      title = map_title,
+      title = list(
+        text = map_title,
+        y = .95
+      ),
       geo = list(
         scope = 'usa',
         projection = list(type = 'albers usa'),
         lakecolor = toRGB('white')
+      ),
+      autosize = TRUE,
+      margin = list(
+        l = 0, r = 0, t = 0, b = 0
       )
     ) %>%
     colorbar(
       title = paste0("Peak ", stat)
+      # lenmode = "fraction",
+      # len = .25
     )
   
   map
@@ -287,4 +321,5 @@ create_graph <- function(state, stat, rate_flag, df = weekly_stats) {
   graph
 }
 
+# locally, open the app in the browswer using 127.0.0.1:8050
 app$run_server(host = '0.0.0.0', port = Sys.getenv('PORT', 8050))
