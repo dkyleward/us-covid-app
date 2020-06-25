@@ -11,6 +11,7 @@ options(repos=r)
 # packages go here
 install.packages("remotes")
 install.packages("jsonlite")
+install.packages("dplyr")
 install.packages("plotly")
 
 remotes::install_github("plotly/dashR", upgrade=TRUE)

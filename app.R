@@ -5,24 +5,30 @@ library(dash)
 library(dashCoreComponents)
 library(dashHtmlComponents)
 library(plotly)
+library(dplyr)
 # library(jsonlite)
 
 app <- Dash$new()
 
 weekly_stats <- read.csv("weekly_stats.csv", header = TRUE, stringsAsFactors = FALSE)
 peak_stats <- weekly_stats %>%
+  rename(case_rate = positive_rate) %>%
   group_by(state) %>%
   mutate(
+    peak_deaths = max(deathIncrease, na.rm = TRUE),
     peak_death_rate = max(death_rate, na.rm = TRUE),
+    peak_cases = max(positiveIncrease, na.rm = TRUE),
     # Due to errors in the data (or early weeks with little testing),
     # some weeks can show really high positive test rates (even over 100%).
     # Remove these to provide a more accurate representation in the map.
-    positive_rate = ifelse(positive_rate >= 100, 0, positive_rate),
-    positive_rate = ifelse(
+    case_rate = ifelse(case_rate >= 100, 0, case_rate),
+    case_rate = ifelse(
       totalTestResultsIncrease < .10 * max(totalTestResultsIncrease, na.rm = TRUE),
-      0, positive_rate
+      0, case_rate
     ),
-    peak_case_rate = max(positive_rate, na.rm = TRUE),
+    peak_case_rate = max(case_rate, na.rm = TRUE),
+    peak_hosp = max(hospitalizedCurrently, na.rm = TRUE),
+    peak_hosp = ifelse(is.infinite(peak_hosp), NA, peak_hosp),
     peak_hosp_rate = max(hosp_rate, na.rm = TRUE),
     peak_hosp_rate = ifelse(is.infinite(peak_hosp_rate), NA, peak_hosp_rate)
   ) %>%
@@ -43,31 +49,31 @@ app$layout(
         id = "stat-dropdown",
         options = list(
           list(
-            label = "Peak Death Rate (deaths per 1 million population)",
-            value = "Death Rate"
+            label = "Deaths",
+            value = "Deaths"
           ),
           list(
-            label = "Peak Hospitalized Rate (weekly average per 1 million population)",
-            value = "Hospitalized Rate"
+            label = "Hospitalized",
+            value = "Hospitalized"
           ),
           list(
-            label = "Peak Case Rate (positive cases per 100 tests)",
-            value = "Case Rate"
+            label = "Cases",
+            value = "Cases"
           )
         ),
-        value = 'Death Rate'
+        value = 'Deaths'
       )), style = list(width = "49%", padding = "0px 0px 20px 0px")
     ),
     
-    # htmlDiv(list(
-    #   dccRadioItems(
-    #     id = "radio",
-    #     options = list(list(label = 'Total', value = 'Total'),
-    #                    list(label = 'Rate', value = 'Rate')),
-    #     value = 'Rate',
-    #     labelStyle = list(display = 'inline-block')        
-    #   )
-    # )),
+    htmlDiv(list(
+      dccRadioItems(
+        id = "radio",
+        options = list(list(label = 'Total', value = 'Total'),
+                       list(label = 'Rate', value = 'Rate')),
+        value = 'Rate',
+        labelStyle = list(display = 'inline-block')
+      )
+    )),
     
     htmlDiv(list(
       dccGraph(
@@ -117,11 +123,12 @@ app$callback(
   output = list(id = "graph", property = "figure"),
   params = list(
     input(id = "map", property = "hoverData"),
-    input(id = "stat-dropdown", property = "value")
+    input(id = "stat-dropdown", property = "value"),
+    input(id = "radio", property = "value")
   ),
-  function(hoverData, value) {
+  function(hoverData, stat, rate_flag) {
     state <- hoverData$points[[1]]$location
-    create_graph(state, value)
+    create_graph(state, stat, rate_flag)
   }
 )
 
@@ -129,17 +136,28 @@ app$callback(
 app$callback(
   output = list(id = "map", property = "figure"),
   params = list(input(id = "stat-dropdown", property = "value")),
-  function(value) {
-    create_map(value)
+  function(stat) {
+    create_map(stat)
   }
 )
 
 # Determines which map to create based on UI selection
-create_map <- function(value) {
+create_map <- function(stat) {
   
-  if (value == "Case Rate") map <- map_case_rate()
-  if (value == "Hospitalized Rate") map <- map_hosps()
-  if (value == "Death Rate") map <- map_deaths()
+  # # determine which column to graph
+  # column <- case_when(
+  #   stat == "Deaths" & rate_flag == "Total" ~ "peak_deaths",
+  #   stat == "Deaths" & rate_flag == "Rate" ~ "peak_death_rate",
+  #   stat == "Hospitalized" & rate_flag == "Total" ~ "peak_hosp",
+  #   stat == "Hospitalized" & rate_flag == "Rate" ~ "peak_hosp_rate",
+  #   stat == "Cases" & rate_flag == "Total" ~ "peak_cases",
+  #   stat == "Cases" & rate_flag == "Rate" ~ "peak_case_rate",
+  #   TRUE ~ ""
+  # )
+  
+  if (stat == "Cases") map <- map_case_rate()
+  if (stat == "Hospitalized") map <- map_hosps()
+  if (stat == "Deaths") map <- map_deaths()
   
   map
 }
@@ -159,7 +177,7 @@ map_case_rate <- function() {
       locationmode = 'USA-states'
     ) %>%
     layout(
-      title = "Peak Case Rate by State",
+      title = "Peak Cases by State",
       geo = list(
         scope = 'usa',
         projection = list(type = 'albers usa'),
@@ -189,7 +207,7 @@ map_hosps <- function() {
       locationmode = 'USA-states'
     ) %>%
     layout(
-      title = "Peak Hospitalized Rate by State",
+      title = "Peak Hospitalized by State",
       geo = list(
         scope = 'usa',
         projection = list(type = 'albers usa'),
@@ -219,7 +237,7 @@ map_deaths <- function() {
       locationmode = 'USA-states'
     ) %>%
     layout(
-      title = "Peak Death Rate by State",
+      title = "Peak Deaths by State",
       geo = list(
         scope = 'usa',
         projection = list(type = 'albers usa'),
@@ -235,36 +253,103 @@ map_deaths <- function() {
 }
 
 # Determines which graph to make based on UI selection
-create_graph <- function(state, value) {
+create_graph <- function(state, stat, rate_flag, df = weekly_stats) {
   
-  if (value == "Case Rate") graph <- plot_case_rate(state)
-  if (value == "Hospitalized Rate") graph <- plot_hosps(state)
-  if (value == "Death Rate") graph <- plot_deaths(state)
+  if (stat == "Deaths") {
+    if (rate_flag == "Total") {
+      column <- "deathIncrease"
+      graph_title <- "Weekly Deaths Total"
+      y_title <- "Deaths"
+      y_range <- NA
+    } else {
+      column <- "death_rate"
+      graph_title <- "Weekly Deaths per 1M Pop"
+      y_title <- "Deaths per 1M Pop"
+      y_range <- NA
+    }
+  } else if (stat == "Hospitalized") {
+    if (rate_flag == "Total") {
+      column <- "hospitalizedCurrently"
+      graph_title <- "Weekly Hospitalized Total"
+      y_title <- "Hospitalized"
+      y_range <- NA
+    } else {
+      column <- "hosp_rate"
+      graph_title <- "Weekly Hospitalized per 1M Pop"
+      y_title <- "Hospitalized per 1M Pop"
+      y_range <- NA
+    }    
+  } else if (stat == "Cases") {
+    if (rate_flag == "Total") {
+      column <- "positiveIncrease"
+      graph_title <- "Weekly Cases Total"
+      y_title <- "Cases"
+      y_range <- NA
+    } else {
+      column <- "positive_rate"
+      graph_title <- "Weekly Cases per 100 Tests"
+      y_title <- "Cases per 100 Tests"
+      y_range <- c(0, 100)
+    }        
+  }
+  graph_title <- paste0(graph_title, " (", state, ")")
+  
+  # Determine two y scales. A single scale (with max values from NY) will
+  # make it hard to view smaller states.
+  national_max_y <- max(df[[column]], na.rm = TRUE)
+  df_sub <- df[df$state == state, c("week", column)]
+  colnames(df_sub) <- c("week", "value")
+  df_sub$value <- round(df_sub$value, 0)
+  state_max_y <- max(df_sub$value, na.rm = TRUE)
+  max_y <- ifelse(
+    state_max_y > national_max_y / 5,
+    national_max_y,
+    round(national_max_y / 5, -1)
+  )
+  if (column == "positive_rate") max_y <- 100
+  
+  graph <- list(
+    data = list(list(
+      x = df_sub$week,
+      y = df_sub$value, 
+      type = "bar"
+    )),
+    layout = list(
+      title = graph_title,
+      yaxis = list(
+        title = y_title,
+        range = c(0, max_y)
+      ),
+      xaxis = list(title = NA)
+    )    
+  )
+  
+  # if (stat == "Cases") graph <- plot_case_rate(state, df_sub)
+  # if (stat == "Hospitalized") graph <- plot_hosps(state, df_sub)
+  # if (stat == "Deaths") graph <- plot_deaths(state, df_sub)
   
   graph
 }
 
-# Plots new case rate of a single state
-plot_case_rate <- function(state, df = weekly_stats) {
-  
-  single_state_df <- df[df$state == state, ]
-  
-  list(
-    data = list(list(
-      x = single_state_df$week,
-      y = single_state_df$positive_rate, 
-      type = "bar"
-    )),
-    layout = list(
-      title = paste0("New Cases per 100 Tests (", state, ")"),
-      yaxis = list(
-        title = "New Cases (per 100 tests)",
-        range = c(0, 100)
-      ),
-      xaxis = list(title = NA)
-    )
-  )   
-}
+# # Plots new Cases of a single state
+# plot_case_rate <- function(state, df) {
+#   
+#   list(
+#     data = list(list(
+#       x = single_state_df$week,
+#       y = single_state_df$case_rate, 
+#       type = "bar"
+#     )),
+#     layout = list(
+#       title = paste0("New Cases per 100 Tests (", state, ")"),
+#       yaxis = list(
+#         title = "New Cases (per 100 tests)",
+#         range = c(0, 100)
+#       ),
+#       xaxis = list(title = NA)
+#     )
+#   )   
+# }
 
 # Plots hospitalizations of a single state
 plot_hosps <- function(state, df = weekly_stats) {
