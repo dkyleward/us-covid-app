@@ -91,9 +91,9 @@ get_data <- function() {
         region = first(region)
       ) %>%
       # filter out early weeks and any week with <7 days
-      filter(week > 12, week != 25, days == 7) %>%
+      filter(week_id > 12, week_id != 25, days == 7) %>%
       mutate(
-        week = week - 12,
+        week_id = week_id - 12,
         positive_rate = round(positiveIncrease / totalTestResultsIncrease * 100, 1),
         # some errors in the reported data lead to 1-2 negative numbers
         positive_rate = pmax(positive_rate, 0),
