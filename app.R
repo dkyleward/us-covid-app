@@ -95,10 +95,11 @@ app$layout(
     
     htmlDiv(list(
       dccMarkdown(
-        "
+        '
+        By: [D. Kyle Ward](https://dkyleward.netlify.app/)  
         Data Source: [https://covidtracking.com/](https://covidtracking.com/)  
         GitHub: [https://github.com/dkyleward/us-covid-app](https://github.com/dkyleward/us-covid-app)
-        "
+        '
       )
     ))
     
@@ -180,13 +181,12 @@ create_map <- function(stat, rate_flag, df = peak_stats) {
     }        
   }
   
-  hover_text <- paste0(
-    "<br> ", df$state_full,
-    "<br> Peak ", rate_flag, ": "
-  )
-  
   df_sub <- df[, c("state", "state_full", column)]
   colnames(df_sub) <- c("state", "state_full", "value")
+  hover_text <- paste0(
+    "<br> ", df_sub$state_full,
+    "<br> Peak ", rate_flag, ": ", round(df_sub$value, 0)
+  )
   
   map <- plot_geo() %>%
     add_trace(
