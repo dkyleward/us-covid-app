@@ -61,7 +61,7 @@ app$layout(
           )
         ),
         value = 'Deaths'
-      )), style = list(width = "49%", padding = "0px 0px 20px 0px")
+      )), style = list(width = "20%", padding = "0px 0px 20px 0px")
     ),
     
     htmlDiv(list(
@@ -91,6 +91,15 @@ app$layout(
       dccGraph(id='graph', config = list(displayModeBar = FALSE))
     ), style = list(
       display = 'inline-block', width = '30%'
+    )),
+    
+    htmlDiv(list(
+      dccMarkdown(
+        "
+        Data Source: [https://covidtracking.com/](https://covidtracking.com/)  
+        GitHub: [https://github.com/dkyleward/us-covid-app](https://github.com/dkyleward/us-covid-app)
+        "
+      )
     ))
     
     # htmlDiv(list(
@@ -141,8 +150,6 @@ app$callback(
     create_graph(state, stat, rate_flag)
   }
 )
-
-
 
 # Determines which map to create based on UI selection
 create_map <- function(stat, rate_flag, df = peak_stats) {
