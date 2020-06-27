@@ -6,6 +6,7 @@ library(dashCoreComponents)
 library(dashHtmlComponents)
 library(plotly)
 library(dplyr)
+library(RColorBrewer)
 # library(jsonlite)
 
 app <- Dash$new()
@@ -181,6 +182,8 @@ app$callback(
 create_map <- function(stat, rate_flag, df = peak_stats) {
   
   if (stat == "Deaths") {
+    map_color <- "Greys"
+    
     if (rate_flag == "Total") {
       column <- "peak_deaths"
       map_title <- "Peak Weekly Deaths"
@@ -189,6 +192,8 @@ create_map <- function(stat, rate_flag, df = peak_stats) {
       map_title <- "Peak Weekly Deaths per 1M Pop"
     }
   } else if (stat == "Hospitalized") {
+    map_color <- "Reds"
+    
     if (rate_flag == "Total") {
       column <- "peak_hosp"
       map_title <- "Peak Weekly Hospitalized"
@@ -197,6 +202,8 @@ create_map <- function(stat, rate_flag, df = peak_stats) {
       map_title <- "Peak Weekly Hospitalized per 1M Pop"
     }    
   } else if (stat == "Cases") {
+    map_color <- "Blues"
+    
     if (rate_flag == "Total") {
       column <- "peak_cases"
       map_title <- "Peak Weekly Cases"
@@ -216,6 +223,7 @@ create_map <- function(stat, rate_flag, df = peak_stats) {
   map <- plot_geo() %>%
     add_trace(
       z = ~df_sub$value,
+      colors = map_color,
       hoverinfo = "text",
       text = hover_text,
       span = I(0),
@@ -249,7 +257,14 @@ create_map <- function(stat, rate_flag, df = peak_stats) {
 # Determines which graph to make based on UI selection
 create_graph <- function(state, stat, rate_flag, df = weekly_stats) {
   
+  # colors
+  default_blue <- rgb(31, 119, 180, maxColorValue = 255)
+  hospital_red <- rgb(222, 45, 38, maxColorValue = 255)
+  death_gray <- rgb(99, 99, 99, maxColorValue = 255)
+  
   if (stat == "Deaths") {
+    chart_color <- death_gray
+    
     if (rate_flag == "Total") {
       column <- "deathIncrease"
       graph_title <- "Weekly Deaths Total"
@@ -262,6 +277,8 @@ create_graph <- function(state, stat, rate_flag, df = weekly_stats) {
       y_range <- NA
     }
   } else if (stat == "Hospitalized") {
+    chart_color <- hospital_red
+    
     if (rate_flag == "Total") {
       column <- "hospitalizedCurrently"
       graph_title <- "Weekly Hospitalized Total"
@@ -274,6 +291,7 @@ create_graph <- function(state, stat, rate_flag, df = weekly_stats) {
       y_range <- NA
     }    
   } else if (stat == "Cases") {
+    chart_color <- default_blue
     if (rate_flag == "Total") {
       column <- "positiveIncrease"
       graph_title <- "Weekly Cases Total"
@@ -306,7 +324,10 @@ create_graph <- function(state, stat, rate_flag, df = weekly_stats) {
     data = list(list(
       x = df_sub$week,
       y = df_sub$value, 
-      type = "bar"
+      type = "bar",
+      marker = list(
+        color = chart_color
+      )
     )),
     layout = list(
       title = graph_title,
