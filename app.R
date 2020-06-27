@@ -217,7 +217,7 @@ create_map <- function(stat, rate_flag, df = peak_stats) {
   colnames(df_sub) <- c("state", "state_full", "value")
   hover_text <- paste0(
     "<br> ", df_sub$state_full,
-    "<br> Peak ", rate_flag, ": ", round(df_sub$value, 0)
+    "<br> Peak ", rate_flag, ": ", format(round(df_sub$value, 0), big.mark = ",")
   )
   
   map <- plot_geo() %>%
@@ -228,7 +228,8 @@ create_map <- function(stat, rate_flag, df = peak_stats) {
       text = hover_text,
       span = I(0),
       locations = df_sub$state,
-      locationmode = 'USA-states'
+      locationmode = 'USA-states',
+      showscale = FALSE
     ) %>%
     layout(
       title = list(
@@ -246,9 +247,8 @@ create_map <- function(stat, rate_flag, df = peak_stats) {
       )
     ) %>%
     colorbar(
-      title = paste0("Peak ", stat)
-      # lenmode = "fraction",
-      # len = .25
+      title = "Metric",
+      borderwidth = 0
     )
   
   map
@@ -327,6 +327,11 @@ create_graph <- function(state, stat, rate_flag, df = weekly_stats) {
       type = "bar",
       marker = list(
         color = chart_color
+      ),
+      hoverinfo = "text",
+      text = paste0(
+        format(df_sub$value, big.mark=","),
+        "<br>", df_sub$week
       )
     )),
     layout = list(
