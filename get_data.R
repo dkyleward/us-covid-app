@@ -91,7 +91,7 @@ get_data <- function() {
         region = first(region)
       ) %>%
       # filter out early weeks and any week with <7 days
-      filter(week_id > 12, week_id != 25, days == 7) %>%
+      filter(week_id > 12, days == 7) %>%
       mutate(
         week_id = week_id - 12,
         positive_rate = round(positiveIncrease / totalTestResultsIncrease * 100, 1),
@@ -100,14 +100,14 @@ get_data <- function() {
         death_rate = round(deathIncrease / population * 1000000, 4),
         hosp_rate = round(hospitalizedCurrently / population * 1000000, 4),
         lockdown_class = case_when(
-          lockdown_days > 60 ~ "Long",
-          lockdown_days > 30 ~ "Medium",
-          lockdown_days == 0 ~ "None",
-          TRUE ~ "Short"
+          lockdown_days > 60 ~ "1.Long",
+          lockdown_days > 30 ~ "2.Medium",
+          lockdown_days == 0 ~ "4.None",
+          TRUE ~ "3.Short"
         ),
         lockdown_class = factor(
           lockdown_class,
-          levels = c("Long", "Medium", "Short", "None"),
+          levels = c("1.Long", "2.Medium", "3.Short", "4.None"),
           ordered = TRUE
         )
       ) %>%
