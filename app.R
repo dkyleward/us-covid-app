@@ -67,7 +67,7 @@ app$layout(
               value = "Cases"
             )
           ),
-          value = 'Deaths'
+          value = 'Cases'
         )
       ),
       style = list(
