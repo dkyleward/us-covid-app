@@ -1,3 +1,11 @@
+# For now, this is a script I run manually to update the weekly data.
+# I may add Scheduler to the Heroku app and have it run once a week.
+
+library(tidyverse)
+library(lubridate)
+library(tidycensus)
+library(rvest)
+
 # This function checks to see if the weekly_stats.csv file is present. If so,
 # it reads it. If not, it will create a new one by getting the latest data.
 # It depends on a census API key, so it should only be run locally to update
@@ -90,8 +98,8 @@ get_data <- function() {
         state_full = first(state_full),
         region = first(region)
       ) %>%
-      # filter out early weeks and any week with <7 days
-      filter(week_id > 12, days == 7) %>%
+      # filter out any week with <7 days
+      filter(days == 7) %>%
       mutate(
         week_id = week_id - 12,
         positive_rate = round(positiveIncrease / totalTestResultsIncrease * 100, 1),
@@ -118,3 +126,5 @@ get_data <- function() {
   
   weekly_stats <- read_csv(weekly_stats_csv)
 }
+
+get_data()
