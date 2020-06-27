@@ -123,8 +123,6 @@ get_data <- function() {
     
     write_csv(weekly_stats_df, weekly_stats_csv)
   }
-  
-  weekly_stats <- read_csv(weekly_stats_csv)
 }
 
 get_data()
