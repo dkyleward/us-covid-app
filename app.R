@@ -55,16 +55,16 @@ app$layout(
           id = "stat-dropdown",
           options = list(
             list(
-              label = "Deaths",
-              value = "Deaths"
+              label = "Cases",
+              value = "Cases"
             ),
             list(
               label = "Hospitalized",
               value = "Hospitalized"
             ),
             list(
-              label = "Cases",
-              value = "Cases"
+              label = "Deaths",
+              value = "Deaths"
             )
           ),
           value = 'Cases'
