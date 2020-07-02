@@ -101,7 +101,6 @@ get_data <- function() {
       # filter out any week with <7 days
       filter(days == 7) %>%
       mutate(
-        week_id = week_id - 12,
         positive_rate = round(positiveIncrease / totalTestResultsIncrease * 100, 1),
         # some errors in the reported data lead to 1-2 negative numbers
         positive_rate = pmax(positive_rate, 0),
