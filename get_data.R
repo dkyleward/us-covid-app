@@ -11,9 +11,9 @@ library(rvest)
 get_data <- function() {
   
   weekly_stats_csv <- "weekly_stats.csv"
-  states <- read_csv(url("https://covidtracking.com/api/v1/states/daily.csv"))
-  states <- states %>%
-    filter(!is.na(dateChecked)) %>%
+  states_raw <- read_csv(url("https://covidtracking.com/api/v1/states/daily.csv"))
+  states <- states_raw %>%
+    filter(!is.na(lastUpdateEt)) %>%
     mutate(
       date = ymd(date),
       region = state.region[match(state, state.abb)]
