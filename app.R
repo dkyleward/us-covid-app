@@ -168,12 +168,12 @@ app$callback(
 app$callback(
   output = list(id = "graph", property = "figure"),
   params = list(
-    input(id = "map", property = "hoverData"),
+    input(id = "map", property = "clickData"),
     input(id = "stat-dropdown", property = "value"),
     input(id = "radio", property = "value")
   ),
-  function(hoverData, stat, rate_flag) {
-    state <- hoverData$points[[1]]$location
+  function(clickData, stat, rate_flag) {
+    state <- clickData$points[[1]]$location
     create_graph(state, stat, rate_flag)
   }
 )
