@@ -115,7 +115,7 @@ app$layout(
         dccMarkdown(
           '
         By: [D. Kyle Ward](https://dkyleward.netlify.app/)  
-        Data Source: [https://covidtracking.com/](https://covidtracking.com/)  
+        Data Source: [https://covidtracking.com/](https://covidtracking.com/) (data ends 3/2021)  
         GitHub: [https://github.com/dkyleward/us-covid-app](https://github.com/dkyleward/us-covid-app)
         '
         )

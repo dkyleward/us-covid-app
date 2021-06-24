@@ -3,6 +3,8 @@
 # It also requires a Census API key, so that has to be setup on Heroku
 # before this will run there.
 
+# Update from their website: "As of March 7, 2021 we are no longer collecting new data."
+
 library(tidyverse)
 library(lubridate)
 library(tidycensus)
